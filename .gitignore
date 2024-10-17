@@ -7,3 +7,35 @@ projectaria_tools_dev.egg-info/**
 wheels/**
 **/__pycache__/
 **.DS_Store
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore configuration files with secrets
+config.yaml
+config.json
+settings.py
+
+# Ignore key files
+*.key
+*.pem
+*.cert
+
+# Ignore IDE/editor config files (optional)
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore all files in the excel utilities directory
+projects/AriaDigitalTwinDatasetTools/object_anticipation/adt/utils/excel/
+
+# Ignore all files in the logs directory
+projects/AriaDigitalTwinDatasetTools/object_anticipation/adt/logs/
+
+# Ignore all files in the predictions data directory
+projects/AriaDigitalTwinDatasetTools/object_anticipation/adt/data/predictions/
+
