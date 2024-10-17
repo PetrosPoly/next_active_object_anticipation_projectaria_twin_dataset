@@ -14,14 +14,6 @@ import csv
 import yaml
 import json
 
-"""
-
-In Terminal we use the following command
-
-export OPENAI_API_KEY="REMOVED_SECRET"
-
-"""
-
 # OpenAI 
 client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
 

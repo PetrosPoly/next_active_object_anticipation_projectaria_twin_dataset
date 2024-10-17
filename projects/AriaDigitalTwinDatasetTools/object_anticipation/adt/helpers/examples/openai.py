@@ -12,10 +12,6 @@ You tried to access openai.ChatCompletion, but this is no longer supported in op
 see the README at https://github.com/openai/openai-python for the API.
 """
 
-# API key set 
-openai.api_key = 'REMOVED_SECRET'                                                        
-# client = OpenAI(api_key=os.environ['REMOVED_SECRET']) # Me: in case you use openai >= 1.0.0 
-
 def query_llm(prompt):
     response = openai.ChatCompletion.create(
         model="gpt-4o",  # Use GPT-4 model
