@@ -1,0 +1,154 @@
+2024-09-06 01:28:08,057 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Tomato_A
+      probability: 0.45
+    - object: WhiteVase
+      probability: 0.35
+    - object: CandleDishSmall
+      probability: 0.20
+
+rationale:
+    - object: Tomato_A
+      reason: "Tomato_A has the highest focus count (38) and was observed intensively, indicating a strong likelihood that the user intends to interact with it, possibly for food preparation."
+    - object: WhiteVase
+      reason: "WhiteVase has a high focus count (36) as well, suggesting that the user is paying close attention to it, which could mean consideration for decoration or arrangement."
+    - object: CandleDishSmall
+      reason: "CandleDishSmall, with a focus count of 31, is also among the top observed objects, likely indicating the user’s intention to use it, possibly for setting up a decorative or calming atmosphere."
+
+predicted_interaction_objects:
+    - Tomato_A
+    - WhiteVase
+    - CandleDishSmall
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely to prepare a meal or organize items in the living space, possibly incorporating tomatoes from the kitchen, while also considering the aesthetic arrangement involving the white vase and candle dish.
+2024-09-06 01:28:14,883 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Tomato_A
+      probability: 0.45
+    - object: WhiteVase
+      probability: 0.35
+    - object: CandleDishSmall
+      probability: 0.20
+
+rationale:
+    - object: Tomato_A
+      reason: "Tomato_A has the highest focus count (38) and is also among the nearby objects (41), indicating strong intent and proximity for interaction."
+    - object: WhiteVase
+      reason: "WhiteVase has a high focus count (36) and remains a nearby object (31), suggesting the user is both observing and may want to approach it."
+    - object: CandleDishSmall
+      reason: "CandleDishSmall has a significant focus count (31) and is also nearby (59), pointing to a potential interest, albeit slightly less than the first two."
+
+predicted_interaction_objects:
+    - Tomato_A
+    - WhiteVase
+    - CandleDishSmall
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or arrange items, possibly involving food or decoration, as items like Tomato_A and various candle dishes suggest a culinary or decorative intention.
+2024-09-06 12:37:54,635 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Tomato_A
+      probability: 0.45
+    - object: WhiteVase
+      probability: 0.35
+    - object: CandleDishSmall
+      probability: 0.2
+
+rationale:
+    - object: Tomato_A
+      reason: "Tomato_A has the highest count of 38 in the high_focus_objects_measured_in_counts list, indicating that the user observed it intensely for a significant duration. Additionally, it also has high proximity counts, suggesting the user has been close to it for a prolonged time, implying a strong likelihood of interaction."
+    - object: WhiteVase
+      reason: "WhiteVase has the second-highest focus count at 36, indicating significant observation. It appears in both the high-focus and nearby objects lists, suggesting the user has focused on it and been close to it, increasing the chances of interaction."
+    - object: CandleDishSmall
+      reason: "CandleDishSmall has a count of 31 in the high_focus_objects_measured_in_counts list and a higher nearby count of 59, indicating the user has spent considerable time nearby it. Although its focus count is lower than that of Tomato_A and WhiteVase, the high proximity count still suggests a reasonable likelihood for interaction."
+
+predicted_interaction_objects:
+    - Tomato_A
+    - WhiteVase
+    - CandleDishSmall
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely related to preparing food or arranging items in the living room, as the high-focus objects include kitchen-related items (Tomato_A) and decorative items (WhiteVase, CandleDishSmall), indicating potential interactions for either cooking or staging a space.
+2024-09-06 15:54:41,043 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Tomato_A
+      probability: 0.45
+    - object: WhiteVase
+      probability: 0.35
+    - object: CandleDishSmall
+      probability: 0.2
+
+rationale:
+    - object: Tomato_A
+      reason: "Tomato_A has the highest focus count (38) and a strong presence in the nearby objects list, indicating the user is likely to be very interested in interacting with it."
+    - object: WhiteVase
+      reason: "WhiteVase is closely following with a significant focus count (36) and is also nearby, suggesting the user likely intends to examine or use it."
+    - object: CandleDishSmall
+      reason: "Although CandleDishSmall has a lower focus count (31), it is the next most observed object and remains in proximity, making it a viable candidate for interaction."
+
+predicted_interaction_objects:
+    - Tomato_A
+    - WhiteVase
+    - CandleDishSmall
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or arrange items, likely for some event or display in the living room, as indicated by the specific focus on culinary items like Tomato_A and decorative elements like the WhiteVase and CandleDishSmall.
+2024-09-06 15:54:42,317 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Tomato_A
+      probability: 0.45
+    - object: CandleDishSmall
+      probability: 0.35
+    - object: WhiteVase
+      probability: 0.20
+
+rationale:
+    - object: Tomato_A
+      reason: "Tomato_A has the highest focus count of 38, indicating it was observed with significant attention, suggesting the user is interested in interacting with it. Furthermore, it also has a high nearby count of 41, reinforcing the likelihood of interaction."
+    - object: CandleDishSmall
+      reason: "CandleDishSmall follows closely with a high focus count of 31, and also has a nearby count that suggests the user has spent a significant amount of time near this object. Its presence in the user's focus indicates a potential intention to use it."
+    - object: WhiteVase
+      reason: "Though its focus count is lower than the top two, its nearby count of 31 still shows that the user has been in proximity to this object for a considerable amount of time. This indicates that it may be a potential item of interest for interaction."
+
+predicted_interaction_objects:
+    - Tomato_A
+    - CandleDishSmall
+    - WhiteVase
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or present something involving the Tomato_A, possibly arranging it with decorative items like the CandleDishSmall and WhiteVase.
+2024-09-06 16:05:28,677 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CandleDishSmall
+      probability: 0.45
+    - object: WhiteVase
+      probability: 0.35
+    - object: Tomato_A
+      probability: 0.20
+
+rationale:
+    - object: CandleDishSmall
+      reason: "CandleDishSmall has the highest count (31) in 'high_focus_objects_measured_in_counts', indicating that the user has paid significant attention to it, suggesting a strong likelihood of interaction."
+    - object: WhiteVase
+      reason: "WhiteVase has a high focus count (36) alongside a notable nearby count (31), suggesting the user may be both observing it and close enough to interact."
+    - object: Tomato_A
+      reason: "Although Tomato_A has the highest nearby count (41) and a decent focus count (38), its interaction likelihood is lower compared to the CandleDishSmall and WhiteVase due to its lesser focus intensity."
+
+predicted_interaction_objects:
+    - CandleDishSmall
+    - WhiteVase
+    - Tomato_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to select or organize items in the living room, likely setting up a decorative display or preparing for an event, as suggested by the focus on decorative items like vases and candle dishes.
+2024-09-06 16:05:31,583 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Tomato_A
+      probability: 0.45
+    - object: CandleDishSmall
+      probability: 0.35
+    - object: WhiteVase
+      probability: 0.20
+
+rationale:
+    - object: Tomato_A
+      reason: "Tomato_A has the highest count in the high_focus_objects list, indicating the user has been observing it intensely, which suggests a strong intention to interact with it. Its proximity count also supports this likelihood."
+    - object: CandleDishSmall
+      reason: "CandleDishSmall has a significant count in the high_focus_objects list and also high proximity counts. This indicates that the user has not only focused on it a lot but has also been near it for an extended period of time."
+    - object: WhiteVase
+      reason: "While WhiteVase has lower focus counts than Tomato_A and CandleDishSmall, it still demonstrates a reasonable level of attention and proximity, making it a potential candidate for interaction."
+
+predicted_interaction_objects:
+    - Tomato_A
+    - CandleDishSmall
+    - WhiteVase
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or arrange something potentially related to food or decor, as indicated by their attention towards items like Tomato_A and CandleDishSmall, which could suggest cooking or setting a table.

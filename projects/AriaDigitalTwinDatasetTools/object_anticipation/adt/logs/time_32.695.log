@@ -1,0 +1,44 @@
+2024-09-06 16:25:25,174 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackRoundTable
+      probability: 0.5
+    - object: BlackKitchenChair
+      probability: 0.3
+    - object: DvdRemote_1
+      probability: 0.2
+
+rationale:
+    - object: BlackRoundTable
+      reason: "The BlackRoundTable has the highest count of 71 in the high_focus_objects list, indicating it has captured the user's attention the most. Additionally, it is also noted as a nearby object, which further increases its likelihood of being interacted with."
+    - object: BlackKitchenChair
+      reason: "The BlackKitchenChair has a significant count of 55 in the high_focus_objects list. Its presence alongside the BlackRoundTable suggests that the user may be considering seating options or possibly setting things down on the table."
+    - object: DvdRemote_1
+      reason: "The DvdRemote_1 appears in the previous predictions multiple times, suggesting a consistent interest. While its counts are lower compared to the first two objects, its relevance in prior interactions indicates that the user might want to access it, possibly for entertainment purposes."
+
+predicted_interaction_objects:
+    - BlackRoundTable
+    - BlackKitchenChair
+    - DvdRemote_1
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely to engage in a living room activity that may involve seating arrangements, interacting with items on the table, or preparing for entertainment, such as watching TV or using a remote control.
+2024-09-06 16:25:27,015 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackRoundTable
+      probability: 0.45
+    - object: BlackKitchenChair
+      probability: 0.35
+    - object: DvdRemote_1
+      probability: 0.20
+
+rationale:
+    - object: BlackRoundTable
+      reason: "The BlackRoundTable has the highest focus count (71) among observed objects, indicating it has drawn the user's attention significantly. Additionally, it is part of the nearby objects list, further increasing the likelihood of interaction."
+    - object: BlackKitchenChair
+      reason: "The BlackKitchenChair also has a strong focus count (55). Its presence in both the high focus and nearby objects lists suggests the user might be considering using it, potentially in conjunction with the BlackRoundTable."
+    - object: DvdRemote_1
+      reason: "The DvdRemote_1 appears frequently in previous predictions, suggesting a past interest. Although its count is lower than the first two objects, the consistent observation over time implies it may still be significant to the user’s upcoming interactions."
+
+predicted_interaction_objects:
+    - BlackRoundTable
+    - BlackKitchenChair
+    - DvdRemote_1
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to engage with the furniture in the living room, possibly preparing for an activity such as watching TV or using the table for a specific purpose, while also considering nearby items like the remote control for managing the entertainment system.

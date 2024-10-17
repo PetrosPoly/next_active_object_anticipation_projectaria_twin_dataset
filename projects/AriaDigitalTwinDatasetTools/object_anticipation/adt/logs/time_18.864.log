@@ -1,0 +1,44 @@
+2024-10-17 11:21:25,059 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.4
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: AirPurifier_1
+      probability: 0.25
+
+rationale:
+    - object: KitchenKnife
+      reason: This object has the highest focus count (57) and is relatively close (1.143 meters) with a short time to approach (0.948 seconds). It meets all thresholds, making it the most probable object for interaction.
+    - object: WoodenSpoon
+      reason: With a focus count of 53 and a distance of 1.205 meters (and a time to approach of 0.968 seconds), it closely satisfies the focus and distance thresholds, making it very likely for interaction.
+    - object: AirPurifier_1
+      reason: Although it has lower focus (47) and proximity counts (25), it still remains within the thresholds for distance and time (1.407 meters and about 1.277 seconds). This suggests it is a probable candidate for interaction.
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - AirPurifier_1
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing food or organizing the living area, as they are focusing on kitchen utensils and possibly cleaning or maintaining air quality with the air purifier.
+2024-10-17 11:21:25,421 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.4
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ConsoleTable
+      probability: 0.25
+
+rationale:
+    - object: KitchenKnife
+      reason: The KitchenKnife has the highest focus count (57) and a reasonably close distance (1.143 meters) with a quick approach time (0.947 seconds). This meets both the focus and distance thresholds, making it highly probable for interaction.
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has a high focus count (53) and is also within a short distance (1.205 meters) with a good approach time (0.968 seconds). This places it in a strong position, satisfying both focus and proximity criteria, leading to a high probability for interaction.
+    - object: ConsoleTable
+      reason: The ConsoleTable has lower focus counts (54) compared to the first two but remains within an acceptable distance (1.781 meters) and meets the proximity threshold. While it does not have the same level of focus consistency as the previous predictions, it is still a probable choice based on proximity.
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ConsoleTable
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing food or engaging in a cooking activity since the predicted objects are commonly associated with meal preparation.

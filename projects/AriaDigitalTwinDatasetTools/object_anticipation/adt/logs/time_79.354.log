@@ -1,0 +1,132 @@
+2024-09-06 01:30:33,295 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.36
+    - object: ChoppingBoard
+      probability: 0.34
+    - object: KitchenKnife
+      probability: 0.30
+
+rationale:
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon has the highest count (72) in the high focus list, indicating that the user has observed it intensely, suggesting a likely intention to use it in the task."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard is another object with a very high focus count (51), indicating significant attention, possibly for preparing or organizing the ingredients."
+    - object: KitchenKnife
+      reason: "The KitchenKnife has a count of 51 as well, showing it's been in the user's focus, making it a strong candidate for interaction related to cutting or preparing food."
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - ChoppingBoard
+    - KitchenKnife
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare a meal or bake, likely involving mixing or chopping ingredients, as suggested by their focus on utensils and cooking tools.
+2024-09-06 01:30:39,277 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BambooPlate
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: MuffinPan
+      probability: 0.25
+
+rationale:
+    - object: BambooPlate
+      reason: "The BambooPlate has the highest focus count (80), indicating the user has observed it intensively over the last few seconds, suggesting a strong intent to interact with it."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a high focus count (75) and is also among the nearby objects, showing that the user is not only focused on it but also in proximity, further increasing the likelihood of interaction."
+    - object: MuffinPan
+      reason: "The MuffinPan has a considerable focus count (46) and is also noted as a nearby object. While it's slightly lower than the first two, the frequency of interaction predictions involving it suggests that it remains relevant to the user’s task."
+
+predicted_interaction_objects:
+    - BambooPlate
+    - BlackCeramicMug
+    - MuffinPan
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, potentially involving the use of plates, mugs, and baking pans. The emphasis on these objects suggests the user might be in the process of cooking or arranging a meal.
+2024-09-06 15:56:37,598 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BambooPlate
+      probability: 0.4
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: MuffinPan
+      probability: 0.25
+
+rationale:
+    - object: BambooPlate
+      reason: "The BambooPlate has the highest focus count (80), indicating the user has observed it the most in the recent time window, suggesting a strong likelihood of interaction."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon has a high focus count (72) and is also one of the more observed items nearby, which indicates a significant chance of use along with the BambooPlate."
+    - object: MuffinPan
+      reason: "The MuffinPan has a significant focus count (46) and is also frequently observed nearby (37), making it a likely candidate for interaction, likely in the context of preparing or serving food."
+
+predicted_interaction_objects:
+    - BambooPlate
+    - WoodenSpoon
+    - MuffinPan
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, utilizing items such as the BambooPlate, WoodenSpoon, and MuffinPan, as indicated by the repeated attention on these utensils and serving ware.
+2024-09-06 15:56:48,375 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BambooPlate
+      probability: 0.37
+    - object: BlackCeramicMug
+      probability: 0.34
+    - object: MuffinPan
+      probability: 0.29
+
+rationale:
+    - object: BambooPlate
+      reason: "The BambooPlate has the highest count of 80 in high_focus_objects, indicating it received the most attention from the user. Its proximity may also increase the likelihood of interaction."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a count of 75 in high_focus_objects and is also among the nearby objects with a count of 45, suggesting it was both observed closely and remained near the user for a considerable time."
+    - object: MuffinPan
+      reason: "The MuffinPan has a high focus count of 46 and shows relevant presence as it is one of the nearby objects with a count of 37, indicating it could be a candidate for interaction depending on the user's intentions."
+
+predicted_interaction_objects:
+    - BambooPlate
+    - BlackCeramicMug
+    - MuffinPan
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely to prepare or serve food, possibly involving tasks such as eating or baking, given the focus on kitchenware and dining items.
+2024-09-06 16:08:06,422 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: MuffinPan
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon has the highest focus count (72) and is likely a primary tool for cooking or mixing, indicating strong user intent to interact."
+    - object: MuffinPan
+      reason: "The MuffinPan has also been observed frequently (46 counts) and is a significant object in the context of baking, aligning with possible ongoing culinary tasks."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug, with a high focus count (75), suggests that the user may be preparing to consume a beverage, making it a likely candidate for interaction."
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - MuffinPan
+    - BlackCeramicMug
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, as indicated by the focus on cooking tools and baking items.
+2024-09-06 16:08:17,512 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.4
+    - object: MuffinPan
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has the highest count (75) in the high focus list and is a common item that users may want to interact with, especially if they are in the kitchen environment."
+    - object: MuffinPan
+      reason: "The MuffinPan is also significantly represented in both the high focus (46 counts) and nearby (37 counts) lists, indicating a strong possibility of the user planning to bake or cook something."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has notable counts in the high focus (51 counts) and nearby (52 counts) lists, suggesting that the user might be preparing food, making it a logical item for interaction."
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - MuffinPan
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely to prepare food or a meal, given the focus on cooking-related items and objects frequently observed in the kitchen setting.

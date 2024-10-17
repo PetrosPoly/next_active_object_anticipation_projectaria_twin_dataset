@@ -1,0 +1,418 @@
+2024-10-08 00:44:51,551 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest focus count (44) and is within a close distance (1.193 meters), making it the most probable object for interaction. The user has shown significant interest in this object recently."
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 meets the distance threshold (1.513 meters) and has a high focus count (42), indicating that the user is likely considering using this object as they have spent notable time observing it."
+    - object: TvRemote_1
+      reason: "TvRemote_1 is also within the proximity threshold (1.554 meters) and has a high focus count (41), suggesting that the user may want to interact with it, although it's slightly less probable than the other two."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to enjoy a snack or drink (potentially with a remote control to watch something), showing an interest in interacting with food and associated media items in the living room setting.
+2024-10-15 11:12:19,783 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.45
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.20
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has high focus consistency (44 counts), and its proximity count (41 counts) indicates that the user has been close to it for an extended period. The time to approach is relatively low (0.88 seconds), making it highly probable that the user will interact with it soon."
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 meets the distance and time thresholds (1.51 meters and 1.47 seconds) and has strong focus consistency (42 counts). This suggests that the user is likely considering interacting with it while in close proximity."
+    - object: TvRemote_1
+      reason: "TvRemote_1 also meets the distance and time thresholds (1.55 meters and 1.53 seconds) while having high focus consistency (41 counts). Although it is slightly less probable than the DvdRemote_1, it remains a strong candidate for interaction."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to snack or engage with audiovisual content, given their consistent interactions with food-related items (like Donut_B) and remote controls (DvdRemote_1 and TvRemote_1).
+2024-10-15 11:35:44,336 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "This object has the highest focus count (44) and is within close distance (1.193 meters) with a fast approach time (0.884 seconds), making it the most probable for interaction."
+    - object: DvdRemote_1
+      reason: "While it has a slightly lower focus count (42) than Donut_B, it meets the distance threshold (1.513 meters) and also has a reasonable approach time (1.468 seconds)."
+    - object: TvRemote_1
+      reason: "TvRemote_1 also shows high focus (41) and is close enough (1.554 meters) for interaction, but slightly lower in priority due to a longer approach time compared to DvdRemote_1."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to interact with objects related to entertainment or casual leisure activities in the living room, possibly indicating a desire to enjoy a snack while watching something on TV.
+2024-10-15 11:36:29,490 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest focus count (44) and is within a close range (1.193 meters). It also has a short time to approach (0.884 seconds), making it highly probable for interaction."
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 meets the distance and time thresholds while having a strong focus count (42), indicating the user is likely to engage with it soon."
+    - object: TvRemote_1
+      reason: "TvRemote_1, similar to DvdRemote_1, has high focus consistency (41) with acceptable proximity (1.554 meters) and time to approach (1.530 seconds), making it a likely candidate for interaction."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to enjoying a snack or indulgence, possibly while engaging with entertainment options in the living room, such as watching TV or a movie.
+2024-10-15 11:36:30,789 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has high focus counts (44) and proximity counts (41), making it a prime candidate for interaction. It is also within a reasonable distance (1.193 meters) and requires a short approach time (0.884 seconds), fulfilling all interaction criteria."
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 meets the distance (1.513 meters) and time (1.468 seconds) thresholds while showing notable focus counts (42). Although it slightly falls short of the focus threshold, its close proximity indicates it could likely be interacted with soon."
+    - object: TvRemote_1
+      reason: "TvRemote_1 displays strong focus counts (41) and is at a manageable distance (1.554 meters) with a rapid approach time (1.530 seconds). It does not meet the time threshold but satisfies both focus and proximity, which suggests potential interaction."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to engage in a leisurely activity within the living room environment, possibly involving food or entertainment, given the strong focus on items related to eating and media control.
+2024-10-15 11:36:34,407 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.45
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.2
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has high focus consistency (44 counts) and proximity consistency (41 counts) and a low time to approach (0.88 seconds), making it very likely that the user intends to interact with it."
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 meets the distance and time thresholds, with a focus count of 42, indicating that the user is likely to interact with it soon."
+    - object: TvRemote_1
+      reason: "TvRemote_1 also meets distance and time thresholds and has a strong focus count of 41, suggesting the user might be preparing to interact with it next."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to enjoy a snack or a treat while watching something on television, as indicated by the preference for food items like Donut_B and the presence of remotes suggesting a viewing activity.
+2024-10-15 11:36:41,173 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.45
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.2
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest focus count (44), which is just above the focus threshold (45). Moreover, it has a good proximity consistent count (41) paired with a low time to approach (0.88 seconds), indicating the user may be very close and likely interacting with it soon."
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 meets the distance and time thresholds with a low approach time (1.47 seconds) and high focus count (42). This suggests a strong likelihood of interaction as the user is already focusing on it and is within close proximity."
+    - object: TvRemote_1
+      reason: "TvRemote_1 has a focus count of 41, which is very close to the threshold. It also meets the distance and time criteria. This positions the TvRemote_1 to be a likely interaction choice as the user is within a reasonable approach time."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to engage with items in the living room for a casual activity, possibly involving snacks while watching something on the TV or a device.
+2024-10-15 11:45:22,775 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest focus consistency count of 44, is close within 1.193 meters, and has a low time to approach of approximately 0.88 seconds. This indicates that the user is highly concentrated on this object and can easily access it."
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 shows strong proximity consistency with a value of 23 and a focus count of 42, making it an appealing object. Moreover, it is within 1.513 meters, which supports the likelihood of interaction despite not fully meeting the time threshold."
+    - object: TvRemote_1
+      reason: "TvRemote_1 also displays high focus with a count of 41 and is at a proximity of 1.554 meters. Although it does not fully meet the time threshold, the strong focus and reasonable proximity indicate that the user is likely to interact with it."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is to engage with items likely related to enjoying a leisure activity, possibly involving food or multimedia with the presence of remotes signifying a connection to a television or media device.
+2024-10-15 11:45:45,308 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest focus count at 44, which exceeds the threshold of 45, indicating that the user has been observing it closely. Additionally, its distance (1.193 meters) is well within proximity, alongside a quick approach time of 0.884 seconds, making it highly probable for interaction."
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 meets the distance (1.513 meters) and approach time (1.467 seconds) thresholds while being close to the focus threshold with 42 counts. This suggests that the user has been nearby and potentially intends to interact with it."
+    - object: TvRemote_1
+      reason: "TvRemote_1 also satisfies both the distance (1.554 meters) and approach time (1.529 seconds) thresholds and has a focus count of 41, which is close to the threshold. This indicates that prolonged proximity and intense observation make it a likely candidate for interaction."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is to engage with entertaining or leisurely objects in their living room, potentially centering around enjoying a treat (like the donut) while possibly watching something on TV or using a DVD player.
+2024-10-15 11:45:50,777 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest focus count (44) and proximity count (41), along with a quick approach time of approximately 0.88 seconds, making it a highly probable candidate for interaction."
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 meets the distance and time thresholds while having a strong focus count of 42, indicating that the user may have been considering interacting with it."
+    - object: TvRemote_1
+      reason: "TvRemote_1 also meets the distance and time thresholds and has a significant focus count (41), suggesting that it is a likely object for the user to engage with next."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to relax or entertain themselves in the living room, possibly by enjoying snacks (Donut_B) while watching something on TV or engaging with media (DvdRemote_1 and TvRemote_1).
+2024-10-15 11:45:55,068 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.45
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.2
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest focus count of 44 and a proximity count of 41, combined with a short approach time of 0.88 seconds. This indicates it is a primary object of interest for the user."
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 meets the focus (42 counts) and proximity (23 counts) criteria while having an acceptable approach time of 1.47 seconds, suggesting it is likely to be interacted with soon."
+    - object: TvRemote_1
+      reason: "TvRemote_1 also shows significant focus (41 counts) and proximity (21 counts) counts. The approach time of 1.53 seconds places it as a probable candidate for interaction, given its relevance in the living room context."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to engage with objects in the living room for leisure, possibly to enjoy a snack (like the donut) while watching TV or interacting with media (using the remotes).
+2024-10-15 11:45:55,559 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest count in the focus consistency list (44), indicating the user is observing it quite a bit. Additionally, the time to approach is very short (0.88 seconds), and it is well within proximity, making it highly probable that the user will interact with it."
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 has a strong focus consistency count (42) and is within walking distance at 1.51 meters, with an approach time of 1.47 seconds. This suggests that the user is likely checking the remote for a possible interaction."
+    - object: TvRemote_1
+      reason: "TvRemote_1 also has a notable focus count (41) and is close enough for interaction (1.55 meters). The time to approach (1.53 seconds) is reasonable, which supports its selection as a likely object of interaction."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to enjoy some leisure activity, possibly watching TV or enjoying a snack, as indicated by the significant focus on remotes and the food item (Donut_B).
+2024-10-15 12:08:21,236 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B shows the highest focus consistency (44 counts) and proximity counts (41 counts), while its distance (1.193 meters) and time to approach (0.884 seconds) are within the thresholds, making it the most likely object for interaction."
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 meets the distance and time thresholds with proximity counts of 23 and a focus count of 42. Its close distance (1.513 meters) and short time to approach (1.467 seconds) indicate a high chance of interaction."
+    - object: TvRemote_1
+      reason: "TvRemote_1 shows strong focus (41 counts) and proximity counts (21 counts), despite being slightly beyond the time threshold. Its proximity and focus suggest it remains a probable item for interaction."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to enjoy a snack or meal while watching something on television, as indicated by frequent interactions with the food (Donut_B) and remote controls (DvdRemote_1 and TvRemote_1) in the living room setting.
+2024-10-15 12:09:05,458 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "This object has the highest focus count (44) which exceeds the threshold of 45 when combined with proximity and time counts. It is also the closest object, with a distance of 1.193 meters and a fast approach time of 0.884 seconds. These factors suggest a strong likelihood of interaction."
+    - object: DvdRemote_1
+      reason: "The DvdRemote_1 has a focus count of 42, which is close to the threshold and shows consistent engagement. Its proximity count (23) indicates the user is spending time nearby, and with an approach time of 1.467 seconds, it remains a high probability object for interaction."
+    - object: TvRemote_1
+      reason: "Similar to DvdRemote_1, TvRemote_1 has a focus count of 41 and a proximity count of 21. Although it doesn't meet the focus threshold, the effective proximity and reasonable approach time (1.529 seconds) make it plausible that the user will engage with this object."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to enjoy a treat, such as a donut, while interacting with a media device, suggesting a possible intention to watch a movie or show in the living room.
+2024-10-15 12:09:15,977 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest focus count (44) and is within a close distance (1.193 meters), making it a top candidate for interaction given the user's attention."
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 meets the distance (1.513 meters) and shows a strong focus count (42), which suggests the user may be preparing to interact with it."
+    - object: TvRemote_1
+      reason: "TvRemote_1 has a good focus count (41) and is also within proximity (1.554 meters), indicating that it is likely on the user's mind as they navigate."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to enjoying a snack or managing media, possibly preparing to watch something while having a treat.
+2024-10-15 12:09:16,908 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has a focus count of 44, which exceeds the focus threshold of 45, and is only slightly within proximity, indicating that the user may be interested in interacting with it shortly."
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 satisfies both the distance and time thresholds, with a current distance of 1.513 meters and an approach time of 1.47 seconds, making it a highly probable candidate for interaction."
+    - object: TvRemote_1
+      reason: "TvRemote_1 is also near the user (1.554 meters) and has a good focus count of 41, combined with a reasonable approach time. It reflects a possible interaction as the user may be preparing to use the TV."
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to indulge in a snack (possibly the donut) while preparing to watch something on TV, as indicated by the focus on the remotes.
+2024-10-15 12:09:23,841 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: BlackRoundTable
+      probability: 0.35
+    - object: DvdRemote_1
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest focus count (44), is within a reasonable distance (1.193 meters), and the time to approach (0.884 seconds) is well below the threshold, indicating a likely intent to interact with it."
+    - object: BlackRoundTable
+      reason: "BlackRoundTable has a focus count of 45, meets the distance threshold (1.663 meters), and has a short time to approach (0.945 seconds), making it a strong candidate for interaction."
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 shows a significant focus count (42) and is also within a close distance (1.513 meters) with an approach time (1.467 seconds) that meets the threshold, suggesting probable interaction."
+
+predicted_interaction_objects:
+    - Donut_B
+    - BlackRoundTable
+    - DvdRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to enjoy a treat in the living room, possibly while watching something on the TV, indicating a leisurely or relaxing activity.
+2024-10-17 11:26:52,707 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: Donut_B has the highest focus consistency count (44), is within a close distance (1.193 meters), and has a fast approach time (0.884 seconds). It clearly meets the criteria for interaction likely based on both focus and proximity.
+    - object: DvdRemote_1
+      reason: DvdRemote_1 shows a strong focus consistency count (42) and is within an approachable distance (1.513 meters) with a reasonable approach time (1.467 seconds). It meets the distance and focus threshold, making it a probable choice for interaction.
+    - object: TvRemote_1
+      reason: TvRemote_1 also has a high focus consistency count (41) and is at a manageable distance (1.554 meters) with an approach time of (1.529 seconds). It meets the necessary criteria for potential interaction, fitting well into the less probable yet possible category.
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to engage with items that are consumable or involve entertainment, indicating they may be preparing for a casual, relaxing time in the living room, possibly involving food and media consumption.
+2024-10-17 11:27:25,955 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: Donut_B has the highest focus count of 44, which exceeds the threshold of 45, and a distance of 1.193 meters, which is well within the acceptable range. The time to approach is also relatively short at approximately 0.88 seconds, indicating that the user is likely to interact with it soon.
+    - object: DvdRemote_1
+      reason: DvdRemote_1 has a close focus count of 42 and a distance of 1.513 meters. While it does not meet the focus threshold, it is in close proximity and has a short approach time of about 1.47 seconds. This positions it as a strong candidate for interaction.
+    - object: TvRemote_1
+      reason: TvRemote_1 has a focus count of 41, just shy of the threshold. Its distance of 1.554 meters and approach time of approximately 1.53 seconds also suggest that the user is likely to engage with it soon, especially considering the high focus count.
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to enjoy a snack or induce a leisure activity by interacting with food and remote controls, suggesting that they might be preparing to watch television while snacking.

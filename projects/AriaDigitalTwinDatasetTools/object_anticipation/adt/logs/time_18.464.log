@@ -1,0 +1,22 @@
+2024-10-17 11:24:52,755 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ConsoleTable
+      probability: 0.2
+
+rationale:
+    - object: KitchenKnife
+      reason: The KitchenKnife has the highest focus count (45) and is within close distance (1.412 meters), making it highly probable for interaction. The focus consistency indicates the user has been intently observing it, and its proximity suggests it will be approached quickly.
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has a strong focus count (41) and a distance of 1.479 meters. While it also meets the proximity time criteria, its focus count indicates the user has been considering it actively, making it likely for interaction though less probable than the KitchenKnife.
+    - object: ConsoleTable
+      reason: The ConsoleTable shows a reduced focus count (42) and is slightly farther away (1.992 meters). It meets the distance criteria, but the lower focus count compared to the top two objects makes it the least probable among the three.
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ConsoleTable
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to prepare or handle food or perform an activity related to food preparation, as indicated by the focus on kitchen utensils and items typically associated with cooking.

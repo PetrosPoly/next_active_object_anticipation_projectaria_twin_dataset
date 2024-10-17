@@ -1,0 +1,647 @@
+2024-10-15 11:33:07,794 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.6
+    - object: RedClock
+      probability: 0.25
+    - object: n/a
+      probability: 0.15
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "The CoffeeCanisterLarge has the highest focus count of 46 and is the closest object at 1.029 meters with a time to approach of only 4.85 seconds, making it highly probable for immediate interaction."
+    - object: RedClock
+      reason: "The RedClock has a decent focus count of 17 but a greater distance of 1.118 meters and a longer time to approach of 22.89 seconds. While it does not meet the time threshold, it still shows notable focus and proximity."
+    - object: n/a
+      reason: "No additional objects meet the criteria for interaction prediction, hence classified as less likely."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely centered around preparing a drink or snack, with a specific interest in utilizing the coffee canister, potentially for making coffee or similar tasks, while keeping an eye on the time with the red clock.
+2024-10-15 11:42:37,563 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.7
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.05
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "The CoffeeCanisterLarge has the highest focus and proximity consistency counts, suggesting that the user is highly engaged with this object. It meets both the distance and time thresholds, making it the most probable object for interaction."
+    - object: RedClock
+      reason: "The RedClock shows significant focus consistency but has slightly lower proximity counts. Although it meets the distance threshold, it does not meet the time threshold as efficiently as CoffeeCanisterLarge, placing it as the second most likely object."
+    - object: None
+      reason: "There are no other objects in the spatial context that meet the interaction criteria sufficiently."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is to either retrieve coffee or interact with a timekeeping device, likely for making a drink or managing time effectively while in the living room.
+2024-10-15 12:06:18,844 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.7
+    - object: RedClock
+      probability: 0.3
+    - object: none
+      probability: 0.0
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "CoffeeCanisterLarge has a high focus count of 46 and a proximity count of 46, meaning the user has been observing and is physically close to it, making it the most likely object for interaction."
+    - object: RedClock
+      reason: "RedClock shows significant focus with 17 counts and proximity counts of 46 but is slightly less probable due to lower focus counts compared to the CoffeeCanisterLarge."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - none
+
+goal_of_the_user: Based on the current predictions and past interactions, it is inferred that the user's goal is likely to prepare or make coffee, as indicated by the strong focus and proximity towards the CoffeeCanisterLarge. The presence of the RedClock also suggests the user may be mindful of time while engaging in this task.
+2024-10-16 20:57:45,504 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.6
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.15
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The Coffee Canister has the highest focus consistency count (46) and is within a close distance (1.029 meters) with a quick approach time of approximately 4.85 seconds. It meets both distance and time thresholds, making it highly probable for interaction.
+    - object: RedClock
+      reason: The Red Clock has a high focus consistency count (17) and is also within a close distance (1.118 meters), but while it meets the distance threshold, it does not meet the time threshold as closely as the Coffee Canister. It remains a likely candidate for interaction.
+    - object: None
+      reason: There are no other objects that meet the criteria to be considered probable or likely for interaction beyond the first two, thus giving a small probability to the absence of an interaction.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones, it is inferred that the user's goal is likely to retrieve or use items in the Living Room, primarily focusing on refreshments or items for a task that may require ingredient preparation or a time-related activity such as brewing.
+2024-10-16 20:57:45,645 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.55
+    - object: RedClock
+      probability: 0.30
+    - object: None
+      probability: 0.15
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: This object has the highest focus (46 counts) and proximity consistency (46 counts), along with a short approach time (4.85 seconds), satisfying all thresholds for both focus and proximity. This indicates a strong likelihood that the user intends to interact with this object soon.
+    - object: RedClock
+      reason: Although the RedClock has a substantial focus count (17) and similar proximity count (46), it does not meet the time threshold for approach (22.89 seconds). Despite this, its high proximity indicates the user may have intentions to interact with it, making it the next likely candidate.
+    - object: None
+      reason: There are no other objects that meet the interaction criteria sufficiently. The lack of a third object reflects that focus and proximity counts for any additional objects are considerably lower.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to retrieve something from the CoffeeCanisterLarge, possibly preparing a beverage, while keeping an eye on the RedClock, potentially to check the time while they work.
+2024-10-16 21:01:16,067 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.5
+    - object: RedClock
+      probability: 0.3
+    - object: None
+      probability: 0.2
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has a focus count of 46 and proximity count of 46, both satisfying the thresholds. Additionally, it has a low time to approach of approximately 4.85 seconds, making it highly probable for interaction.
+    - object: RedClock
+      reason: The RedClock has a focus count of 17, which is below the focus threshold, but it satisfies the distance and time thresholds (1.118 meters and 22.89 seconds to approach). Its consistent presence and proximity make it a probable option for interaction despite the lower focus count.
+    - object: None
+      reason: No other object met the interaction criteria at this time, so a placeholder object is included to reflect that no other potential interactions are present in this context.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to obtain something from the CoffeeCanisterLarge, possibly preparing a drink, while also keeping an eye on the RedClock for time management purposes.
+2024-10-16 21:01:16,067 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.5
+    - object: RedClock
+      probability: 0.3
+    - object: None
+      probability: 0.2
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has a focus count of 46 and proximity count of 46, both satisfying the thresholds. Additionally, it has a low time to approach of approximately 4.85 seconds, making it highly probable for interaction.
+    - object: RedClock
+      reason: The RedClock has a focus count of 17, which is below the focus threshold, but it satisfies the distance and time thresholds (1.118 meters and 22.89 seconds to approach). Its consistent presence and proximity make it a probable option for interaction despite the lower focus count.
+    - object: None
+      reason: No other object met the interaction criteria at this time, so a placeholder object is included to reflect that no other potential interactions are present in this context.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to obtain something from the CoffeeCanisterLarge, possibly preparing a drink, while also keeping an eye on the RedClock for time management purposes.
+2024-10-16 21:01:16,709 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.7
+    - object: RedClock
+      probability: 0.3
+    - object: None
+      probability: 0.0
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has high focus consistency (46 counts) and excellent proximity consistency (46 counts), and it is within a close distance (1.029 meters) with an approach time of only about 4.85 seconds. This satisfies all thresholds, making it the most likely object for interaction.
+    - object: RedClock
+      reason: The RedClock has a good focus consistency (17 counts) and strong proximity consistency (46 counts), but it barely meets the focus threshold (counts are below the 45 threshold) while meeting the distance and time criteria. Thus, it comes next in likelihood for interaction.
+    - object: None
+      reason: There are no other objects in the given context that meet the criteria for prediction since the focus and time thresholds are not met for any other objects.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and the focus on the CoffeeCanisterLarge and RedClock, it is inferred that the user's goal is likely to prepare or consume a beverage—suggested by the focus on the coffee canister—while keeping track of time via the clock.
+2024-10-16 21:01:25,643 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.6
+    - object: RedClock
+      probability: 0.35
+    - object: None
+      probability: 0.05
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: This object satisfies the time threshold (4.84 seconds), the distance threshold (1.02 meters), and has a high focus consistency (46 counts). This indicates that the user is not only close to it but also has been focusing on it consistently, making it highly probable for interaction.
+    - object: RedClock
+      reason: Although it meets the distance threshold (1.12 meters) and shows some focus counts (17 counts), it falls short of the time threshold (22.88 seconds to approach). However, it shows a significant count in proximity (46 counts) suggesting that the user may have been near it as well. Thus, it remains probable for interaction, though this probability is lower than the CoffeeCanisterLarge.
+    - object: None
+      reason: There are no other objects in the vicinity that meet the minimum criteria for interaction based on the provided context, hence this third prediction holds a very low probability.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to engage in an activity that involves the consumption of coffee or tea, as indicated by the high focus and proximity to the CoffeeCanisterLarge. The presence of the RedClock may suggest the user is also keeping track of time for this activity, possibly to schedule their day accordingly.
+2024-10-16 21:01:25,643 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.6
+    - object: RedClock
+      probability: 0.35
+    - object: None
+      probability: 0.05
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: This object satisfies the time threshold (4.84 seconds), the distance threshold (1.02 meters), and has a high focus consistency (46 counts). This indicates that the user is not only close to it but also has been focusing on it consistently, making it highly probable for interaction.
+    - object: RedClock
+      reason: Although it meets the distance threshold (1.12 meters) and shows some focus counts (17 counts), it falls short of the time threshold (22.88 seconds to approach). However, it shows a significant count in proximity (46 counts) suggesting that the user may have been near it as well. Thus, it remains probable for interaction, though this probability is lower than the CoffeeCanisterLarge.
+    - object: None
+      reason: There are no other objects in the vicinity that meet the minimum criteria for interaction based on the provided context, hence this third prediction holds a very low probability.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to engage in an activity that involves the consumption of coffee or tea, as indicated by the high focus and proximity to the CoffeeCanisterLarge. The presence of the RedClock may suggest the user is also keeping track of time for this activity, possibly to schedule their day accordingly.
+2024-10-16 21:04:47,083 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.7
+    - object: RedClock
+      probability: 0.3
+    - object: None
+      probability: 0.0
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has the highest focus and proximity counts, indicating that the user has been intensely observing and remaining close to it. Additionally, its approach time is well within the threshold, making it the most likely object for interaction.
+    - object: RedClock
+      reason: The RedClock also shows significant focus and proximity counts, but slightly less than the CoffeeCanister. Although it has a longer approach time compared to the CoffeeCanister, it still meets the distance threshold, making it a probable interaction.
+    - object: None
+      reason: There are no other objects meeting the specified thresholds, thus the prediction does not extend to a third object.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to grab something from the CoffeeCanisterLarge, possibly preparing a drink or snack, and to check the time on the RedClock during their activity in the Living Room.
+2024-10-16 21:04:47,157 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.55
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.20
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: CoffeeCanisterLarge has high focus counts (46) and high proximity consistency counts (46), indicating the user has been closely observing and remaining near it. Furthermore, its low estimated time to approach (4.85 seconds) makes it very probable for interaction.
+    - object: RedClock
+      reason: The RedClock has significant focus counts (17) and proximity consistency counts (46), making it a less likely option than the CoffeeCanisterLarge but still a viable candidate. Its time to approach is longer (22.89 seconds), which reduces its probability of immediate interaction.
+    - object: None
+      reason: No other objects meet the minimum criteria for interaction prediction, leading to this placeholder indicating that only these two objects are relevant based on the current context.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing a beverage, such as coffee, and may involve checking the time or organizing items in the living room.
+2024-10-16 21:04:47,428 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.55
+    - object: RedClock
+      probability: 0.35
+    - object: None
+      probability: 0.1
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has the highest focus and proximity consistency counts, with a focus count of 46 and proximity count of 46. Additionally, it has a low time to approach (4.85 seconds), satisfying all the thresholds, making it the most probable object for interaction.
+    - object: RedClock
+      reason: The RedClock has a good focus count of 17 and proximity count of 46, but its time to approach (22.89 seconds) does not meet the time threshold. However, it satisfies the distance and proximity criteria, which keeps it a viable option for interaction.
+    - object: None
+      reason: No other object meets the necessary criteria to be included, making this entry serve as a placeholder indicating no further object is likely to be interacted with.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to retrieve or interact with a beverage or food item, as suggested by the focus on the CoffeeCanisterLarge, which commonly contains coffee or a related product, while the RedClock may imply a need to manage time or check the local time during this task.
+2024-10-16 21:04:48,018 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.65
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.1
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: This object meets both the focus and distance thresholds (46 counts), and it has a low time to approach (4.85 seconds), making it the most likely object for interaction. The combination of high focus, close proximity, and quick access strongly suggests imminent interaction.
+    - object: RedClock
+      reason: The RedClock has notable proximity counts (46 counts) and is within distance specifications. However, it falls slightly behind in focus consistency (17 counts), making it less likely than the CoffeeCanisterLarge despite being within reach. The longer time to approach (22.89 seconds) also contributes to its reduced probability.
+    - object: None
+      reason: There are no additional objects that meet the criteria well enough to warrant a prediction, so it’s indicated here as the least probable option.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare a beverage or engage in an activity related to the CoffeeCanisterLarge, given the strong focus and proximity towards it. The RedClock may also hold some significance as the user might be checking the time while preparing the drink.
+2024-10-16 21:10:04,238 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.6
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.15
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge satisfies both the distance and time thresholds, having a proximity count of 46 and a time to approach of 4.85 seconds, which is below the 5-second threshold. It also has a high focus consistency count of 46, indicating it has garnered the user's attention significantly, suggesting it is likely the primary object of interaction.
+    - object: RedClock
+      reason: The RedClock meets the distance threshold but slightly misses the time threshold, taking 22.89 seconds to approach. Although it has a substantial focus count of 17, it's lower than CoffeeCanisterLarge. Its proximity count is equal to that of the CoffeeCanisterLarge, which still indicates potential interest, making it a possible secondary interaction.
+    - object: None
+      reason: No other objects in the context meet the thresholds necessary for consideration. This entry acknowledges the lack of additional potential interactions beyond the two identified.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare or consume a beverage, as indicated by the focus on the CoffeeCanisterLarge, which presumably contains coffee or related materials, and the nearby RedClock, which suggests an awareness of time, possibly related to a routine or schedule.
+2024-10-16 21:10:04,238 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.6
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.15
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge satisfies both the distance and time thresholds, having a proximity count of 46 and a time to approach of 4.85 seconds, which is below the 5-second threshold. It also has a high focus consistency count of 46, indicating it has garnered the user's attention significantly, suggesting it is likely the primary object of interaction.
+    - object: RedClock
+      reason: The RedClock meets the distance threshold but slightly misses the time threshold, taking 22.89 seconds to approach. Although it has a substantial focus count of 17, it's lower than CoffeeCanisterLarge. Its proximity count is equal to that of the CoffeeCanisterLarge, which still indicates potential interest, making it a possible secondary interaction.
+    - object: None
+      reason: No other objects in the context meet the thresholds necessary for consideration. This entry acknowledges the lack of additional potential interactions beyond the two identified.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare or consume a beverage, as indicated by the focus on the CoffeeCanisterLarge, which presumably contains coffee or related materials, and the nearby RedClock, which suggests an awareness of time, possibly related to a routine or schedule.
+2024-10-16 21:34:00,900 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.6
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.15
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has the highest focus (46 counts) and meets both the distance (1.029 meters) and time thresholds (4.84 seconds). The strong proximity and focus metrics indicate a high likelihood of interaction due to the user's intent to engage with this object.
+    - object: RedClock
+      reason: The RedClock has a solid focus count (17 counts) and meets the distance threshold but does not satisfy the time threshold. Despite being less likely to interact with it due to a longer estimated approach time (22.89 seconds), its proximity and moderate focus suggest it is still a possible interaction choice.
+    - object: None
+      reason: No other object meets any of the criteria, hence it holds a minimal probability.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare or consume something, possibly involving coffee, given the high focus and proximity to the CoffeeCanisterLarge in the living room context.
+2024-10-16 21:34:01,111 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.6
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.15
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has the highest focus consistency (46 counts) and a proximity consistency that matches (46 counts), indicating strong user interest. It also meets the distance threshold (1.029 meters) and has a short approach time (approximately 4.85 seconds), making it the most likely object for interaction.
+    - object: RedClock
+      reason: Although the RedClock has a significant amount of focus consistency (17 counts) and proximity counts (46 counts), it fails to meet the time threshold. However, it has close proximity (1.118 meters), keeping it as a potential interaction due to its visibility and user attention.
+    - object: None
+      reason: No other objects within the environment are indicated in the current context as potential candidates for interaction, so "None" is included to complete the three-object prediction list.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and the absence of past prediction data, it is inferred that the user's goal is likely to engage in an activity involving the CoffeeCanisterLarge, possibly related to preparing or consuming a beverage, while also keeping track of time with the RedClock.
+2024-10-16 21:38:29,800 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.6
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.15
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: This object has the highest focus consistency (46 counts) and proximity consistency (46 counts), along with an approachable time of 4.85 seconds, making it highly probable for interaction as it exceeds the focus and proximity thresholds while meeting the time threshold.
+    - object: RedClock
+      reason: Although it has a high focus consistency (17 counts) and proximity consistency (46 counts), it falls short of the focus threshold but meets both the distance and time thresholds. It is still likely to be interacted with due to its proximity and the user’s attention.
+    - object: None
+      reason: There are no other objects that distinctly meet or provide partial satisfaction on the given thresholds. This leaves the last option as a lower-probability catch-all.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous predictions list, it is inferred that the user's goal is likely focused on retrieving or utilizing something from the living room, possibly involving coffee preparation or checking the time.
+2024-10-16 21:38:30,497 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.7
+    - object: RedClock
+      probability: 0.2
+    - object: None
+      probability: 0.1
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has the highest focus count (46) and also meets the proximity count equivalently (46). Additionally, it has a time to approach of 4.85 seconds, which is below the threshold of 5 seconds, making it the most probable object of interaction.
+    - object: RedClock
+      reason: The RedClock has a high focus count (17) and a proximity count (46), but it spends more time to approach (22.89 seconds), which is above the desired threshold. This puts it in a secondary position for interaction but still makes it a candidate due to its consistency in the user's focus and proximity.
+    - object: None
+      reason: There are no other relevant objects that meet the criteria for interaction, hence a placeholder with minimal probability is assigned.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+
+goal_of_the_user: Based on the current predictions, it is inferred that the user's goal is likely to prepare or consume coffee, as indicated by the high focus and proximity to the CoffeeCanisterLarge, along with the monitoring of the time for interaction with the RedClock, which may relate to timing or scheduling activities associated with making coffee.
+2024-10-16 21:38:30,959 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.7
+    - object: RedClock
+      probability: 0.3
+    - object: None
+      probability: 0.0
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has a high focus consistency count of 46, a matching proximity count of 46, and a low time to approach of approximately 4.8 seconds, making it the most probable object for interaction. All criteria are satisfied, indicating it is the primary object of interest.
+    - object: RedClock
+      reason: The RedClock has a focus count of 17 and a proximity count of 46, but it does not quite meet the time threshold since it has a longer approach time of approximately 22.9 seconds. However, the significant proximity suggests the user is aware of it, making it a less likely but possible candidate for interaction.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+
+goal_of_the_user: Based on the current predictions, it is inferred that the user is likely looking to obtain a coffee or interact with items relevant to their current activity in the living room, influenced by their focus and proximity to the CoffeeCanisterLarge and the RedClock.
+2024-10-16 21:43:50,431 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.7
+    - object: RedClock
+      probability: 0.3
+    - object: None
+      probability: 0.0
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has the highest focus consistency count (46) and is within close proximity, with a distance of 1.029 meters and an approach time of about 4.85 seconds, all of which meet the provided thresholds, making it highly probable for interaction.
+    - object: RedClock
+      reason: The RedClock, while being less frequently focused on (17 counts) and having a slightly larger distance of 1.118 meters with a longer approach time of 22.89 seconds, still meets the distance and time thresholds, which makes it the next likely candidate for interaction.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+
+goal_of_the_user: Based on the current predictions and the consistent focus and proximity towards the CoffeeCanisterLarge, it is inferred that the user's goal is likely to be making a coffee or preparing a beverage, with the RedClock possibly serving as a point of reference for timing their task.
+2024-10-16 21:43:52,494 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.6
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.15
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has a very high focus consistency count of 46 and is also very close to the user (1.029 meters), making it highly probable that the user will interact with it. Additionally, the time to approach is within the acceptable threshold, further solidifying its prediction as the top candidate.
+    - object: RedClock
+      reason: While the RedClock does have significant proximity and focus counts, the focus count is lower than that of the CoffeeCanisterLarge. However, as the user is very close (1.118 meters) and has spent considerable time with it, it is still predicted to be the second most likely object for interaction.
+    - object: None
+      reason: No third object meets the criteria necessary for interaction. The focus and distance measurements for other potential objects are not strong enough to suggest interaction.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare or consume a beverage, as indicated by the significant focus and proximity towards the CoffeeCanisterLarge. The presence of the RedClock may suggest they are also aware of the time, possibly indicating a need to manage their schedule around this task.
+2024-10-16 21:43:52,833 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.6
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.15
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: This object has the highest focus consistency (46 counts) and proximity consistency (46 counts), and it also meets the time threshold to approach (4.85 seconds). This suggests that the user is highly engaged with the CoffeeCanisterLarge and is very close to it, making interaction very probable.
+    - object: RedClock
+      reason: Although the RedClock has significant focus (17 counts) and proximity (46 counts), it does not meet the time threshold (22.89 seconds). However, it is still within close distance and is consistently observed, indicating it might be a secondary candidate for interaction.
+    - object: None
+      reason: There are no more objects that fit the criteria for interaction; thus, this placeholder reflects that other objects do not meet the thresholds for consideration.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to retrieve or utilize contents from the CoffeeCanisterLarge, possibly preparing a beverage or snack, while also being aware of the time indicated on the RedClock.
+2024-10-16 21:43:53,108 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.6
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.15
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: This object meets both the focus and distance thresholds, with high focus consistency (46 counts) and proximity consistency (46 counts). Additionally, it has a short estimated time to approach (4.84 seconds), making it the most probable object of interaction.
+    - object: RedClock
+      reason: While the RedClock also shows significant focus and proximity counts, it has a longer time to approach (22.89 seconds), preventing it from being as likely as the CoffeeCanisterLarge. The counts indicate that the user is observing it consistently, but the higher approach time reduces its probability.
+    - object: None
+      reason: No other object in the provided context meets the thresholds effectively. The absence of a third distinct object reinforces that the user is primarily focused on the CoffeeCanisterLarge and RedClock.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to obtain or use content from the CoffeeCanisterLarge, possibly in the context of preparing a drink or snack in the living room while keeping track of time with the RedClock nearby.
+2024-10-16 21:46:01,913 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.6
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.15
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has the highest focus (46 counts) and is within an approachable distance (1.029 meters, which is very close). Additionally, the time to approach is only about 4.85 seconds, which satisfies the criteria for likelihood of interaction.
+    - object: RedClock
+      reason: The RedClock, while having a slightly lower focus count (17), is also at a close distance (1.118 meters). However, the approaching time is longer at 22.89 seconds, putting it at a lower probability compared to the CoffeeCanisterLarge.
+    - object: None
+      reason: There are no other objects that meet the criteria for probable interaction given the thresholds outlined, leading to a small probability assigned to none being interacted with.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing a drink or snack, as they are focusing significantly on the large coffee canister in the living room, possibly indicating they plan to make coffee or use it in some way.
+2024-10-16 21:46:04,063 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.6
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.15
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: This object meets both the focus (46 counts) and distance (1.029 meters) thresholds while also satisfying the time threshold (4.85 seconds to approach). The high focus counts indicate a strong likelihood of interaction.
+    - object: RedClock
+      reason: Although the RedClock has high focus counts (17) and proximity counts (46), it does not meet the time threshold (22.89 seconds to approach). However, given the focus and proximity counts, it remains a probable candidate for interaction.
+    - object: None
+      reason: No other object meets the criteria effectively; hence, this is assigned a lower probability as it indicates the absence of other objects in the immediate context that could be interacted with.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and the analysis of focus and proximity counts, it is inferred that the user's goal is likely to retrieve something from the CoffeeCanisterLarge, possibly preparing a drink or snack, while also keeping track of the time with the RedClock, indicating an awareness of their schedule or timing related to the activity.
+2024-10-16 21:50:07,724 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.6
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.15
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: This object has consistently high focus (46 counts) and proximity (46 counts) measurements, and it meets both the distance (1.029 meters) and time (4.845 seconds) thresholds. It is the most likely candidate for interaction as it not only satisfies focus and proximity but also is within a short distance to approach.
+    - object: RedClock
+      reason: Although the RedClock also shows high proximity and focus counts (17 counts each), it exceeds the distance threshold at 1.118 meters and has a longer time to approach (22.886 seconds). This makes it the second most likely object for interaction, as its high focus suggests the user is attentive towards it.
+    - object: None
+      reason: There are no other objects meeting the criteria to be considered for interaction at this time, making this entry a placeholder for potential future predictions but adding to the probability distribution.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely focused on seeking a beverage or food item, as indicated by the significant attention towards the CoffeeCanisterLarge, which may contain coffee or another consumable. The focus on the RedClock suggests a possible concern with time management during this activity.
+2024-10-16 21:50:08,283 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.65
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.10
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has the highest focus consistency count (46) and is also within the proximity threshold with a short time to approach (4.84 seconds), making it highly likely that the user intends to interact with it.
+    - object: RedClock
+      reason: The RedClock has notable focus and proximity counts, but does not meet the time threshold as effectively as the CoffeeCanisterLarge. Its higher focus consistency indicates it may still be a potential target for interaction.
+    - object: None
+      reason: Since there are no other objects meeting the criteria, this slot is reserved for any low probability interactions, covering the possibility of interactions with other less prioritized objects.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare or consume a beverage, which aligns with their focus on the CoffeeCanisterLarge, possibly to retrieve coffee, and monitoring the RedClock which may signal the time to do so.
+2024-10-16 21:50:09,872 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.55
+    - object: RedClock
+      probability: 0.25
+    - object: None
+      probability: 0.20
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has a high focus count (46) and is within a close distance (1.029 meters) with a short approach time (4.84 seconds), satisfying all thresholds for interaction.
+    - object: RedClock
+      reason: The RedClock has a significant focus count (17) and is also within close proximity (1.118 meters), though it falls short of the focus threshold. It does, however, meet the distance and approach time thresholds, making it a probable candidate for interaction.
+    - object: None
+      reason: No other objects were present that met the interaction criteria based on the thresholds given, leaving a less likely but possible selection from previous interactions.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - None
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing a beverage, as evidenced by the strong focus and proximity towards the CoffeeCanisterLarge, suggesting they may intend to retrieve coffee or some related item.

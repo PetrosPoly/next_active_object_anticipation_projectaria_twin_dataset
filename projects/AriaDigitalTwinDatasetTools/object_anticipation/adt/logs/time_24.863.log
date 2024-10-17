@@ -1,0 +1,88 @@
+2024-10-17 11:21:32,347 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: Jam_Anon
+      probability: 0.35
+    - object: Pestel
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: The MuffinPan has a high focus count of 91, ranking it among the top objects in the user's focus consistency. It also has a proximity count of 40, suggesting that the user is often near it. Its relatively short time to approach (1.48 seconds) makes it a strong candidate for interaction.
+    - object: Jam_Anon
+      reason: With a focus count of 90 and a proximity count of 27, Jam_Anon also demonstrates significant observation by the user. Although it has a longer time to approach (1.73 seconds) compared to the MuffinPan, its high focus count supports its likelihood of interaction.
+    - object: Pestel
+      reason: The Pestel has a solid focus count of 89 and a proximity count of 36, indicating that the user frequently pays attention to it while being within a reasonable distance. Its time to approach (1.36 seconds) is the shortest among the three, supporting its probability of interaction despite being slightly lower in other metrics.
+
+predicted_interaction_objects:
+    - MuffinPan
+    - Jam_Anon
+    - Pestel
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing or serving food, with a specific emphasis on baking or using certain kitchen tools and ingredients.
+2024-10-17 11:21:46,806 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: Jam_Anon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: The MuffinPan has the highest focus consistency count (91) and a reasonable time to approach (1.48 seconds). It is within close proximity (1.134 meters) suggesting strong intent to interact with it for the task of baking or preparing food.
+    - object: Jam_Anon
+      reason: Jam_Anon also has a very high focus count (90) and a relatively short time to approach (1.73 seconds). Proximity further supports its likelihood of being interacted with, indicating the user may be preparing to use it in conjunction with the MuffinPan.
+    - object: ChoppingBoard
+      reason: ChoppingBoard has a solid focus count (75) and is also within reasonable distance (1.134 meters). Its slightly lower focus compared to the previous objects still makes it a candidate, especially if the user is preparing to chop ingredients prior to baking.
+
+predicted_interaction_objects:
+    - MuffinPan
+    - Jam_Anon
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely focused on baking or preparing food items, as indicated by the repeated focus on cooking-related objects like the MuffinPan, Jam_Anon, and ChoppingBoard.
+2024-10-17 11:25:39,229 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: Mortar
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: The MuffinPan has the highest focus consistency count (91), is within a close distance (1.134 meters), and has an approach time of 1.48 seconds. This object meets all three thresholds, making it the most probable choice.
+    - object: BlackCeramicMug
+      reason: The BlackCeramicMug has a good focus count (73) and a reasonable approach time (2.87 seconds). While it doesn’t fully meet the time threshold, its proximity (1.415 meters) and distance consistency counts still make it a strong candidate for interaction.
+    - object: Mortar
+      reason: The Mortar has a high focus count (89) and is relatively close (1.183 meters) with an approach time of 1.38 seconds. It meets the focus and distance thresholds, making it a likely but less probable choice compared to the first two.
+
+predicted_interaction_objects:
+    - MuffinPan
+    - BlackCeramicMug
+    - Mortar
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to cooking or baking, as evidenced by their focus on kitchen utensils such as the MuffinPan and Mortar, alongside items like the BlackCeramicMug which could imply preparation of beverage or ingredient mixing.
+2024-10-17 11:26:28,564 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: Pestel
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: The MuffinPan has the highest focus count (91), is within reasonable proximity (1.134 meters), and has an approach time of 1.48 seconds, satisfying all thresholds for interaction.
+    - object: Pestel
+      reason: The Pestel has a high focus count (89) and is within a close distance (1.121 meters), with an approach time of 1.36 seconds, making it very likely despite not being the highest in proximity counts.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has a solid focus count (75) and is close in distance (1.134 meters) with a slightly longer approach time (2.25 seconds), making it probable but slightly less so compared to the top two objects.
+
+predicted_interaction_objects:
+    - MuffinPan
+    - Pestel
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing food, specifically baking or cooking involving the use of the MuffinPan and ChoppingBoard, while utilizing tools such as the Pestel for mixing or crushing ingredients.

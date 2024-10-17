@@ -1,0 +1,66 @@
+2024-10-17 11:22:10,145 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: Pestel
+      probability: 0.35
+    - object: Jam_Anon
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has the highest focus consistency count (48) and is within the distance and time thresholds, making it the most probable object for the user to interact with.
+    - object: Pestel
+      reason: The Pestel has a high proximity consistency count (60) and a moderate focus consistency count (22). It meets the distance and time thresholds, indicating that while the user may not have focused on it as long as the WoodenSpoon, its proximity suggests a high likelihood of interaction.
+    - object: Jam_Anon
+      reason: The Jam_Anon meets the proximity count (59) and focus count (25) thresholds, and while it is slightly farther away than the top two objects, its significant proximity count still indicates a reasonable chance of interaction.
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - Pestel
+    - Jam_Anon
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to engage in a cooking or food preparation task, as evidenced by consistent interactions with kitchen tools and ingredients.
+2024-10-17 11:22:18,463 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.45
+    - object: Jam_Anon
+      probability: 0.35
+    - object: WhiteFlatwareTray
+      probability: 0.20
+
+rationale:
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has the highest focus count (48) and proximity count (58), indicating strong interest and intention to interact. It is also within the proximity threshold and has a low approach time (1.7 seconds), making it the most likely choice.
+    - object: Jam_Anon
+      reason: The Jam_Anon object meets the focus threshold (25 counts) and has good proximity (59 counts). It also has a reasonable approach time (3.4 seconds), positioning it as a strong candidate for interaction.
+    - object: WhiteFlatwareTray
+      reason: Although it has a lower focus count (17), it maintains a good proximity count (57) and approach time (2.4 seconds). This makes it a probable option, even if slightly less likely than the first two.
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - Jam_Anon
+    - WhiteFlatwareTray
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing or serving food, potentially involving cooking or arranging items for a meal, as indicated by the interactions with kitchenware and food-related objects observed previously.
+2024-10-17 11:26:26,266 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: Jam_Anon
+      probability: 0.35
+    - object: WhiteFlatwareTray
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has the highest focus count at 48 and is within an acceptable proximity threshold (0.958 meters). Additionally, the estimated time to approach (1.69 seconds) is below the threshold limit, making this object the most likely candidate for interaction.
+    - object: Jam_Anon
+      reason: The Jam_Anon shows significant focus with a count of 25 and is also well within proximity (0.881 meters). The time to approach (3.39 seconds) exceeds the threshold, but it still satisfies the focus requirement, placing it as the second most likely object for interaction.
+    - object: WhiteFlatwareTray
+      reason: The WhiteFlatwareTray has a focus count of 17, which is below the threshold but is close in distance (1.049 meters) and approach time (2.43 seconds). Its consistency in proximity suggests it may still be a target for interaction, though it ranks lower than the first two.
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - Jam_Anon
+    - WhiteFlatwareTray
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely centered around preparing or serving food, as indicated by the consistent focus on cooking utensils and ingredients such as the WoodenSpoon and Jam_Anon.

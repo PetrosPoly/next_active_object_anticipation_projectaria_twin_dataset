@@ -1,0 +1,22 @@
+2024-09-06 16:26:49,402 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackTablet
+      probability: 0.45
+    - object: BirdHouseToy
+      probability: 0.35
+    - object: DvdRemote_1
+      probability: 0.20
+
+rationale:
+    - object: BlackTablet
+      reason: "The BlackTablet has the highest focus count (42) and is also the most observed object the user has been close to (91 counts), indicating a strong likelihood of interaction."
+    - object: BirdHouseToy
+      reason: "The BirdHouseToy has significant nearby counts (41) and could indicate that the user is interested in it as a potential interaction, especially given that it has been observed frequently."
+    - object: DvdRemote_1
+      reason: "Although the DvdRemote_1 was previously seen by the user during focus (multiple counts in previous interactions), its counts suggest it has lesser current focus, making it the third most likely object for interaction."
+
+predicted_interaction_objects:
+    - BlackTablet
+    - BirdHouseToy
+    - DvdRemote_1
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to interact with specific objects in the living room, likely for entertainment or leisure activities, possibly involving using the tablet or playing with toys.

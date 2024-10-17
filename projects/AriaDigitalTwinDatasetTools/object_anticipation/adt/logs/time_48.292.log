@@ -1,0 +1,66 @@
+2024-10-17 11:27:39,867 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackRoundTable
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: BlackRoundTable
+      reason: The BlackRoundTable has the highest focus count (60) and a reasonable proximity count (38) while also having a short time to approach (0.64 seconds). This combination makes it the most likely object for the user to interact with at this moment.
+    - object: DvdRemote_1
+      reason: The DvdRemote_1 has a strong focus count (57) and satisfying proximity (38), along with a short time to approach (1.39 seconds). It meets the distance and focus criteria satisfactorily, placing it as the second most probable object for interaction.
+    - object: TvRemote_1
+      reason: The TvRemote_1 also shows high focus (56), reasonable proximity (36), and an approach time of 1.49 seconds. While slightly less probable than the first two objects, it still fits within the criteria that suggest the user will likely interact with it.
+
+predicted_interaction_objects:
+    - BlackRoundTable
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to engage with items on the BlackRoundTable, possibly selecting a remote control (DvdRemote_1 or TvRemote_1) to operate a media device or entertainment system in the living room.
+2024-10-17 11:27:41,603 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.45
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.20
+
+rationale:
+    - object: Donut_B
+      reason: Donut_B has the highest focus count (59) and is also the closest object at a distance of 0.955 meters, with an approach time of only 0.57 seconds. This indicates a strong likelihood of interaction.
+    - object: DvdRemote_1
+      reason: DvdRemote_1 meets both the distance (1.223 meters) and time (1.39 seconds) thresholds, with a solid focus count (57). Its proximity and relatively quick approach time make it very likely for the user to interact with it next.
+    - object: TvRemote_1
+      reason: TvRemote_1 has a focus count of 56, is within an acceptable distance (1.261 meters), and has a reasonable approach time (1.49 seconds). While slightly lower in focus compared to the top two objects, it still presents a strong possibility of interaction.
+
+predicted_interaction_objects:
+    - Donut_B
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to using the remotes for viewing something (potentially watching TV) and enjoying a treat, as indicated by the focused attention on food items like the Donut_B and electronic items such as remotes.
+2024-10-17 11:27:48,628 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackRoundTable
+      probability: 0.4
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.25
+
+rationale:
+    - object: BlackRoundTable
+      reason: The BlackRoundTable has the highest focus count (60) and is within close proximity (1.457 meters) with a quick approach time (about 0.64 seconds), making it the most likely object for interaction.
+    - object: DvdRemote_1
+      reason: The DvdRemote_1 has a strong focus count (57) and is relatively close (1.223 meters) with a reasonable approach time (1.39 seconds), indicating a high likelihood of use, especially in a living room context.
+    - object: TvRemote_1
+      reason: The TvRemote_1 has a focus count of 56 and a distance of 1.261 meters, along with an approachable time of 1.49 seconds, confirming its likelihood of being interacted with, particularly for activities typically conducted within a living room.
+
+predicted_interaction_objects:
+    - BlackRoundTable
+    - DvdRemote_1
+    - TvRemote_1
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to engage with media or entertainment options within the living room, possibly watching TV or using a DVD player, while also interacting with nearby furniture for comfort or functionality.

@@ -1,0 +1,44 @@
+2024-10-17 11:22:25,480 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.4
+    - object: KitchenKnife
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicMug
+      reason: The BlackCeramicMug has high focus counts (39) and is the closest object to the user at 0.843 meters, making it highly probable for interaction, especially as it meets both focus and proximity criteria.
+    - object: KitchenKnife
+      reason: The KitchenKnife has significant focus counts (54) and is also within a reasonable distance (1.051 meters) from the user. Although the time to approach is a bit longer, the strong focus suggests it is likely to be the next object of interest.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard shows high focus consistency (53 counts) and is relatively close (1.067 meters). It does meet the focus and proximity criteria, making it a probable choice for interaction despite a slightly longer approach time.
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - KitchenKnife
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to prepare or serve food, implying that they may be in the process of making a dish or getting ready for a meal. The objects predicted for interaction align with common kitchen or dining tasks.
+2024-10-17 11:22:37,487 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: KitchenKnife
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: The MuffinPan has a high focus count of 72 and a proximity count of 91, indicating that the user has been consistently observing and lingering near it. Although the time to approach is significantly longer than the threshold, its overall high focus and proximity suggest it's likely important to the user’s task.
+    - object: KitchenKnife
+      reason: The KitchenKnife has a focus count of 54, a proximity count of 91, and a reasonable time to approach of about 2.8 seconds. It meets the focus, proximity, and time criteria effectively, making it a strong candidate for interaction as essential for food preparation tasks.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has equal focus and proximity counts of 53, combined with a time to approach of approximately 2.7 seconds. While it doesn't exceed all thresholds as robustly as the first two choices, its placement as a kitchen tool likely makes it relevant to the user’s current task at hand.
+
+predicted_interaction_objects:
+    - MuffinPan
+    - KitchenKnife
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to prepare or bake items, likely involving muffins or a related culinary task, as indicated by the consistent focus on baking-related items like the MuffinPan and the KitchenKnife for cutting and preparation.

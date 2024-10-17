@@ -1,0 +1,110 @@
+2024-09-06 01:30:13,130 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Flask
+      probability: 0.35
+    - object: Tomato_A
+      probability: 0.30
+    - object: BlackCeramicBowl
+      probability: 0.25
+
+rationale:
+    - object: Flask
+      reason: "The Flask has the highest count of 56 in the high_focus_objects list, suggesting it received a significant amount of user attention, indicating a strong likelihood of interaction."
+    - object: Tomato_A
+      reason: "The Tomato_A has a high count of 52 in the high_focus_objects list and is also present in the nearby_objects list with a count of 64, showing that the user not only focused on it but was also in proximity, increasing the chances of interaction."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has the highest count of 87 in the nearby_objects list, indicating the user spent a considerable amount of time near it, despite its lower focus count, signaling potential interaction."
+
+predicted_interaction_objects:
+    - Flask
+    - Tomato_A
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely to prepare or use items related to food or beverages, as indicated by the focus on kitchen and dining-related objects in previous interactions.
+2024-09-06 12:58:45,477 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Flask
+      probability: 0.4
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: Tomato_A
+      probability: 0.25
+
+rationale:
+    - object: Flask
+      reason: "The Flask has the highest count in the 'high_focus_objects_measured_in_counts' list (56), indicating it has been observed intensely for a significant amount of time. It is likely the user is considering interacting with it, potentially for a beverage or mixing purpose."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has a high count in the 'nearby_objects_measured_in_counts' list (87), suggesting the user has spent considerable time near it. This proximity might indicate an intention to use it for food preparation or serving."
+    - object: Tomato_A
+      reason: "The Tomato_A appears in both the 'high_focus_objects_measured_in_counts' (52) and 'nearby_objects_measured_in_counts' (64) lists, showing the user has not only observed it closely but has also spent time nearby. Its presence in both lists indicates a strong likelihood of interaction, likely for cooking purposes."
+
+predicted_interaction_objects:
+    - Flask
+    - BlackCeramicBowl
+    - Tomato_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to prepare food or a beverage, potentially involving the use of the Flask for a drink and the BlackCeramicBowl for serving or preparing ingredients like the Tomato_A.
+2024-09-06 14:05:15,643 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Flask
+      probability: 0.36
+    - object: Tomato_A
+      probability: 0.32
+    - object: WhiteVaseMedium_1
+      probability: 0.32
+
+rationale:
+    - object: Flask
+      reason: "The Flask has the highest count in the high focus list (56) and is also included in the nearby objects list with a count of 91, indicating it has been observed intensely and remained in close proximity, suggesting a high likelihood of interaction."
+    - object: Tomato_A
+      reason: "Tomato_A is also observed intensely (52 counts) and has a notable presence in the nearby objects list (64 counts), which increases its probability for interaction due to the user's attention and close proximity."
+    - object: WhiteVaseMedium_1
+      reason: "Though slightly lower in focus count (49), the WhiteVaseMedium_1 has a relatively high count in the nearby objects list (60), indicating that the user has been spending time near it, which contributes to its probability for interaction."
+
+predicted_interaction_objects:
+    - Flask
+    - Tomato_A
+    - WhiteVaseMedium_1
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to interact with various kitchen and decorative items, potentially preparing for some cooking or setting up a living space, as indicated by their focus on items like the Flask and Tomato_A.
+2024-09-06 15:56:27,443 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Flask
+      probability: 0.45
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: Tomato_A
+      probability: 0.20
+
+rationale:
+    - object: Flask
+      reason: "The Flask has the highest focus and nearby counts, indicating significant attention from the user and a longer duration in close proximity, suggesting a strong intent to interact."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has a high count in the nearby objects list, implying the user is spending considerable time near it, making it a likely candidate for interaction."
+    - object: Tomato_A
+      reason: "Although the Tomato_A has a decent focus count, it also features prominently in the nearby objects list, indicating the user is likely considering it for nearby interaction."
+
+predicted_interaction_objects:
+    - Flask
+    - BlackCeramicBowl
+    - Tomato_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely related to preparing or serving food, as evidenced by the recurring interactions with kitchenware and food items in the environment.
+2024-09-06 16:07:54,835 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Flask
+      probability: 0.35
+    - object: Tomato_A
+      probability: 0.30
+    - object: WhiteVaseSmall_2
+      probability: 0.25
+
+rationale:
+    - object: Flask
+      reason: "The Flask has the highest focus count (56), indicating significant attention from the user, as well as a high nearby count (91), suggesting the user may interact with it soon."
+    - object: Tomato_A
+      reason: "With a focus count of 52 and a notable nearby count of 64, the Tomato_A reflects both interest and proximity, making it likely for interaction."
+    - object: WhiteVaseSmall_2
+      reason: "Although it has a lower focus count (50) compared to Flask, its nearby count (87) indicates the user might linger near it, raising its likelihood of interaction."
+
+predicted_interaction_objects:
+    - Flask
+    - Tomato_A
+    - WhiteVaseSmall_2
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to explore and possibly use kitchen-related items such as the Flask and Tomato_A, with an interest in decorative elements like the WhiteVaseSmall_2, potentially for food preparation or enhancing the living space.

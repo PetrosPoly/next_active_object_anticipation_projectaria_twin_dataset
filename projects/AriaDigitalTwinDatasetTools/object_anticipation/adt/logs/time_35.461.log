@@ -1,0 +1,22 @@
+2024-10-17 11:11:32,055 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Mango_A
+      probability: 0.4
+    - object: CakeMocha_A
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.25
+
+rationale:
+    - object: Mango_A
+      reason: The Mango_A has high focus counts (91) and is the closest object to the user (0.849 meters), with an approach time of 1.5 seconds. This combination strongly suggests that the user is likely to interact with it.
+    - object: CakeMocha_A
+      reason: The CakeMocha_A also has a high focus count (82) and is reasonably close (1.018 meters), with an approach time of 2.48 seconds. This suggests that while it may not be the primary focus, it is still a highly probable object for interaction.
+    - object: BlackCeramicBowl
+      reason: The BlackCeramicBowl, with good focus (73) and proximity (1.015 meters), along with a low approach time of 1.48 seconds, reinforces its likelihood of being interacted with, even though it is not as high as the first two objects.
+
+predicted_interaction_objects:
+    - Mango_A
+    - CakeMocha_A
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely centered around preparing or serving food, as evidenced by their focus on food-related items like fruits and desserts.

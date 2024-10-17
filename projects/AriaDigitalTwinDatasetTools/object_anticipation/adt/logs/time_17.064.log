@@ -1,0 +1,66 @@
+2024-10-17 11:10:38,779 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CandleDishSmall
+      probability: 0.4
+    - object: CandleDishMedium
+      probability: 0.35
+    - object: GreenApple_A
+      probability: 0.25
+
+rationale:
+    - object: CandleDishSmall
+      reason: This object has the highest proximity consistency count at 60 and a significant focus count (31), along with a reasonable time to approach (5.006 seconds). These metrics indicate that the user has been closely observing and remaining near this object, making it a strong candidate for interaction.
+    - object: CandleDishMedium
+      reason: This object also has a high proximity count (42) and a solid focus count (27), with a slightly better time to approach (3.607 seconds). This suggests that the user is likely engaged with this object as well, though slightly less than the CandleDishSmall.
+    - object: GreenApple_A
+      reason: While it has a strong focus count (28) and proximity count (43), it has a higher approach time (3.678 seconds). It’s a valid candidate, likely due to the user’s interest seen in the focus count, even if it is slightly less probable compared to the other two.
+
+predicted_interaction_objects:
+    - CandleDishSmall
+    - CandleDishMedium
+    - GreenApple_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare for an activity involving arranging or setting items in the living room, potentially for decoration or a gathering, as indicated by the increased focus on candle dishes and nearby objects in that spatial context.
+2024-10-17 11:21:24,501 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CandleDishSmall
+      probability: 0.4
+    - object: CandleDishMedium
+      probability: 0.35
+    - object: GreenApple_A
+      probability: 0.25
+
+rationale:
+    - object: CandleDishSmall
+      reason: This object has the highest focus count (31) and is the closest in proximity (1.380 meters), making it very likely that the user will interact with it. Additionally, its time to approach is within the threshold (5.006 seconds), suggesting immediate accessibility.
+    - object: CandleDishMedium
+      reason: This object also meets key criteria with an excellent focus count (27) and proximity (1.490 meters). The user can approach it relatively quickly (3.607 seconds). Its presence in the vicinity of the user's interactions and the relatively strong focus suggests a high likelihood of interaction.
+    - object: GreenApple_A
+      reason: Although the focus count (28) is just above the threshold, it maintains a reasonable proximity (1.481 meters) and an acceptable approach time (3.678 seconds). The combination of these factors indicates that it could be next in line for interaction, but slightly less likely compared to the candle dishes.
+
+predicted_interaction_objects:
+    - CandleDishSmall
+    - CandleDishMedium
+    - GreenApple_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely centered around preparing or setting up a space, possibly involving aesthetic arrangements or preparing for an event (e.g., candles for ambiance). The focus on objects like candle dishes suggests a desire to enhance the living room's visual appeal.
+2024-10-17 11:21:25,038 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CandleDishSmall
+      probability: 0.4
+    - object: CandleDishMedium
+      probability: 0.35
+    - object: GreenApple_A
+      probability: 0.25
+
+rationale:
+    - object: CandleDishSmall
+      reason: This object has the highest focus consistency (31 counts) and proximity consistency (60 counts) along with a relatively short time to approach (5.006 seconds). It meets the focus and proximity thresholds and is likely the user’s immediate target.
+    - object: CandleDishMedium
+      reason: The CandleDishMedium has a high focus count (27) and proximity count (42), with a time to approach of around 3.607 seconds. Like the CandleDishSmall, it meets the focus and proximity thresholds, making it another likely candidate for interaction.
+    - object: GreenApple_A
+      reason: The GreenApple_A shows a significant focus count (28) and excellent proximity consistency (43) but has a higher time to approach (3.678 seconds). While it meets the focus and proximity thresholds, the time threshold is marginally met, leading to a slightly lower probability of interaction compared to the first two.
+
+predicted_interaction_objects:
+    - CandleDishSmall
+    - CandleDishMedium
+    - GreenApple_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to set the ambiance or prepare for a meal or occasion that involves personalizing the space, as evidenced by repeated interactions with decorative and culinary items such as candles and fruits.

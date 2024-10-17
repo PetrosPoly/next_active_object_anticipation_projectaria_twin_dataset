@@ -1,0 +1,198 @@
+2024-09-06 01:30:57,711 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: GreenApple_A
+      probability: 0.30
+    - object: WoodenBowl
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has the highest count (83) in the high_focus_objects list, indicating significant user focus, suggesting a strong intention to interact with it."
+    - object: GreenApple_A
+      reason: "The GreenApple_A is also among the high_focus_objects with a count of 91, showing it has received considerable attention, making it likely for interaction."
+    - object: WoodenBowl
+      reason: "Although it has a lower focus count (37) compared to the others, the WoodenBowl is noted as a nearby object with a count of 31, indicating that the user is spending time close to it, hinting at potential interaction."
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - GreenApple_A
+    - WoodenBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, as indicated by their focus on bowls and fruits, which are commonly used in meal preparation or snacking activities.
+2024-09-06 01:30:58,073 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.35
+    - object: GreenApple_A
+      probability: 0.30
+    - object: BlackCeramicBowl
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest observed count (91) in the high focus list, indicating that the user has spent a significant amount of time observing this object, suggesting a strong likelihood of interaction."
+    - object: GreenApple_A
+      reason: "GreenApple_A also has a high observed count (91), making it highly likely to be a point of interest for interaction, particularly given the context of food items."
+    - object: BlackCeramicBowl
+      reason: "BlackCeramicBowl, with a high count of 83, is another strong candidate for interaction as it has been closely observed and is also commonly used for serving or holding food items."
+
+predicted_interaction_objects:
+    - Donut_B
+    - GreenApple_A
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list, I assume that the goal of the user is to select and possibly consume a food item or prepare a dish, as indicated by their focus on various food items and bowls within the living area.
+2024-09-06 12:39:44,698 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: Donut_B
+      probability: 0.30
+    - object: CandleDishMedium
+      probability: 0.35
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has the highest focus count (83), indicating that the user has been paying significant attention to it, suggesting they may want to interact with it."
+    - object: Donut_B
+      reason: "The Donut_B has a high focus count (91) and is among the top observed objects, showing a strong potential for interaction as it is likely part of the user's current task."
+    - object: CandleDishMedium
+      reason: "The CandleDishMedium also has a high count (91) and is likely to be associated with the user’s current task involving food or ambiance, making it a probable candidate for interaction."
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - Donut_B
+    - CandleDishMedium
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, potentially involving those specific items observed, and may also include setting up an inviting environment with the candle dishes.
+2024-09-06 12:59:16,457 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.32
+    - object: GreenApple_A
+      probability: 0.30
+    - object: BlackCeramicBowl
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest count of 91 in the high focus list, indicating that the user has spent a significant amount of time observing it, suggesting a strong intention to interact."
+    - object: GreenApple_A
+      reason: "GreenApple_A also has a high count of 91, showing it is in the user's focus for a substantial time, indicating potential interaction."
+    - object: BlackCeramicBowl
+      reason: "BlackCeramicBowl has a count of 83, making it one of the most observed objects and a likely candidate for interaction, even though its count is slightly lower than the top two."
+
+predicted_interaction_objects:
+    - Donut_B
+    - GreenApple_A
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to select and possibly consume snack items, as indicated by the high focus on food-related objects like donuts and fruit.
+2024-09-06 14:05:51,030 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: Mango_A
+      probability: 0.30
+    - object: ChoppingBoard
+      probability: 0.35
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: "This object has the highest count of 83 in the high focus list, indicating that it has drawn significant attention from the user over the last few seconds."
+    - object: Mango_A
+      reason: "With a count of 65, the Mango_A is the second highest in focus and has been observed multiple times, suggesting the user may intend to interact with it."
+    - object: ChoppingBoard
+      reason: "Although it's not in the high focus list, it frequently appears in previous predictions, indicating its relevance to the user's tasks, combined with proximity considerations."
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - Mango_A
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food, possibly involving cutting or assembling ingredients with the use of the chopping board and the selected items from the bowls.
+2024-09-06 15:57:17,114 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CandleDishMedium
+      probability: 0.35
+    - object: Donut_B
+      probability: 0.32
+    - object: BlackCeramicBowl
+      probability: 0.33
+
+rationale:
+    - object: CandleDishMedium
+      reason: "With a count of 91, CandleDishMedium has the highest focus count among the observed objects, suggesting the user has spent significant time looking at it, indicating a high likelihood of interaction."
+    - object: Donut_B
+      reason: "Donut_B also stands out with a high focus count of 91 and is frequently observed, implying that the user may consider it for consumption or interaction."
+    - object: BlackCeramicBowl
+      reason: "Despite a slightly lower focus on this object compared to others, the count of 83 combined with its presence in the nearby objects category and prior predictions makes it a strong candidate for interaction."
+
+predicted_interaction_objects:
+    - CandleDishMedium
+    - Donut_B
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to select and interact with food items or decorative objects within the living room space, likely for consumption or aesthetic arrangement.
+2024-09-06 15:57:28,492 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: GreenApple_A
+      probability: 0.30
+    - object: Donut_B
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: "This object has the highest focus count (83) and has consistently appeared in previous predictions, suggesting it is a primary object of interest for the user."
+    - object: GreenApple_A
+      reason: "With a focus count of 91, this object ranks highly in user attention, indicating a strong likelihood of interaction. It has also shown up frequently in previous interactions."
+    - object: Donut_B
+      reason: "This object has a high focus count (91), and its frequent appearance in user's previous behaviors suggests a likelihood of it being part of the current task."
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - GreenApple_A
+    - Donut_B
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food items, given the focus on kitchen-related objects like bowls and fruits, indicating they may be engaging in cooking or meal preparation activities.
+2024-09-06 16:08:37,472 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.30
+    - object: GreenApple_A
+      probability: 0.35
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has a high focus count of 91, indicating significant observation, suggesting the user may wish to interact with it."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has a focus count of 83, representing considerable attention from the user, indicating potential interaction."
+    - object: GreenApple_A
+      reason: "GreenApple_A also has a high focus count of 91, which indicates that the user is likely considering this object for interaction."
+
+predicted_interaction_objects:
+    - Donut_B
+    - BlackCeramicBowl
+    - GreenApple_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to select a food item, potentially for consumption or preparation, as indicated by the high focus on various edible objects in the living room environment.
+2024-09-06 16:08:41,047 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.32
+    - object: GreenApple_A
+      probability: 0.30
+    - object: BlackCeramicBowl
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest count in the high_focus_objects_measured_in_counts list (91), indicating significant user attention and likely interaction intent."
+    - object: GreenApple_A
+      reason: "GreenApple_A also shows a high count (91), suggesting that it has been closely observed and is a strong candidate for interaction."
+    - object: BlackCeramicBowl
+      reason: "BlackCeramicBowl has a high count (83) and has appeared frequently in previous predictions, indicating it is a likely choice for interaction."
+
+predicted_interaction_objects:
+    - Donut_B
+    - GreenApple_A
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to gather or prepare items, likely for a snack or meal, as indicated by the attention to food items.

@@ -1,0 +1,66 @@
+2024-09-26 10:28:29,002 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.30
+    - object: Flask
+      probability: 0.20
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: "This object has the highest count in the high focus objects list, indicating that the user observed it most intensively in the recent timeframe. Its frequent mention in previous predictions suggests it is likely part of the user's current task."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard appears consistently in previous predictions and is crucial for food preparation tasks, aligning with the objects observed around it. It has a solid presence in focus and previous interactions."
+    - object: Flask
+      reason: "The Flask, while having a slightly lower count than the BlackCeramicBowl, is still among the high focus objects. It could be part of a preparation or serving task that the user is engaged in currently."
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - ChoppingBoard
+    - Flask
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is preparing or serving food, considering their focus on kitchenware and food items.
+2024-10-01 00:36:10,034 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: Donut_B
+      probability: 0.30
+    - object: Flask
+      probability: 0.35
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has the highest focus count (83), indicating that it was observed intensively, suggesting a strong likelihood of interaction."
+    - object: Donut_B
+      reason: "Donut_B has a high focus count (91) and is likely a desirable option for the user, indicating significant attention towards it."
+    - object: Flask
+      reason: "The Flask also has a notable focus count (73) and consistency of previous predictions indicates the user has shown interest in interacting with it."
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - Donut_B
+    - Flask
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, possibly involving the use of bowls and drinks, given the attention on food containers and consumables observed so far.
+2024-10-01 21:58:59,526 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: Donut_B
+      probability: 0.30
+    - object: Flask
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has the highest focus count (83), indicating it was observed intensively for a significant portion of the time window. Its presence in previous predictions further reinforces its likelihood of interaction."
+    - object: Donut_B
+      reason: "The Donut_B is another object with a high focus count (91), suggesting that the user has shown considerable interest in it. It has appeared in prior predictions, indicating ongoing interaction interest."
+    - object: Flask
+      reason: "The Flask has a focus count of 73 and has consistently appeared in previous predictions, indicating the user has related interactions with it, enhancing its probability of being interacted with."
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - Donut_B
+    - Flask
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to prepare or serve a meal or snack, as indicated by the focus on food-related items like bowls and pastries, combined with the likelihood of utilizing utensils or serving ware.

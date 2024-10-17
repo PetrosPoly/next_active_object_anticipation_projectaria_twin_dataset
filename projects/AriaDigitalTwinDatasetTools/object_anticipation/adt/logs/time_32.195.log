@@ -1,0 +1,22 @@
+2024-10-17 11:11:24,242 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.45
+    - object: NIT_CoffeeCan_Anon
+      probability: 0.35
+    - object: HeatTrivet
+      probability: 0.2
+
+rationale:
+    - object: WoodenBowl
+      reason: The WoodenBowl has the highest focus consistency count (34) and is also within a close distance (1.801 meters) and meets the time threshold for approach (1.986 seconds). This indicates that the user has been consistently focusing on this object and is likely to interact with it soon.
+    - object: NIT_CoffeeCan_Anon
+      reason: The NIT_CoffeeCan_Anon also has a significant focus count (29) and is very close (1.779 meters). It also meets the time threshold for approach (2.067 seconds), making it a strong candidate for interaction, albeit slightly less so than the WoodenBowl.
+    - object: HeatTrivet
+      reason: The HeatTrivet has similar focus and distance metrics (29 counts and 1.790 meters) but is on the threshold of exceeding the time to approach (2.083 seconds). While it is still probable, it ranks lower than the other two due to its proximity to the time threshold.
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - NIT_CoffeeCan_Anon
+    - HeatTrivet
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely focused on preparing or serving food or drink, as the objects listed are commonly associated with such tasks in a living room setting.

@@ -1,0 +1,66 @@
+2024-10-17 11:22:02,206 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: Jam_Anon
+      probability: 0.35
+    - object: Mortar
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: The MuffinPan has the highest focus counts (84) and is also in close proximity (0.877 meters) to the user, with a quick approach time (approximately 1.41 seconds). This combination makes it highly likely the user will interact with it.
+    - object: Jam_Anon
+      reason: Jam_Anon shows good focus consistency (54 counts) and proximity (0.867 meters), with a reasonable time to approach (11.04 seconds). While the approach time is longer, the user’s focus might suggest an intention to use it soon.
+    - object: Mortar
+      reason: The Mortar has solid focus counts (57) and proximity (0.764 meters). Although its approach time is slightly longer (around 2.12 seconds), the combined focus and proximity still indicate it’s a probable choice for interaction.
+
+predicted_interaction_objects:
+    - MuffinPan
+    - Jam_Anon
+    - Mortar
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare a meal or bake, as indicated by the focus on cooking-related items like the MuffinPan and Jam_Anon, suggesting preparation of a dish or dessert involving these objects.
+2024-10-17 11:22:02,551 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: KitchenKnife
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: The MuffinPan has a high focus count (84), meets the proximity threshold (0.877 meters), and has a reasonable approach time (1.406 seconds), making it the most probable object for interaction.
+    - object: KitchenKnife
+      reason: The KitchenKnife exhibits a solid focus count (64) and proximity (1.073 meters) and comes with a slightly longer approach time (1.642 seconds), rendering it the second most likely object for the user to engage with.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard is another strong contender due to its substantial focus count (34), close proximity (1.105 meters), and a manageable approach time (1.673 seconds), making it likely that the user will interact with it.
+
+predicted_interaction_objects:
+    - MuffinPan
+    - KitchenKnife
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to prepare or cook something, likely involving baking or food preparation, as indicated by their focus on kitchen tools such as the MuffinPan, KitchenKnife, and ChoppingBoard.
+2024-10-17 11:25:34,415 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: KitchenKnife
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: The MuffinPan shows a high focus count (84) and proximity counts (91), both indicating that the user has been consistently observing and is very close to it. Additionally, its estimated time to approach (1.41 seconds) is well within the threshold, making it the most probable object for interaction.
+    - object: KitchenKnife
+      reason: The KitchenKnife has a strong focus count (64) and is close (1.07 meters). Its time to approach is also just above the threshold (1.64 seconds), suggesting the likelihood of interaction is high despite not fully meeting the time requirement.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard also meets the focus (34) and proximity counts (91), and its time to approach (1.67 seconds) is within an acceptable range, making it a probable object for interaction.
+
+predicted_interaction_objects:
+    - MuffinPan
+    - KitchenKnife
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to food preparation or baking, as indicated by the focus on kitchen-related objects like the MuffinPan, KitchenKnife, and ChoppingBoard.

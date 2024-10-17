@@ -1,0 +1,13 @@
+[
+    {
+        "sequence": "Apartment_release_work_seq107_M1292",
+        "parameters": "time_1_highdot_0.9_highdotcount_45_dist_2_distcount_30",
+        "model_overall_accuracy": 0.1,
+        "precision": 0.1,
+        "recall": 0.25,
+        "llm_activation_sensitivity": 0.4,
+        "llm_interaction_accuracy": 0.25,
+        "Tp": 1,
+        "Fp": 9
+    }
+]

@@ -1,0 +1,22 @@
+2024-10-17 11:11:09,189 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.4
+    - object: MuffinPan
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: KitchenKnife
+      reason: The KitchenKnife has the highest focus (69 counts) and is very close (0.980 meters) to the user, making it a strong candidate for interaction. The time to approach is also just over 1 second, indicating it is readily accessible.
+    - object: MuffinPan
+      reason: The MuffinPan shows high proximity counts (91) and is also very close (0.818 meters). While its focus counts are lower (89 counts), it still indicates a probable interaction given the strong proximity and acceptable time to approach (0.908 seconds).
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has solid focus counts (39) and is relatively close (1.013 meters). Although it has lower counts compared to the other two, it meets the distance threshold. Its focus combined with proximity makes it a reasonable prediction for the next likely interaction.
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - MuffinPan
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing food, possibly baking or cooking with the use of kitchen tools, including cutting and baking items.

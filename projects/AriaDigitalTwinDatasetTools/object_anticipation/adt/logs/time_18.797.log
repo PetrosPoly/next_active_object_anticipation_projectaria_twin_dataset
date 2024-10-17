@@ -1,0 +1,484 @@
+2024-09-12 18:30:02,599 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.20
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest count not only in high focus but also in nearby objects. This suggests the user has been paying significant attention to it, indicating a strong likelihood of interaction."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon follows closely behind the KitchenKnife in both high focus and nearby counts, showing that the user is likely considering using it along with or instead of the KitchenKnife."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl appeared in the previous predictions and holds some focus, which indicates that it could be essential for the user’s task, possibly for mixing or holding ingredients."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to prepare or cook something, as they are focusing on utensils and bowls that are typically used for food preparation activities.
+2024-09-12 18:38:01,866 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.20
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest focus count (56) and is also consistently measured nearby (33 counts), indicating strong interest and intention to engage with it."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon follows closely with a high focus count (48) and is frequently noted nearby (31 counts), suggesting that the user may intend to use it in conjunction with other cooking tasks."
+    - object: ChoppingBoard
+      reason: "While the ChoppingBoard was part of the previous predictions, its relevance remains as a possible interaction point due to its association with the other focused objects, even though it has a lower predicted count."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to prepare food or engage in cooking tasks within the Living Room, which may involve using utensils and containers for mixing, cutting, or serving food.
+2024-09-12 19:40:54,988 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.20
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest counts in both the 'high_focus_objects_measured_in_counts' (56) and 'nearby_objects_measured_in_counts' (33), indicating that the user has observed it frequently and remained near it for a substantial duration."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon also has a strong presence with counts of 48 in 'high_focus_objects_measured_in_counts' and 31 in 'nearby_objects_measured_in_counts', suggesting a high likelihood of interaction as the user likely intends to use it in conjunction with the KitchenKnife."
+    - object: ChoppingBoard
+      reason: "Although the ChoppingBoard does not appear in the 'high_focus_objects_measured_in_counts', it was previously predicted and has relevance to the task associated with the KitchenKnife and WoodenSpoon, making it a reasonable candidate for interaction."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food, likely involving chopping vegetables (as suggested by the previous mention of the Tomato_A) and using the appropriate utensils for preparation, particularly the knife and spoon.
+2024-09-12 19:47:05,661 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.20
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest counts in both the high focus and nearby objects lists, indicating it was observed intensely and the user remained close to it for a significant duration. This suggests a strong intention to interact with it."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon also has substantial counts in both focus and proximity, making it a strong candidate for interaction. Its presence in the user’s quick access list highlights that it is very close and readily available for use."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard was part of the previous predictions and is likely essential for preparing food items, especially given the high focus on the KitchenKnife and WoodenSpoon. Its inclusion suggests that the user intends to use it in conjunction with other kitchen tools."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food, likely involving cutting and mixing ingredients, as indicated by the focus on kitchen tools.
+2024-09-12 20:18:43,535 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.20
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife had the highest count in both the 'high_focus_objects_measured_in_counts' and 'nearby_objects_measured_in_counts' categories, indicating intense focus and a prolonged presence nearby, making it highly likely the user intends to interact with this object."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon had a significant count as well, though slightly lower than the KitchenKnife. Its presence in both the high focus and proximity lists suggests that the user is likely considering this object for interaction, likely for stirring or mixing."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard appeared in the previous predictions, which implies sustained interest. Although it had a lower immediate count, its prior focus combined with being found nearby increases its likelihood of interaction."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food, likely involving cutting or mixing ingredients, as suggested by the interaction focus on kitchen utensils and tools.
+2024-09-12 22:12:03,141 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.20
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest focus count (56) and is also frequently nearby (33 counts), indicating that the user is likely considering it for cutting or preparing food."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon has a high focus count (48) and a notable presence nearby (31 counts), suggesting the user may want to use it for stirring or mixing while cooking."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard was among the previous predictions and is likely needed in conjunction with the KitchenKnife, with a recent focus based on the user's task of food preparation."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food, likely involving cutting ingredients like tomatoes with the KitchenKnife, stirring or mixing with the WoodenSpoon, and using the ChoppingBoard as the surface for these tasks.
+2024-09-12 22:16:30,444 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.2
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest count in both the high_focus_objects_measured_in_counts and nearby_objects_measured_in_counts lists, indicating that the user has been paying significant attention to it and has been near it for a substantial amount of time."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon is the second most observed object, with a high count in both focus and proximity. Its location suggests it may be used in conjunction with the KitchenKnife for food preparation tasks."
+    - object: BlackCeramicBowl
+      reason: "Based on the previous predictions, the BlackCeramicBowl is included due to its notable presence in the user's previous observations. Although it has lower counts than the first two objects, it is likely to be part of the user's intended actions related to the other utensils."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or cook food, likely involving cutting or mixing ingredients, which would explain the focus on the KitchenKnife and WoodenSpoon alongside the BlackCeramicBowl for holding or mixing food items.
+2024-09-12 22:27:30,338 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.2
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest count in both high_focus_objects_measured_in_counts and nearby_objects_measured_in_counts. This indicates that the user has been focusing on it closely and remains nearby, suggesting a strong likelihood of interaction."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon also has significant counts in both lists, indicating that the user is likely considering it for their task. Its lower counts compared to the KitchenKnife still suggest potential interaction, especially given its proximity."
+    - object: ChoppingBoard
+      reason: "Although the ChoppingBoard was noted in previous predictions, its counts are relatively lower compared to the KitchenKnife and WoodenSpoon. Nevertheless, it is a likely candidate for interaction due to its essential role in food preparation, which aligns with the user's current focus on kitchen-related objects."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food, likely involving cutting or cooking ingredients, given the focus on kitchen tools such as the KitchenKnife and WoodenSpoon.
+2024-09-12 23:18:59,901 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ConsoleTable
+      probability: 0.20
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife was the highest in the 'high_focus_objects_measured_in_counts' list at 55 counts, indicating significant attention from the user. This suggests a high probability of interaction, likely for food preparation."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon, with 51 counts in the 'high_focus_objects_measured_in_counts,' received substantial focus as well, suggesting it could be needed in conjunction with the KitchenKnife for stirring or serving during the same task."
+    - object: ConsoleTable
+      reason: "The ConsoleTable, with a count of 52, suggests that the user may plan to place items down or use it for support while preparing food. Its position in the high focus list suggests relevance to the current task."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ConsoleTable
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food, potentially involving cutting and mixing ingredients, which would explain the focus on the KitchenKnife and WoodenSpoon, as well as needing a surface like the ConsoleTable for organization.
+2024-09-12 23:54:44,753 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.2
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest count of attention, indicating it was intensely observed significantly more than other objects. This suggests that the user is likely considering it for an interaction, possibly for cutting or slicing."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon also shows a high level of focus, being the second most observed object and frequently noted in proximity. This suggests it may be important for stirring or serving alongside the KitchenKnife."
+    - object: ChoppingBoard
+      reason: "Despite having a lower focus count compared to the KitchenKnife and WoodenSpoon, it appeared in the previous predictions game log, indicating it may still be relevant for the user's task related to food preparation."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food, possibly involving cutting and mixing ingredients, which aligns with the focus on kitchen utensils and tools.
+2024-09-13 01:04:15,696 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.4
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest focus count (55) and is also present in the nearby counts (33), indicating it is both observed frequently and the user is near it for a significant duration, suggesting an intention to use it."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon has a high focus count (51) and is also noted in the nearby counts (31). This suggests strong interest and proximity, making it likely for the user to want to interact with it next."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard appeared in the previous predictions, indicating prior consideration from the user. With observed focus at this session and potential proximity, it remains relevant to their task."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is likely related to food preparation or cooking, as indicated by the focus on utensils and kitchen-related objects.
+2024-09-13 10:03:33,003 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.30
+    - object: BlackCeramicBowl
+      probability: 0.25
+
+rationale:
+    - object: KitchenKnife
+      reason: "It has the highest focus count of 55, indicating that the user has observed it intensely, suggesting a strong intention to interact with it, likely for tasks such as chopping or prepping food."
+    - object: WoodenSpoon
+      reason: "With a high focus count of 51 and a nearby count of 31, it suggests frequent attention from the user, possibly indicating an intention to use it for stirring or mixing ingredients."
+    - object: BlackCeramicBowl
+      reason: "It was previously predicted to be interacted with, and while its current focus count is lower, it still may be needed to hold ingredients, justifying its place in the predicted interactions."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or cook something, likely involving chopping ingredients and mixing them in a bowl.
+2024-09-13 16:54:33,885 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.20
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife had the highest count in both high focus (55) and nearby counts (33), indicating significant attention and proximity, suggesting it's essential for the user's task."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon also ranks high in focus counts (51) and has a notable presence in the nearby count (31), hinting that it is likely required for mixing or preparing food."
+    - object: ChoppingBoard
+      reason: "Although its count in high focus was inferred from previous predictions, the user has shown interest in it (previous_predictions), and it is likely a key tool for the intended cooking or food preparation task."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to engage in food preparation or cooking, utilizing specific utensils and tools in the kitchen area.
+2024-09-13 17:25:13,326 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: Tomato_A
+      probability: 0.20
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest count in the high_focus_objects list (55), indicating the user observed it intensely, suggesting a strong likelihood of interaction, especially in a kitchen context."
+    - object: ChoppingBoard
+      reason: "ChoppingBoard was noted in the previous_predictions and has significant relevance to food preparation, indicating that the user is likely considering using it, complemented by the KitchenKnife."
+    - object: Tomato_A
+      reason: "Tomato_A was also mentioned in the previous_predictions, suggesting it is part of the user's task, likely related to food preparation or cooking."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - ChoppingBoard
+    - Tomato_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to prepare a meal, potentially involving chopping or slicing ingredients like tomatoes using the kitchen tools available.
+2024-09-13 17:53:05,092 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.2
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest count in the high_focus_objects_measured_in_counts list, indicating it has received the most attention from the user. This suggests a strong intention to interact with it, likely for a task that requires cutting or preparation."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon is also among the top observed objects and has a significant presence in both the high focus and nearby counts. This implies the user is considering using it alongside the KitchenKnife, potentially for stirring or mixing ingredients."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl was noted in previous predictions, showing consistent interest from the user. While its focus count is lower than the other two, it is still relevant to potential interaction, possibly for holding ingredients during meal preparation."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare a meal or engage in cooking activities that involve chopping, stirring, and storing ingredients.
+2024-09-13 23:40:11,902 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.20
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest focus count (55) and is also among the nearby objects (33). This indicates that the user has observed it intensively and spent significant time close to it, suggesting a strong intention to interact."
+    - object: WoodenSpoon
+      reason: "With a focus count of 51 and being a nearby object (31), the WoodenSpoon is likely to be chosen for an interaction, especially considering its relevance in food preparation tasks."
+    - object: ChoppingBoard
+      reason: "Although it was part of previous predictions and not in the current high focus list, it is still likely to be interacted with due to its connection with the other utensils, indicating that the user may be preparing food."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to prepare food, as indicated by their attention to kitchen utensils and ingredients typically used in meal preparation.
+2024-09-14 13:09:14,464 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.20
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest focus count of 55, indicating it has captured the user's attention the most. Given the context of the user interacting with kitchen items, this suggests a high likelihood of intending to use it for food preparation."
+    - object: WoodenSpoon
+      reason: "With a count of 51, the WoodenSpoon is also highly observed. Its proximity and focus suggest that the user is considering it as a tool for mixing or stirring during cooking."
+    - object: ChoppingBoard
+      reason: "Although it wasn't explicitly mentioned as a high-focus object, it is part of the previous predictions alongside the user’s focus on cooking-related activities. This implies that the ChoppingBoard is likely relevant in support of preparing food, especially when using the KitchenKnife."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food, likely involving chopping and mixing ingredients using the identified kitchen utensils.
+2024-09-14 13:20:04,784 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.4
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest focus count (55), indicating the user has observed it intensely. It is also likely required for tasks involving cutting or preparation."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon follows closely with a count of 51 in high focus, suggesting the user is considering it for stirring or mixing tasks, which often accompany cutting ingredients."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard was part of the previous predictions, and while it has no direct count in the current high focus, its presumed relevance for cutting tasks increases its likelihood of interaction."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food, likely involving cutting and mixing ingredients.
+2024-09-27 21:12:09,921 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.45
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.2
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest attention count (55) in the high_focus_objects list, indicating that the user has observed it intensively, suggesting a strong likelihood of interaction."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon also appears in both the high_focus_objects list with a count of 51 and the nearby_objects list, showing that the user has spent significant time focusing on it, implying a high probability of interaction."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard was included in the previous predictions, indicating that it may be relevant to the current task, combined with the user's focus on related cooking objects like the KitchenKnife and WoodenSpoon."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food, likely involving cutting or mixing ingredients, as evidenced by their attention to cooking-related tools.
+2024-10-15 11:33:41,006 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.4
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: AirPurifier_1
+      probability: 0.25
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest focus and is within a reasonable distance from the user. Its high focus count indicates the user is actively observing it, likely for preparation tasks."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon shows substantial focus and is close enough to the user. The user likely intends to use it in conjunction with the KitchenKnife for cooking or mixing."
+    - object: AirPurifier_1
+      reason: "While the AirPurifier_1 is less focused on than the first two objects, it still has a reasonable focus count and proximity. The user may check on its status or adjust settings, indicating a secondary interaction."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - AirPurifier_1
+
+goal_of_the_user: Based on the current predictions and past ones, it is inferred that the user's goal is to prepare a meal or engage in an activity that involves cooking, as indicated by the focus on kitchen tools and proximity to the AirPurifier, possibly for maintaining air quality while cooking.
+2024-10-15 11:43:11,955 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.4
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: AirPurifier_1
+      probability: 0.25
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest focus consistency count (55), is within a reasonable proximity (1.192 meters), and requires a short approach time (approximately 0.99 seconds). These factors make it highly probable that the user intends to interact with it."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon also has a strong focus consistency count (51), is close in proximity (1.258 meters), and has a quick approach time (about 1.05 seconds). This combination indicates a strong likelihood of interaction following the KitchenKnife."
+    - object: AirPurifier_1
+      reason: "While the AirPurifier_1 has a lower focus count (45), it is within a close range (1.462 meters) and has a reasonable approach time (1.37 seconds). Although it does not meet the high threshold of focus, its proximity suggests potential interaction."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - AirPurifier_1
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing food or performing tasks in the kitchen area, given the high focus on kitchen utensils and tools.
+2024-10-15 12:06:49,988 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.4
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ConsoleTable
+      probability: 0.25
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest focus count (55) and proximity count (33), along with a very low distance of 1.192 meters and a quick approach time of 0.994 seconds, making it the most likely object for the user to interact with."
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon has a high focus count (51) and a reasonable proximity count (31), as well as a close distance of 1.258 meters and an approach time of 1.046 seconds. These factors point towards it being a highly probable object for interaction."
+    - object: ConsoleTable
+      reason: "While the ConsoleTable has a slightly lower focus count (52) and proximity count (11), it still remains a viable option due to its proximity and focus consistency, albeit at a greater distance (1.823 meters) and a longer approach time (1.077 seconds)."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - WoodenSpoon
+    - ConsoleTable
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to prepare food or engage in a cooking-related task, as indicated by their focus on kitchen-related items like the KitchenKnife and WoodenSpoon.

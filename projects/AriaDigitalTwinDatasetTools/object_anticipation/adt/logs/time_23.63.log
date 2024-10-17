@@ -1,0 +1,66 @@
+2024-10-17 11:21:45,149 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: RedClock
+      probability: 0.4
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: CoffeeCanisterLarge
+      probability: 0.25
+
+rationale:
+    - object: RedClock
+      reason: The RedClock has the highest focus consistency count (59), indicating that the user has observed it frequently within the past 3 seconds, and its distance (1.625 meters) is well within the proximity threshold, making it highly probable for interaction.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard also shows a strong focus consistency (57 counts) and is within a close distance (1.810 meters), making it a strong candidate for interaction, especially given its relevance in culinary tasks.
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has a respectable focus count (47) and is at a distance (1.951 meters) within proximity. While it has slightly lower focus consistency than the top two, it still meets the criteria and can be relevant to the user’s possible goal of preparing food or drinks.
+
+predicted_interaction_objects:
+    - RedClock
+    - ChoppingBoard
+    - CoffeeCanisterLarge
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing or organizing items in the living room, possibly involving a timeline or schedule (reflected in the focus on the RedClock) and associated tasks such as cooking or serving food (indicated by the attention to the ChoppingBoard and CoffeeCanisterLarge).
+2024-10-17 11:21:47,033 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: RedClock
+      probability: 0.4
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: BlackBarStool_B
+      probability: 0.25
+
+rationale:
+    - object: RedClock
+      reason: The RedClock has the highest focus counts (59), is reasonably close (1.625 meters), and has a low approach time (1.95 seconds). This combination of strong focus, proximity, and quick approach time makes it the most likely object for interaction.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard also shows significant focus counts (57), is within a similar distance (1.810 meters), and has an approach time of 2.10 seconds. These criteria suggest that it is highly probable for the user to interact with, although it slightly trails the RedClock in focus intensity.
+    - object: BlackBarStool_B
+      reason: The BlackBarStool_B exhibits decent focus counts (56) and is reasonably close (1.921 meters) but has a longer approach time (1.38 seconds) than the RedClock. This makes it less likely than the top two but still a probable candidate for interaction.
+
+predicted_interaction_objects:
+    - RedClock
+    - ChoppingBoard
+    - BlackBarStool_B
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to checking the time (indicated by interest in the RedClock) or preparing to do a task involving food preparation (suggested by focus on the ChoppingBoard), potentially in a setting that involves sitting (as indicated by the presence of the BlackBarStool_B).
+2024-10-17 11:25:15,237 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: RedClock
+      probability: 0.4
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: BlackBarStool_B
+      probability: 0.25
+
+rationale:
+    - object: RedClock
+      reason: The RedClock has high focus counts (59) and is within an acceptable distance (1.625 meters), making it a likely candidate for interaction as it meets both focus and distance thresholds.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard also shows significant focus (57) and is within a close distance (1.810 meters). While it is slightly less focused than the RedClock, it meets the required thresholds for focus and distance, making it a strong contender.
+    - object: BlackBarStool_B
+      reason: Although the BlackBarStool_B does not exhibit as high focus counts (56) compared to the previous two objects, it is still within the acceptable distance (1.921 meters) and satisfies the time requirement. It is also frequently observed, indicating potential interest.
+
+predicted_interaction_objects:
+    - RedClock
+    - ChoppingBoard
+    - BlackBarStool_B
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to organize or interact with items in the Living Room. They may be timing or evaluating the objects for functionality (as suggested by the focus on the clock) while also preparing for a task that involves food preparation (related to the presence of the chopping board).

@@ -1,0 +1,44 @@
+2024-09-06 16:25:00,397 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WhiteChair
+      probability: 0.37
+    - object: BlackTablet
+      probability: 0.33
+    - object: ExtendableTable
+      probability: 0.30
+
+rationale:
+    - object: WhiteChair
+      reason: "The WhiteChair has the highest count in both the high focus (87) and nearby objects (58) lists, suggesting the user has spent considerable time observing and being close to it, indicating a strong likelihood of interaction."
+    - object: BlackTablet
+      reason: "The BlackTablet has a high focus count (35) and a nearby count (31), making it a strong candidate for interaction as it reflects both observation and proximity."
+    - object: ExtendableTable
+      reason: "The ExtendableTable has the second-highest focus count (62) and is likely to be a point of interest for the user as they may consider interacting with it for placing or organizing other objects."
+
+predicted_interaction_objects:
+    - WhiteChair
+    - BlackTablet
+    - ExtendableTable
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to organize, rest, or interact with objects in the living room, possibly preparing for a gathering or meal.
+2024-09-06 16:25:00,715 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WhiteChair
+      probability: 0.45
+    - object: BlackCeramicMug
+      probability: 0.30
+    - object: ExtendableTable
+      probability: 0.25
+
+rationale:
+    - object: WhiteChair
+      reason: "The WhiteChair has the highest count (87) in 'high_focus_objects_measured_in_counts', indicating the user has observed it the most intensely. This suggests a strong likelihood of interaction, possibly for seating or placing items."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a considerable focus count of 46, and it is also part of the nearby objects. This combined with its relevance for drinks leads to a high likelihood of interaction."
+    - object: ExtendableTable
+      reason: "The ExtendableTable has a focus count of 62, which, while lower than the WhiteChair, still indicates substantial interest. Its practical use for setting down items or providing a surface may drive the interaction."
+
+predicted_interaction_objects:
+    - WhiteChair
+    - BlackCeramicMug
+    - ExtendableTable
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to either sit down or prepare to have a drink, potentially involving arranging items on the table or enjoying a beverage in the living room.

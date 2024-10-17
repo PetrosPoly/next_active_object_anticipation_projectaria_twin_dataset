@@ -1,0 +1,44 @@
+2024-09-06 16:27:09,448 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: WhiteUtensilTray
+      probability: 0.35
+    - object: WoodenSpoon
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "This object has the highest count of 62 in the 'high_focus_objects_measured_in_counts' list, indicating it received significant attention from the user, suggesting a strong likelihood of interaction."
+    - object: WhiteUtensilTray
+      reason: "With a count of 46 in the 'high_focus_objects_measured_in_counts', this object is also among the most observed, showing a reasonable amount of user focus which hints that the user may want to interact with it next."
+    - object: WoodenSpoon
+      reason: "This object has a notable presence in the 'nearby_objects_measured_in_counts' list with a count of 73, indicating that the user has spent a considerable amount of time near it, suggesting a prospective interaction."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - WhiteUtensilTray
+    - WoodenSpoon
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, likely involving making a drink or dish where they might need the coffee from the canister, utensils from the tray, and mixing or serving tools such as the wooden spoon.
+2024-09-06 16:33:48,172 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Cracker_Anon
+      probability: 0.38
+    - object: WoodenSpoon
+      probability: 0.32
+    - object: WhiteUtensilTray
+      probability: 0.30
+
+rationale:
+    - object: Cracker_Anon
+      reason: "Cracker_Anon has the highest count in the nearby_objects_measured_in_counts list (77), indicating the user spent considerable time close to this object, making it highly likely for interaction."
+    - object: WoodenSpoon
+      reason: "WoodenSpoon has a significant count of 73 in nearby_objects_measured_in_counts, suggesting the user was near it for an extended period and may consider using it for food preparation."
+    - object: WhiteUtensilTray
+      reason: "WhiteUtensilTray has a count of 59 in nearby_objects_measured_in_counts and 46 in high_focus_objects_measured_in_counts, indicating that it captured the user's attention and the user likely needs utensils for the task at hand."
+
+predicted_interaction_objects:
+    - Cracker_Anon
+    - WoodenSpoon
+    - WhiteUtensilTray
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, likely involving using utensils and snacks, as indicated by the interest in the snacks and utensils observed in both focus and proximity counts.

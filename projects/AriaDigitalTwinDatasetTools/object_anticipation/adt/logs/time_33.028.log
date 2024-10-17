@@ -1,0 +1,242 @@
+2024-09-06 01:28:56,167 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: WoodenBowl
+      probability: 0.30
+    - object: CakeMocha_A
+      probability: 0.35
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl had a high focus count of 58, indicating it was observed intensively by the user. This suggests a strong likelihood that the user is considering interacting with it."
+    - object: WoodenBowl
+      reason: "The WoodenBowl also had a significant focus count of 59, making it another strong candidate for interaction due to the user's extended observation."
+    - object: CakeMocha_A
+      reason: "The CakeMocha_A had a focus count of 57, which, while slightly lower than the other two objects, still indicates that it was of considerable interest to the user."
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - WoodenBowl
+    - CakeMocha_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve dishes, possibly involving placing food items into bowls or presenting a dessert, given the focus on bowls and a cake item.
+2024-09-06 01:29:01,004 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.4
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: CakeMocha_A
+      probability: 0.25
+
+rationale:
+    - object: WoodenBowl
+      reason: "The WoodenBowl has the highest count in the 'high_focus_objects_measured_in_counts' list (59), indicating significant user attention. It also has a notable presence in the 'nearby_objects_measured_in_counts' list (36), suggesting the user has spent time near it."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl shares a strong count of 58 in 'high_focus_objects_measured_in_counts', indicating it was observed intensely. Its closeness and attention imply a high likelihood of interaction."
+    - object: CakeMocha_A
+      reason: "CakeMocha_A has a relatively high count of 57 in 'high_focus_objects_measured_in_counts'. Its presence as a focus object, along with its potential proximity, suggests that the user may engage with it, possibly driven by appetite or meal preparation."
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - BlackCeramicBowl
+    - CakeMocha_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely related to preparing or serving food, possibly involving the WoodenBowl and BlackCeramicBowl for ingredients or serving purposes, alongside considering CakeMocha_A as a dessert option.
+2024-09-06 12:38:16,939 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.4
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: CakeMocha_A
+      probability: 0.25
+
+rationale:
+    - object: WoodenBowl
+      reason: "The WoodenBowl has the highest count in the high_focus_objects list (59), indicating significant attention from the user. Additionally, it is also present in the nearby_objects list, suggesting proximity during the user's navigation."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl is also highly observed with a count of 58, placing it among the top attention-grabbing objects. It is likely a candidate for interaction due to its visibility and proximity during user movement."
+    - object: CakeMocha_A
+      reason: "With a count of 57, CakeMocha_A has garnered considerable focus from the user, suggesting that it might be part of their task, especially if food preparation or serving is involved."
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - BlackCeramicBowl
+    - CakeMocha_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely to prepare or serve a dish involving the use of bowls and cake, as indicated by the focus on both the WoodenBowl and BlackCeramicBowl, along with the presence of CakeMocha_A.
+2024-09-06 12:58:14,643 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.30
+    - object: HeatTrivet
+      probability: 0.25
+
+rationale:
+    - object: WoodenBowl
+      reason: "The WoodenBowl has the highest count in the 'high_focus_objects_measured_in_counts' list, indicating that the user has observed it intensively. It also appears in the 'nearby_objects_measured_in_counts' list, suggesting the user has spent time close to it, increasing the likelihood of interaction."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has a high count similar to the WoodenBowl and was among the most observed objects, making it a strong candidate for interaction. Its proximity also means the user could easily grab it if it aligns with their task."
+    - object: HeatTrivet
+      reason: "The HeatTrivet has a slightly lower count but has been measured nearby, which indicates potential interest. It could be relevant for tasks involving food or cooking, supporting a purpose connected to the other high-focus objects."
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - BlackCeramicBowl
+    - HeatTrivet
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, as indicated by the focus on kitchen-related objects, especially bowls and trivet, which suggest food handling scenarios.
+2024-09-06 14:04:29,202 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.4
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: Mango_A
+      probability: 0.25
+
+rationale:
+    - object: WoodenBowl
+      reason: "The WoodenBowl has the highest focus count at 59, indicating it has captured the user's attention more than any other object in the room, suggesting a strong likelihood of interaction."
+    - object: BlackCeramicBowl
+      reason: "With a focus count of 58, the BlackCeramicBowl is also highly observed by the user, indicating they may intend to use it for the task at hand."
+    - object: Mango_A
+      reason: "The Mango_A also has a significant focus count of 58, which indicates that the user is likely considering interacting with it, potentially for food preparation or consumption."
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - BlackCeramicBowl
+    - Mango_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely related to food preparation or serving, as indicated by the high focus on kitchen-related items like bowls and food such as the mango.
+2024-09-06 15:55:30,193 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.30
+    - object: CakeMocha_A
+      probability: 0.25
+
+rationale:
+    - object: WoodenBowl
+      reason: "The WoodenBowl has the highest count in both high focus (59 counts) and nearby measures (36 counts), suggesting that it has drawn significant attention and the user has remained close to it."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl is another object with high focus (58 counts) and has also been observed with considerable nearby interactions, indicating a strong likelihood of interaction."
+    - object: CakeMocha_A
+      reason: "Although not the highest in counts, CakeMocha_A has enough observations (57 counts) and fits the pattern of previous predictions, making it a probable option for interaction as well."
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - BlackCeramicBowl
+    - CakeMocha_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to prepare or serve items related to a meal or snack, likely utilizing the bowls and possibly including the cake as part of their task.
+2024-09-06 15:55:34,404 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.4
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: Mango_A
+      probability: 0.25
+
+rationale:
+    - object: WoodenBowl
+      reason: "The WoodenBowl has the highest count (59) in the focus list, indicating the user has observed it significantly. It is also in the nearby objects list with a count of 36, suggesting they have been close enough for an extended period, making it likely for interaction."
+    - object: BlackCeramicBowl
+      reason: "This object has a high focus count (58) as well, indicating significant observation by the user. Its presence in the nearby objects list further suggests that it is within reach and may be intended for interaction."
+    - object: Mango_A
+      reason: "Mango_A has a focus count of 58, indicating it has been noted prominently by the user. Despite being in high focus, its interaction likelihood is a bit lower than the top two objects, but still significant, especially since fruit options are often intended for use in food preparation."
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - BlackCeramicBowl
+    - Mango_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, likely involving some fruit, bowls for serving or mixing, and possibly combining the ingredients they have observed significantly during their recent activity.
+2024-09-06 16:06:22,460 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: Mango_A
+      probability: 0.30
+    - object: WoodenBowl
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has the highest count in the high focus objects, indicating significant attention from the user, suggesting they might want to interact with it."
+    - object: Mango_A
+      reason: "Mango_A also has a high focus count, making it a strong candidate for interaction, likely related to food preparation or serving."
+    - object: WoodenBowl
+      reason: "WoodenBowl has a considerable presence both in focus and as a nearby object, suggesting the user may need it during their engagement with the other items."
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - Mango_A
+    - WoodenBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to prepare and possibly serve food, likely involving the use of bowls and the mango.
+2024-09-06 16:06:29,691 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.45
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: Mango_A
+      probability: 0.20
+
+rationale:
+    - object: WoodenBowl
+      reason: "The WoodenBowl has the highest count of focus (59) indicating the user has observed it intensively. Its proximity count (36) also suggests a longer stay near it, increasing the likelihood of interaction."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has a high focus count (58) and is one of the top observed objects. Although its proximity is slightly lower than the WoodenBowl, the attention indicated still suggests a strong possibility of interaction."
+    - object: Mango_A
+      reason: "The Mango_A also has a high focus count (58), and the user has previously shown intent to interact with it. Its previous appearances in focus lists highlight a sustained interest."
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - BlackCeramicBowl
+    - Mango_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, possibly involving preparing a mango dish or a salad, given the presence of bowls and the fruit.
+2024-10-17 11:26:48,058 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.4
+    - object: Mango_A
+      probability: 0.35
+    - object: NIT_CoffeeCan_Anon
+      probability: 0.25
+
+rationale:
+    - object: WoodenBowl
+      reason: The WoodenBowl has the highest focus count (59) and a close proximity (1.251 meters), making it a strong candidate. Additionally, the time to approach is only about 1.32 seconds, well under the threshold, indicating a high likelihood of interaction. 
+    - object: Mango_A
+      reason: The Mango_A also has a significant focus count (58) and is relatively near the user (1.423 meters). It meets the distance (under the 2m threshold) and time (1.72 seconds) criteria, marking it as a probable object for interaction.
+    - object: NIT_CoffeeCan_Anon
+      reason: The NIT_CoffeeCan_Anon has a good focus count (53) and is very close to the user (1.265 meters). Although its time to approach (1.738 seconds) just meets the time threshold, its consistent proximity and reasonable focus suggest it is still likely to be interacted with.
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - Mango_A
+    - NIT_CoffeeCan_Anon
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely centered around preparing food or beverages in the living room, possibly involving serving or presenting items such as fruit, snacks, or coffee, while utilizing various ceramic and wooden dishware they are currently focused on.
+2024-10-17 11:26:49,399 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.4
+    - object: NIT_CoffeeCan_Anon
+      probability: 0.35
+    - object: CakeMocha_A
+      probability: 0.25
+
+rationale:
+    - object: WoodenBowl
+      reason: The WoodenBowl has the highest focus count (59) which indicates the user has been actively observing it. It also has a proximity count of 36, suggesting that the user has remained close to it for a longer duration. With a time to approach of approximately 1.32 seconds, it fulfills both the focus and proximity criteria, making it the most likely object for interaction.
+    - object: NIT_CoffeeCan_Anon
+      reason: The NIT_CoffeeCan_Anon shows a high focus count (53) and a considerable proximity count (37), especially considering its close distance (1.27 meters). Although its approach time of 1.74 seconds does not perfectly align with the ideal criteria, its combination of strong focus and proximity makes it a probable choice for the user.
+    - object: CakeMocha_A
+      reason: The CakeMocha_A has a strong focus count (56) and an adequate proximity count (23), although it has a longer time to approach at 1.99 seconds. Even though it does not completely satisfy the time criteria, the high focus makes it a reasonable candidate for user interaction.
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - NIT_CoffeeCan_Anon
+    - CakeMocha_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to prepare or serve food items, possibly involving the use of bowls and cups, while engaging with coffee-related objects, suggesting a context of meal preparation or snack service in the Living Room.

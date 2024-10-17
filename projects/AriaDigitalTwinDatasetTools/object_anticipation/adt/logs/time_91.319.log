@@ -1,0 +1,66 @@
+2024-10-15 11:38:53,570 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: NIT_CoffeeCan_Anon
+      probability: 0.4
+    - object: HeatTrivet
+      probability: 0.35
+    - object: WoodenBowl
+      probability: 0.25
+
+rationale:
+    - object: NIT_CoffeeCan_Anon
+      reason: "This object has the highest focus and proximity counts, indicating that the user is likely to interact with it soon. The proximity ensures that the user is close enough to approach quickly, and the consistent focus suggests intent to use or examine this object."
+    - object: HeatTrivet
+      reason: "Similar to the Coffee Can, the Heat Trivet also has high focus and proximity counts, indicating a likelihood of interaction. Its consistent proximity suggests that the user is considering using it, possibly in conjunction with the Coffee Can."
+    - object: WoodenBowl
+      reason: "While the Wooden Bowl does have useful counts, they are lower than the other two objects. Nonetheless, it still meets the proximity and focus criteria to some extent, making it a possible interaction candidate despite having less compelling evidence compared to the others."
+
+predicted_interaction_objects:
+    - NIT_CoffeeCan_Anon
+    - HeatTrivet
+    - WoodenBowl
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to prepare or serve food or beverages, as indicated by the consistent focus on kitchen-related objects and their sequential approach towards them.
+2024-10-15 11:47:52,328 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: NIT_CoffeeCan_Anon
+      probability: 0.45
+    - object: HeatTrivet
+      probability: 0.35
+    - object: WoodenBowl
+      probability: 0.2
+
+rationale:
+    - object: NIT_CoffeeCan_Anon
+      reason: "The coffee can has the highest focus and proximity counts, along with a reasonable time to approach, indicating that the user has been observing it closely and is likely to interact with it soon."
+    - object: HeatTrivet
+      reason: "The heat trivet also shows high focus and proximity counts along with a short time to approach, making it a strong candidate for interaction as the user may be preparing to place a hot item down."
+    - object: WoodenBowl
+      reason: "Although the wooden bowl has the lowest focus counts among the three, it still shows good proximity and approach time, suggesting that the user may need it soon, likely for holding items."
+
+predicted_interaction_objects:
+    - NIT_CoffeeCan_Anon
+    - HeatTrivet
+    - WoodenBowl
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to prepare or serve food or drink, as indicated by the consistent focus on kitchen-related objects such as the coffee can and heat trivet.
+2024-10-15 12:11:16,236 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: NIT_CoffeeCan_Anon
+      probability: 0.45
+    - object: HeatTrivet
+      probability: 0.35
+    - object: WoodenBowl
+      probability: 0.20
+
+rationale:
+    - object: NIT_CoffeeCan_Anon
+      reason: "This object has the highest focus and proximity counts, indicating it has been consistently observed and the user is very close to it. With an estimated approach time of under 5 seconds, it satisfies all thresholds, suggesting a very high probability of interaction."
+    - object: HeatTrivet
+      reason: "Similar to the Coffee Can, the HeatTrivet has strong focus and proximity counts and is also close in distance to the user. It falls just below ideal thresholds but still presents a solid chance of interaction due to its consistent visibility and proximity."
+    - object: WoodenBowl
+      reason: "While the WoodenBowl has good focus and proximity, it is slightly further away than the other two. However, it remains a strong candidate for interaction based on past observations that suggest a strong likelihood of use in conjunction with the other objects."
+
+predicted_interaction_objects:
+    - NIT_CoffeeCan_Anon
+    - HeatTrivet
+    - WoodenBowl
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to prepare or serve food or beverage in the living room, possibly facilitating a snack or coffee break, considering the consistent attention on kitchen-related items.

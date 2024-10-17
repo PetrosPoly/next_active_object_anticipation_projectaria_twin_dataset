@@ -1,0 +1,44 @@
+2024-10-17 11:12:41,939 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: StepStool
+      probability: 0.6
+    - object: KitchenKnife
+      probability: 0.25
+    - object: ChoppingBoard
+      probability: 0.15
+
+rationale:
+    - object: StepStool
+      reason: The StepStool has the highest counts in both focus (22) and proximity (16), indicating that the user has been observing and approaching it consistently. With a distance of 1.814 meters and a short time to approach (1.639 seconds), it meets all the criteria, making it the most likely object for the user to interact with.
+    - object: KitchenKnife
+      reason: The KitchenKnife has shown consistent focus in previous observations, though its focus counts were not the highest at the last timestamp. Yet, it has a good proximity count and can be a logical choice given its likely use in meal preparation tasks, which is inferred from the context of the living room possibly serving as an extensible kitchen area.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard is another object that has been focused on and approached in past observations. While it doesn't have high focus counts currently, it pairs with the KitchenKnife in food preparation, indicating potential user intentions towards cooking or preparing food.
+
+predicted_interaction_objects:
+    - StepStool
+    - KitchenKnife
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to some cooking or preparation task, as they are consistently focused on objects associated with food preparation in the living room environment. The presence of preparation tools suggests they are preparing to engage in a related culinary activity.
+2024-10-17 11:24:06,307 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: StepStool
+      probability: 0.6
+    - object: ChoppingBoard
+      probability: 0.25
+    - object: WhiteUtensilTray
+      probability: 0.15
+
+rationale:
+    - object: StepStool
+      reason: The StepStool has the highest focus and proximity counts, indicating that the user has been observing it consistently and is very close to it. The time to approach is also short, making it the most probable object for interaction.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has shown up frequently in past predictions and has a reasonable focus and proximity count, though slightly lower than the StepStool. It may be relevant for the current task, especially if the user is preparing food.
+    - object: WhiteUtensilTray
+      reason: The WhiteUtensilTray has previously caught the user's focus and is also a likely candidate for interaction, but it shows lower confidence than the first two options based on current metrics.
+
+predicted_interaction_objects:
+    - StepStool
+    - ChoppingBoard
+    - WhiteUtensilTray
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to reach for higher or out-of-reach items (suggested by the focus on the StepStool) and potentially prepare or organize items in the kitchen workspace (as indicated by the focus on the ChoppingBoard and WhiteUtensilTray).

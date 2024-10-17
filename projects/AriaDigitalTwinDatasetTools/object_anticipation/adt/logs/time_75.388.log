@@ -1,0 +1,44 @@
+2024-09-06 16:27:07,384 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CakeMocha_A
+      probability: 0.4
+    - object: GreenApple_A
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: CakeMocha_A
+      reason: "CakeMocha_A has the highest count (55) in the high_focus_objects_measured_in_counts list, indicating it received the most frequent intense observation, suggesting a strong likelihood of interaction."
+    - object: GreenApple_A
+      reason: "GreenApple_A follows closely with a count of 50, which indicates significant user focus. As a food item, it is plausible that the user may intend to interact with it next."
+    - object: BlackCeramicMug
+      reason: "BlackCeramicMug has a count of 45 and is also a common item that users engage with, especially in the context of consuming food or drinks, making it a likely candidate for interaction."
+
+predicted_interaction_objects:
+    - CakeMocha_A
+    - GreenApple_A
+    - BlackCeramicMug
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or consume a snack or beverage, as indicated by their focus on food items like CakeMocha_A and GreenApple_A, as well as drinkware like the BlackCeramicMug.
+2024-09-06 16:27:08,453 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BambooPlate
+      probability: 0.40
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: GreenApple_A
+      probability: 0.25
+
+rationale:
+    - object: BambooPlate
+      reason: "The BambooPlate has the highest focus count (51), indicating significant user attention and a high likelihood of interaction."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a high focus count (45) and is also present in the nearby objects list, suggesting it's likely that the user is considering using it for a drink."
+    - object: GreenApple_A
+      reason: "The GreenApple_A is a healthy food option with a focus count of 50, indicating a strong chance the user might want to interact with it, possibly for snacking or adding to a meal."
+
+predicted_interaction_objects:
+    - BambooPlate
+    - BlackCeramicMug
+    - GreenApple_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, likely involving the use of the BambooPlate for presentation, and possibly leading to the consumption of a beverage using the BlackCeramicMug and a snack with the GreenApple_A.

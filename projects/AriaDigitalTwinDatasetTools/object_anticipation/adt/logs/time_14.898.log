@@ -1,0 +1,44 @@
+2024-09-06 16:24:49,740 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: DvdRemote_1
+      probability: 0.5
+    - object: TvRemote_1
+      probability: 0.3
+    - object: BlackCeramicDishSmall
+      probability: 0.2
+
+rationale:
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 has the highest nearby count (91) indicating the user spent significant time near it, making it likely they will interact with it."
+    - object: TvRemote_1
+      reason: "TvRemote_1 was previously predicted for interaction and is also near the user, reinforcing its likelihood of being a target for interaction."
+    - object: BlackCeramicDishSmall
+      reason: "BlackCeramicDishSmall has been observed previously and although its current count is lower, it still has relevance based on the user's previous interactions."
+
+predicted_interaction_objects:
+    - DvdRemote_1
+    - TvRemote_1
+    - BlackCeramicDishSmall
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to watch a DVD or content on the TV, as indicated by the focus on remote controls and related objects in the living room.
+2024-09-06 16:24:50,295 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: DvdRemote_1
+      probability: 0.45
+    - object: BlackArmChair
+      probability: 0.35
+    - object: RedWingChair
+      probability: 0.20
+
+rationale:
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 has the highest focus count (91) and is also mentioned as a nearby object. The user has interacted with the remote in previous predictions, indicating a strong likelihood of continued interaction."
+    - object: BlackArmChair
+      reason: "BlackArmChair has a significant high focus count (61) and is also the second-highest in terms of nearby counts (40). The chair's high focus suggests the user may be considering sitting down or adjusting it."
+    - object: RedWingChair
+      reason: "RedWingChair has a high focus count (54) and is in proximity. Its significant observation indicates the user may be contemplating its use as an alternative to the BlackArmChair."
+
+predicted_interaction_objects:
+    - DvdRemote_1
+    - BlackArmChair
+    - RedWingChair
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to relax in the living room, possibly watching television or a movie, which would involve selecting a show or movie using the DvdRemote_1 and potentially choosing a comfortable chair to sit in.

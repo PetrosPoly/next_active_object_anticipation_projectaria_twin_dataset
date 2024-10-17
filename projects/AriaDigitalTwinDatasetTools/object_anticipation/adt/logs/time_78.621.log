@@ -1,0 +1,90 @@
+2024-10-17 11:23:29,816 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: WhiteUtensilTray
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: This object has the highest focus consistency count (91) and is within close proximity (1.140 meters), with a short time to approach of 1.89 seconds. This indicates a strong likelihood of user intent to interact with it promptly.
+    - object: WhiteUtensilTray
+      reason: While it has a slightly lower focus consistency (80), it also has a close distance (1.098 meters) and a low approach time (1.23 seconds), making it likely that the user will engage with this object soon, possibly in preparation for using utensils.
+    - object: BlackCeramicMug
+      reason: Despite being a bit further away (1.549 meters) and having a lower focus count (91 compared to the other objects), it maintains a reasonable approach time (4.25 seconds) and consistently high proximity counts, suggesting that it remains a potential object of interaction.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - WhiteUtensilTray
+    - BlackCeramicMug
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to prepare for a cooking or food-related activity, perhaps involving collecting ingredients and utensils for a cooking process involving the coffee preparation or serving, given the focus on food items and cooking implements.
+2024-10-17 11:23:51,965 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: WhiteUtensilTray
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has the highest focus consistency count (91) and a low time to approach (1.898 seconds), which make it a highly probable candidate for interaction. Its proximity consistency count (43) also reinforces its likelihood.
+      
+    - object: WhiteUtensilTray
+      reason: The WhiteUtensilTray has a strong focus consistency count (80) and meets both the proximity requirement (44) and has a quick access time (1.234 seconds). It stands out as the next most likely object to interact with given these factors.
+      
+    - object: BlackCeramicMug
+      reason: The BlackCeramicMug has a high focus count (91) and a reasonable time to approach (4.252 seconds). While it does not meet the distance threshold as closely as the top two, its consistent focus and proximity (23) suggest that it remains a probable choice for interaction.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - WhiteUtensilTray
+    - BlackCeramicMug
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing or consuming a beverage or meal, given the strong focus on kitchen and dining-related objects.
+2024-10-17 11:28:06,920 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: WhiteUtensilTray
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: This object has the highest focus consistency count (91) and is within a close proximity (1.140 meters) with a low time to approach (1.898 seconds). These factors meet all thresholds, indicating a high likelihood of interaction.
+    - object: WhiteUtensilTray
+      reason: With a focus consistency count of 80 and a proximity count of 44, along with a short time to approach (1.234 seconds), this object meets the distance and time thresholds effectively. It is likely the user is preparing to interact with utensils, which are often needed when using the CoffeeCanister.
+    - object: BlackCeramicMug
+      reason: This object has a focus consistency count of 91, which is significantly high. Although it has a longer distance to the user (1.549 meters) and requires 4.253 seconds to approach, it still meets the focus and distance thresholds, making it a probable candidate for interaction.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - WhiteUtensilTray
+    - BlackCeramicMug
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing a beverage, which involves using the coffee canister, utensils, and a mug, suggesting a scenario of making coffee or a related task in the living room.
+2024-10-17 11:28:49,605 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: WhiteUtensilTray
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: The CoffeeCanisterLarge has the highest focus count (91), a close proximity (1.140 meters), and an approach time of just 1.898 seconds, satisfying all three thresholds. This indicates strong intent from the user to interact with this object.
+    - object: WhiteUtensilTray
+      reason: The WhiteUtensilTray also meets the focus threshold (80 counts), is within a reasonable proximity (1.098 meters), and has a low approach time (1.234 seconds). While it does not have the highest focus counts, its combination of satisfactory proximity and quick approach time places it as the second most likely object for interaction.
+    - object: BlackCeramicMug
+      reason: The BlackCeramicMug shows a high focus count (91), but its proximity (1.549 meters) and approach time (4.253 seconds) are not as favorable as the top two. It still meets the focus threshold and is close enough, making it a probable interaction candidate.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - WhiteUtensilTray
+    - BlackCeramicMug
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing a beverage or meal, as indicated by a focus on kitchen items like canisters, trays, and mugs. This suggests an intention to gather or organize culinary materials for a cooking or serving task.

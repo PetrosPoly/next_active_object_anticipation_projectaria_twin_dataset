@@ -1,0 +1,44 @@
+2024-09-06 16:25:12,424 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: DvdRemote_1
+      probability: 0.4
+    - object: TvRemote_1
+      probability: 0.35
+    - object: BlackCeramicDishSmall
+      probability: 0.25
+
+rationale:
+    - object: DvdRemote_1
+      reason: "The DvdRemote_1 has a high focus count of 66, indicating the user observed it intensely. Additionally, it has a significant presence in the nearby_objects_measured_in_counts list, suggesting the user has been close to it for a considerable amount of time."
+    - object: TvRemote_1
+      reason: "Similar to the DvdRemote_1, the TvRemote_1 also has a focus count of 66 and is listed among the nearby objects. This reflects a strong interest from the user, likely indicating a desire to interact with either or both remotes for entertainment purposes."
+    - object: BlackCeramicDishSmall
+      reason: "The BlackCeramicDishSmall is among the high-focus objects with a count of 52. While its interaction probability is lower than the remotes, the user's attention indicates it may serve a purpose in the near future, possibly as part of arranging or serving items."
+
+predicted_interaction_objects:
+    - DvdRemote_1
+    - TvRemote_1
+    - BlackCeramicDishSmall
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to engage with either the DvdRemote_1 or TvRemote_1, likely to watch content on the TV, with the BlackCeramicDishSmall potentially serving as a surface for placing snacks or other items during their viewing experience.
+2024-09-06 16:25:24,050 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: DvdRemote_1
+      probability: 0.4
+    - object: TvRemote_1
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.25
+
+rationale:
+    - object: DvdRemote_1
+      reason: "The DvdRemote_1 has the highest count (66) in both 'high_focus_objects_measured_in_counts' and 'nearby_objects_measured_in_counts', indicating sustained attention and proximity, suggesting it is very likely to be interacted with."
+    - object: TvRemote_1
+      reason: "Similar to the DvdRemote_1, TvRemote_1 also has a high count (66), reflecting a strong likelihood of interaction as it was closely observed and the user remains in proximity."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has a notable count (38) in 'high_focus_objects_measured_in_counts', and while its proximity count is slightly less, its consistent presence in the user's focus indicates some level of intention to interact."
+
+predicted_interaction_objects:
+    - DvdRemote_1
+    - TvRemote_1
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely to watch something on TV or play a DVD, given the high attention on the remote controls, and possibly setting up or using some items like the BlackCeramicBowl for snacks while engaging with that media.

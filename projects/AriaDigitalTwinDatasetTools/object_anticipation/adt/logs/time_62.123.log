@@ -1,0 +1,88 @@
+2024-10-17 11:23:12,117 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Tomato_A
+      probability: 0.4
+    - object: Flask
+      probability: 0.35
+    - object: CandleDishSmall
+      probability: 0.25
+
+rationale:
+    - object: Tomato_A
+      reason: Tomato_A has the highest focus (67 counts) and a relatively short distance (1.010 meters) to the user, making it highly probable for interaction. The time to approach is also reasonable (4.173 seconds), placing it firmly in the first position.
+    - object: Flask
+      reason: The Flask has significant focus (58 counts) and is also close (1.112 meters). Although the time to approach is longer (40.781 seconds), the strong focus and proximity suggest the user may interact with it next.
+    - object: CandleDishSmall
+      reason: CandleDishSmall demonstrates good focus (59 counts) and closeness (0.856 meters). Its approach time is within limits (1.606 seconds), making it a likely candidate for interaction, particularly given its immediate accessibility and the user's prior focus.
+
+predicted_interaction_objects:
+    - Tomato_A
+    - Flask
+    - CandleDishSmall
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is preparing or arranging items, likely for a meal or decorative purposes, as indicated by a focus on food items (Tomato_A) and related culinary tools (Flask and CandleDishSmall).
+2024-10-17 11:23:18,280 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Tomato_A
+      probability: 0.45
+    - object: Flask
+      probability: 0.30
+    - object: GreenApple_A
+      probability: 0.25
+
+rationale:
+    - object: Tomato_A
+      reason: Tomato_A has the highest focus count (67) and a strong proximity consistency (78), along with a relatively short time to approach (4.17 seconds). This indicates that the user is likely to interact with it.
+    - object: Flask
+      reason: The Flask has a solid focus count (58) and proximity consistency (91), but a longer time to approach (40.78 seconds). Although its time to approach is high, the strong focus and proximity make it the second most likely object for interaction.
+    - object: GreenApple_A
+      reason: GreenApple_A shows a lesser focus count (16) but has good proximity consistency (72) and a very short time to approach (1.88 seconds). This makes it a probable candidate for interaction, despite the focus count being slightly lower.
+
+predicted_interaction_objects:
+    - Tomato_A
+    - Flask
+    - GreenApple_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing or serving food, given the focus on food items such as tomatoes and apples, along with the presence of a flask which may contain a beverage.
+2024-10-17 11:27:39,441 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Tomato_A
+      probability: 0.45
+    - object: Flask
+      probability: 0.35
+    - object: GreenApple_A
+      probability: 0.20
+
+rationale:
+    - object: Tomato_A
+      reason: Tomato_A has the highest focus count (67), excellent proximity (78), and a relatively quick time to approach (4.17 seconds), making it a strong candidate for interaction.
+    - object: Flask
+      reason: The Flask also has a high focus count (58) and proximity (91), though the time to approach is longer (40.78 seconds). However, it still meets the focus and proximity thresholds, suggesting it is likely to be interacted with in the near term.
+    - object: GreenApple_A
+      reason: GreenApple_A exhibits lower focus counts (16) but fairly decent proximity (72) and a very short time to approach (1.89 seconds). While it does not fully meet the focus threshold, its proximity and quick approach time elevate its probability for interaction.
+
+predicted_interaction_objects:
+    - Tomato_A
+    - Flask
+    - GreenApple_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare a meal or snacks, given the focus on food-related items like vegetables and fruits, as indicated by the continual interaction with related objects.
+2024-10-17 11:28:33,960 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: GreenApple_A
+      probability: 0.4
+    - object: Flask
+      probability: 0.35
+    - object: CandleDishSmall
+      probability: 0.25
+
+rationale:
+    - object: GreenApple_A
+      reason: GreenApple_A has the highest focus consistency count (16) and is the closest object at 0.926 meters. It meets the focus and distance thresholds, making it highly probable for interaction.
+    - object: Flask
+      reason: The Flask has substantial focus consistency (58) and is at a moderate distance (1.112 meters). It meets the focus threshold and is within proximity, though the time to approach (40.78 seconds) is high, rendering it slightly less probable than the GreenApple_A.
+    - object: CandleDishSmall
+      reason: CandleDishSmall is another close object (0.856 meters) with a reasonable focus consistency (59). While it does not meet the time threshold, it has both acceptable focus consistency and distance, hence is still probable for interaction.
+
+predicted_interaction_objects:
+    - GreenApple_A
+    - Flask
+    - CandleDishSmall
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare or serve food items, perhaps involving the GreenApple_A and Flask for a healthy drink or meal preparation, while the presence of CandleDishSmall suggests the user may also be considering setting an environment or presentation for their food setup.

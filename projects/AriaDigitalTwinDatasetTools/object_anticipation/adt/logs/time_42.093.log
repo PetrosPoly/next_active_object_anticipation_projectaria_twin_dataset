@@ -1,0 +1,88 @@
+2024-10-15 11:35:30,219 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.4
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has high focus consistency (59 counts) and proximity consistency (91 counts) indicating that the user is likely to interact with it. It also has a favorable time to approach (1.97 seconds), which meets the time threshold."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard also shows strong focus consistency (58 counts) and proximity consistency (91 counts). It has a quick time to approach (1.91 seconds) which aligns with the user's likely interaction patterns."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has moderate focus consistency (39 counts) and strong proximity consistency (91 counts). Although it has a shorter time to approach (0.91 seconds), it may not be the primary target based on lower focus counts compared to the KitchenKnife and ChoppingBoard."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - ChoppingBoard
+    - BlackCeramicMug
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing food, as the focus is on kitchen tools and utensils such as the KitchenKnife and ChoppingBoard, suggesting they are involved in a cooking or food preparation task.
+2024-10-15 11:45:10,285 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: KitchenKnife
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: "ChoppingBoard has the highest focus count (58), is within a close distance (1.014 meters), and has a quick approach time (approximately 1.91 seconds), satisfying all thresholds."
+    - object: KitchenKnife
+      reason: "KitchenKnife also shows a high focus count (59) and is within a close distance (0.998 meters), with a fast approach time (approximately 1.97 seconds), meeting both focus and distance criteria effectively."
+    - object: BlackCeramicMug
+      reason: "BlackCeramicMug has a decent focus count (39) and is the closest object (0.789 meters), with an approach time of approximately 0.91 seconds, making it a probable interaction considering the proximity threshold."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - KitchenKnife
+    - BlackCeramicMug
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely focused on food preparation activities, potentially involving chopping ingredients and preparing a meal or beverage.
+2024-10-15 12:08:08,039 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: KitchenKnife
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has high focus consistency (58 counts) and a proximity consistency of 91 counts, indicating the user frequently observes and remains close to it. It also has a short approach time of about 1.9 seconds, meeting both focus and distance thresholds."
+    - object: KitchenKnife
+      reason: "The KitchenKnife shows strong focus consistency (59 counts) and is very close to the user (0.998 meters). It has a reasonable approach time of about 1.97 seconds, satisfying the distance and time thresholds, making it a likely object for interaction."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has consistent proximity counts (91 counts) and is also close to the user (0.789 meters). Although the focus counts are lower (39 counts), the proximity indicates it may still be a probable object for interaction."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - KitchenKnife
+    - BlackCeramicMug
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal may involve preparing food or beverages, as they have shown consistent interest in the ChoppingBoard and KitchenKnife, which are essential for such tasks. The presence of the BlackCeramicMug suggests a potential desire to prepare drinks.
+2024-10-17 11:26:46,484 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: The MuffinPan has the highest focus count (72) and also satisfies the proximity count (91), which suggests the user has been observing it closely and has been near it for an extended period. While the time-to-approach exceeds the threshold, its strong presence in focus and proximity ensures it remains the most likely object to interact with.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has a focus count of 58 and a proximity count of 91, making it a strong candidate. It falls within the proximity consistency and focus thresholds, strengthening the probability of interaction, while the time to approach is just above the threshold, keeping it a high priority.
+    - object: BlackCeramicMug
+      reason: With a focus count of 39 and a proximity count of 91, the BlackCeramicMug meets the distance and proximity thresholds but not the time threshold. Despite this, its consistent attention suggests it might be relevant for the user's task, thus retaining a reasonable chance of interaction.
+
+predicted_interaction_objects:
+    - MuffinPan
+    - ChoppingBoard
+    - BlackCeramicMug
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing or serving food, particularly baking or potentially making a beverage, given the emphasis on items like the MuffinPan and BlackCeramicMug.

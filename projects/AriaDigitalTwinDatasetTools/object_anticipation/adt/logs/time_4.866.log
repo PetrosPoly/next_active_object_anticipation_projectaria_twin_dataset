@@ -1,0 +1,374 @@
+2024-09-26 10:25:45,025 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.3
+    - object: WoodenFork
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has the highest count (91), indicating it has received significant attention from the user, suggesting a strong intention to interact with it."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard, while having a high nearby count (30), also has a count of 91 in high focus, indicating that the user has been near it and observed it for enough time to consider it for interaction."
+    - object: WoodenFork
+      reason: "The WoodenFork is another object with a high focus count (91) and is likely to be used in conjunction with other kitchen items during food preparation, making it a probable choice for interaction."
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - ChoppingBoard
+    - WoodenFork
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food or serve a meal, which is suggested by their focus on kitchenware and food items observed in the living room.
+2024-10-01 00:33:37,749 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.30
+    - object: WoodenFork
+      probability: 0.20
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has the highest count of 91 in the high focus objects, indicating the user has observed it intensely and may want to interact with it."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard, although it has a count of 30, is also noted in both high focus and nearby counts, suggesting it holds a potential significance for the user's activity."
+    - object: WoodenFork
+      reason: "The WoodenFork has a high focus count of 91, suggesting that the user may have considered it for use, even if they are not as close to it at the moment."
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - ChoppingBoard
+    - WoodenFork
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is likely to prepare or serve food, involving the use of the BlackCeramicBowl for holding ingredients or a dish, along with the ChoppingBoard for chopping or preparing items, and the WoodenFork as a utensil for serving or mixing.
+2024-10-01 21:56:09,235 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.30
+    - object: WoodenFork
+      probability: 0.35
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has the highest count (91) in the 'high_focus_objects_measured_in_counts' list, indicating that the user has focused on it the most within the given time window, suggesting a strong likelihood of interaction."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard appears in the 'nearby_objects_measured_in_counts' list with a count of 30, indicating that the user has spent a notable amount of time close to it, thereby increasing the chance of interaction."
+    - object: WoodenFork
+      reason: "The WoodenFork also has a significant count (91) in the 'high_focus_objects_measured_in_counts' list, pointing to a strong interest by the user, making it another likely candidate for interaction."
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - ChoppingBoard
+    - WoodenFork
+
+goal_of_the_user: Based on current predictions and the past ones from the list, I assume that the goal of the user is likely to prepare or serve food, given the emphasis on kitchenware and food-related objects like the BlackCeramicBowl, ChoppingBoard, and WoodenFork.
+2024-10-07 21:07:04,066 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.45
+    - object: Mango_A
+      probability: 0.35
+    - object: WoodenFork
+      probability: 0.20
+
+rationale:
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has the highest focus count and a relatively low distance, indicating that the user has been observing it intently. It fulfills both focus and proximity criteria effectively, making it the most likely candidate for interaction."
+    - object: Mango_A
+      reason: "The Mango_A has a significant focus count and is at a close distance to the user. While it doesn't meet the time threshold, it satisfies the focus and distance criteria, suggesting that the user may be interested in interacting with it soon."
+    - object: WoodenFork
+      reason: "The WoodenFork is in close proximity and has a decent focus count. Although it does not have as high a focus as the first two objects, it still meets the distance criteria, making it a probable candidate for interaction."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - Mango_A
+    - WoodenFork
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to prepare food or serve a dish, given the high interaction possibilities around kitchen-related objects like the ChoppingBoard, Mango, and WoodenFork.
+2024-10-07 22:03:05,633 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.45
+    - object: WoodenFork
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.20
+
+rationale:
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has the highest focus count (91) along with a relatively close distance (1.529), making it a prime candidate for interaction as it satisfies both focus and proximity thresholds."
+    - object: WoodenFork
+      reason: "The WoodenFork meets the focus threshold (91 counts) and has a close distance (1.739). It falls just under the time threshold but is likely relevant in a sequence involving the ChoppingBoard."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has a strong focus count (91) but is slightly less favorable due to its distance (1.925), making it a probable choice for interaction due to high focus despite not meeting the time threshold."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - WoodenFork
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to food preparation or serving, as the predicted objects are commonly associated with tasks involving cutting, mixing, or presenting food.
+2024-10-08 00:32:34,479 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: WoodenFork
+      probability: 0.35
+    - object: BlackCeramicDishLarge
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has the highest focus count (91), indicating that the user has been observing it extensively. Additionally, it has a relatively close distance of 1.529 meters and meets the time threshold, making it a strong candidate for interaction."
+    - object: WoodenFork
+      reason: "The WoodenFork checks both the proximity and time thresholds with a distance of 1.739 meters and has a focus count of 91. This indicates potential interest by the user, suggesting they might interact with it soon."
+    - object: BlackCeramicDishLarge
+      reason: "While the BlackCeramicDishLarge has a high focus count (91), it is positioned slightly further away at 1.932 meters. However, it meets the focus threshold, making it a possible choice, albeit slightly less likely compared to the first two objects."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - WoodenFork
+    - BlackCeramicDishLarge
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing food or serving, as evidenced by the interaction with kitchenware and dining items in the living room context.
+2024-10-15 11:07:23,478 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: WoodenFork
+      probability: 0.35
+    - object: Mango_A
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has the highest proximity consistency count and demonstrates a low time to approach, making it highly probable that the user intends to interact with it."
+    - object: WoodenFork
+      reason: "The WoodenFork meets the distance and time thresholds while exhibiting significant focus consistency, indicating a strong likelihood of interaction as it could be needed alongside the ChoppingBoard."
+    - object: Mango_A
+      reason: "The Mango_A shows considerable focus consistency and proximity, and while it does not meet the time threshold, its proximity suggests it could be a likely candidate for interaction in conjunction with other objects."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - WoodenFork
+    - Mango_A
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is to prepare food, potentially involving cutting or mixing ingredients, as indicated by their interest in the ChoppingBoard and WoodenFork.
+2024-10-15 11:33:20,073 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: WoodenFork
+      probability: 0.35
+    - object: Mango_A
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has the highest focus and proximity counts (91 and 30 respectively), along with the shortest time to approach (1.42 seconds), making it the most likely object for the user to interact with."
+    - object: WoodenFork
+      reason: "The WoodenFork has strong focus counts (91) and a significant proximity count (17) but longer time to approach (2.13 seconds). It meets the focus threshold and reflects the user's intention to interact subsequently."
+    - object: Mango_A
+      reason: "The Mango_A shows high focus (86 counts) and is relatively close (1.77 meters), with an acceptable time to approach (2.25 seconds). Although it slightly lags in distance counts, its focus and good proximity make it a relevant candidate."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - WoodenFork
+    - Mango_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to prepare food or a dish, as evidenced by the presence of kitchen-related objects such as the ChoppingBoard and WoodenFork, alongside the Mango, which indicates they might be in the process of cooking or preparing a meal.
+2024-10-15 11:42:53,686 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: BlackCeramicDishLarge
+      probability: 0.35
+    - object: WoodenFork
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has the highest focus consistency (91 counts) and a reasonable proximity consistency (30 counts). Additionally, it has the shortest time to approach (1.42 seconds), making it the most likely object for the user to interact with."
+    - object: BlackCeramicDishLarge
+      reason: "The BlackCeramicDishLarge also shows high focus consistency (91 counts). While it has a slightly longer time to approach (2.40 seconds), it remains a strong candidate due to its proximity with 4 counts and its overall high focus on the user."
+    - object: WoodenFork
+      reason: "The WoodenFork, with a focus count of 91 and a proximity count of 14, meets the focus and proximity thresholds, even though it is slightly less favored than the first two options. It has a time to approach of 2.13 seconds, indicating reasonable accessibility."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - BlackCeramicDishLarge
+    - WoodenFork
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to prepare food or a meal, indicated by the focus on kitchenware and items associated with food preparation.
+2024-10-15 12:06:39,014 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: WoodenFork
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has the highest focus counts (91) and strong proximity counts (30), with a time to approach below the threshold. This indicates the user likely intends to interact with it soon."
+    - object: WoodenFork
+      reason: "The WoodenFork meets the time threshold and has high focus (91) and proximity counts (14). This suggests that the user is both interested in and close to this object, making it a strong candidate for interaction."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl has significant focus counts (91) and is within a reasonable distance, but isn’t as proximal as the top two objects. It still remains a plausible choice due to its consistent attention from the user."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - WoodenFork
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely centered around preparing and serving food, as indicated by their interaction with objects typically associated with culinary tasks.
+2024-10-16 17:36:05,979 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: WoodenFork
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has the highest proximity count (30) and meets the time threshold for approach (1.42 seconds), indicating that the user is likely to interact with it soon while preparing food.
+    - object: WoodenFork
+      reason: The WoodenFork meets both the time threshold (2.12 seconds) and has a significant proximity count (17), suggesting that it's a likely candidate for interaction as the user prepares or serves food.
+    - object: BlackCeramicBowl
+      reason: Although it matches the focus and proximity thresholds well, it slightly misses the time threshold. However, its high focus count (91) signals that the user has been observing it closely, making it a probable interaction choice.
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - WoodenFork
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing or serving food in the Living Room, as indicated by their focus on kitchen-oriented items like the ChoppingBoard and WoodenFork.
+2024-10-16 23:51:12,046 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: WoodenFork
+      probability: 0.35
+    - object: Mango_A
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: The ChoppingBoard meets the time threshold and has high focus and proximity counts, indicating the user is likely preparing to use it for a task involving cutting or preparing food.
+    - object: WoodenFork
+      reason: The WoodenFork also meets the time threshold and has significant focus and proximity counts, suggesting that the user may plan to use it in conjunction with the ChoppingBoard, possibly for serving or eating.
+    - object: Mango_A
+      reason: The Mango_A comes close to meeting the time threshold and has high focus consistency, indicating the user is likely considering it for a recipe or as a snack, though it might not be the immediate priority.
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - WoodenFork
+    - Mango_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to prepare and possibly serve food, likely involving fruits or ingredients that need cutting and serving tools.
+2024-10-17 11:20:45,925 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: WoodenFork
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has the highest focus counts (91) and also has a good proximity count (30) while being well within the time to approach threshold (1.42 seconds). This combination suggests that the user is likely to interact with it soon.
+    - object: WoodenFork
+      reason: The WoodenFork has high focus counts (91) and a relatively short time to approach (2.13 seconds). Although it has lower proximity consistency (17 counts), the focus counts and time suggest the user may still pick it up for an interaction.
+    - object: BlackCeramicBowl
+      reason: The BlackCeramicBowl meets the focus criterion well (91 counts) and remains close (1.92 meters), but the time to approach (2.39 seconds) slightly limits its likelihood. Nonetheless, the high focus counts indicate interest and potential interaction.
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - WoodenFork
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing or serving food, indicating they are in the kitchen or living space setting to accomplish a meal-related task.
+2024-10-17 11:20:46,145 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: WoodenFork
+      probability: 0.35
+    - object: Mango_A
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has the highest focus count (91) and a short time to approach (1.42 seconds), easily satisfying all thresholds. Its proximity count is also considerable, indicating it is likely central to the user's task.
+    - object: WoodenFork
+      reason: The WoodenFork has a high focus count (91) and a competitive time to approach (2.13 seconds). While it didn't have quite as high proximity counts as the ChoppingBoard, it meets both distance and focus criteria, making it very likely the user will interact with it next.
+    - object: Mango_A
+      reason: The Mango_A has a strong focus count (86) and is relatively close (1.765 meters), but it barely meets the time threshold (2.25 seconds). Its consistent proximity suggests that it is on the user's mind for potential interaction, but it ranks slightly lower than the other two.
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - WoodenFork
+    - Mango_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to prepare food, likely involving cutting and preparing ingredients with the ChoppingBoard and WoodenFork, while the Mango may be a fruit they intend to use in their dish.
+2024-10-17 11:24:24,657 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: WoodenFork
+      probability: 0.35
+    - object: Mango_A
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has the highest count for proximity (30 counts) and a quick approach time (1.42 seconds), indicating that the user is very close to it and likely focuses on it frequently. It also meets both distance and time thresholds.
+    - object: WoodenFork
+      reason: The WoodenFork has a strong proximity count (17 counts) and a reasonable approach time (2.12 seconds). While it has a slightly lower focus consistency compared to the ChoppingBoard, it still meets the distance and time criteria, making it a likely candidate for interaction.
+    - object: Mango_A
+      reason: The Mango_A has a good focus count (86 counts) and a proximity count (13 counts) but falls short in the time threshold (2.25 seconds). However, it is close enough and has substantial focus, suggesting that it could be the next most likely object the user intends to interact with.
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - WoodenFork
+    - Mango_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing or serving food, as indicated by the consistent focus on kitchen-related objects such as the ChoppingBoard, WoodenFork, and Mango.
+2024-10-17 11:25:25,351 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: WoodenFork
+      probability: 0.35
+    - object: Mango_A
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has the highest counts in focus (91), is within a close distance (1.529 meters), and has a short time to approach (1.42 seconds), making it the most likely candidate for interaction as it satisfies all the thresholds.
+    - object: WoodenFork
+      reason: The WoodenFork shows consistent focus (91 counts), is relatively close (1.739 meters), and has a reasonable time to approach (2.13 seconds). It meets the focus and distance criteria very well, indicating a high probability of interaction.
+    - object: Mango_A
+      reason: Although Mango_A has slightly lower focus counts (86) compared to ChoppingBoard and WoodenFork, it’s still within close proximity (1.765 meters) and the time to reach it is fast (2.25 seconds), placing it as a probable candidate despite not meeting the time threshold as effectively.
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - WoodenFork
+    - Mango_A
+
+goal_of_the_user: Based on the current predictions, it can be inferred that the user's goal is likely to prepare food or engage in cooking activities, likely involving the preparation of fresh ingredients (Mango_A) and the use of cooking tools (ChoppingBoard and WoodenFork).
+2024-10-17 11:25:25,351 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: WoodenFork
+      probability: 0.35
+    - object: Mango_A
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has the highest counts in focus (91), is within a close distance (1.529 meters), and has a short time to approach (1.42 seconds), making it the most likely candidate for interaction as it satisfies all the thresholds.
+    - object: WoodenFork
+      reason: The WoodenFork shows consistent focus (91 counts), is relatively close (1.739 meters), and has a reasonable time to approach (2.13 seconds). It meets the focus and distance criteria very well, indicating a high probability of interaction.
+    - object: Mango_A
+      reason: Although Mango_A has slightly lower focus counts (86) compared to ChoppingBoard and WoodenFork, it’s still within close proximity (1.765 meters) and the time to reach it is fast (2.25 seconds), placing it as a probable candidate despite not meeting the time threshold as effectively.
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - WoodenFork
+    - Mango_A
+
+goal_of_the_user: Based on the current predictions, it can be inferred that the user's goal is likely to prepare food or engage in cooking activities, likely involving the preparation of fresh ingredients (Mango_A) and the use of cooking tools (ChoppingBoard and WoodenFork).

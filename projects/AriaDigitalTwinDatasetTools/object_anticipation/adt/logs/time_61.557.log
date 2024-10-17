@@ -1,0 +1,66 @@
+2024-10-17 11:23:02,405 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Flask
+      probability: 0.4
+    - object: CandleDishSmall
+      probability: 0.35
+    - object: Tomato_A
+      probability: 0.25
+
+rationale:
+    - object: Flask
+      reason: The Flask meets all thresholds with high focus (55 counts), proximity (91 counts), and a reasonable approach time (5.38 seconds), making it the most likely object for interaction.
+    - object: CandleDishSmall
+      reason: The CandleDishSmall also meets the proximity (56 counts) and focus (42 counts) thresholds while only partially missing the time threshold (1.74 seconds), indicating the user may have observed it and spent time near it, suggesting potential interaction.
+    - object: Tomato_A
+      reason: The Tomato_A shows good focus (50 counts) and proximity (61 counts), but does not meet the time threshold. Its presence in the space suggests the user is likely to consider interacting with it due to its close proximity and attention.
+
+predicted_interaction_objects:
+    - Flask
+    - CandleDishSmall
+    - Tomato_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing food or drinks, given the attentiveness to kitchen items such as the Flask and Tomato_A, along with the decorated space involving the CandleDishSmall for potential serving or ambiance purposes.
+2024-10-17 11:23:18,955 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Flask
+      probability: 0.4
+    - object: CandleDishSmall
+      probability: 0.35
+    - object: CakeMocha_A
+      probability: 0.25
+
+rationale:
+    - object: Flask
+      reason: The Flask has the highest focus count (55), is closely located (1.171 meters), and has a low approach time (5.38 seconds). It satisfies all thresholds, making it the most probable object of interaction.
+    - object: CandleDishSmall
+      reason: The CandleDishSmall has a focus count of 42, is within close proximity (0.956 meters), and a short approach time (1.74 seconds). It satisfies the focus and distance thresholds, positioning it as the next likely candidate.
+    - object: CakeMocha_A
+      reason: The CakeMocha_A, with a focus count of 39 and a proximity of 1.076 meters, does not meet the time threshold but has relevant focus and distance, making it a probable choice for interaction.
+
+predicted_interaction_objects:
+    - Flask
+    - CandleDishSmall
+    - CakeMocha_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to prepare or serve a meal or a drink, as suggested by the presence of the Flask and food-related items such as the CakeMocha_A and Cereal_Anon. Their behaviors indicate they may be setting a table or preparing snacks or drinks in the living room context.
+2024-10-17 11:27:35,272 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Flask
+      probability: 0.4
+    - object: CandleDishSmall
+      probability: 0.35
+    - object: Tomato_A
+      probability: 0.25
+
+rationale:
+    - object: Flask
+      reason: The Flask has a high focus count of 55, good proximity consistency with a count of 91, and a reasonable approach time of 5.38 seconds. This indicates that the user has likely been closely observing and moving towards it, making it the most probable choice for interaction.
+    - object: CandleDishSmall
+      reason: The CandleDishSmall shows a strong focus count of 42 and proximity consistency of 56, along with the shortest approach time at 1.74 seconds. This indicates that the user is both focusing on and nearing this object, suggesting they may want to interact with it next.
+    - object: Tomato_A
+      reason: The Tomato_A has a good focus count of 50 and decent proximity consistency of 61. Although it has a longer approach time of 3.01 seconds, the high focus score indicates that this object is still likely to be of interest to the user.
+
+predicted_interaction_objects:
+    - Flask
+    - CandleDishSmall
+    - Tomato_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare food or set up a meal in the living room, potentially involving ingredients or items that enhance dining, such as beverages from the Flask and decorative elements like the CandleDishSmall.

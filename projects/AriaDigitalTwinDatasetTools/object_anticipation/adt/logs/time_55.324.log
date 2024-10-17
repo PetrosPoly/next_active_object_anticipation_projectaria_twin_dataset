@@ -1,0 +1,22 @@
+2024-10-17 11:12:20,939 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CandleDishSmall
+      probability: 0.4
+    - object: BlackCeramicDishSmall
+      probability: 0.35
+    - object: GreenApple_A
+      probability: 0.25
+
+rationale:
+    - object: CandleDishSmall
+      reason: This object has the highest focus count (68), is within a close proximity (1.794 meters), and has a reasonable approach time (2.214 seconds). These factors combined suggest the user is highly focused on this object and likely to interact with it soon.
+    - object: BlackCeramicDishSmall
+      reason: The BlackCeramicDishSmall has a strong focus count (62), is very close in distance (1.807 meters), and also has a suitable approach time (2.079 seconds). This indicates that while it may not have the absolute highest focus, its proximity and approach time make it a likely candidate for interaction.
+    - object: GreenApple_A
+      reason: Although its focus count (56) is lower than the above objects, it is still within good proximity (1.860 meters) and possesses a reasonable time to approach (2.468 seconds). While it does not meet all thresholds ideally, its focus and proximity suggest it remains a probable object for interaction.
+
+predicted_interaction_objects:
+    - CandleDishSmall
+    - BlackCeramicDishSmall
+    - GreenApple_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing or arranging items within the living room, possibly for decoration or a social gathering, as indicated by the focus on dishes and decorative elements like candle dishes.

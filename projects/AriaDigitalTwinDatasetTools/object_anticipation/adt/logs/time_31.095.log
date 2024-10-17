@@ -1,0 +1,110 @@
+2024-10-08 00:37:57,626 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Jam_Anon
+      probability: 0.4
+    - object: MuffinPan
+      probability: 0.35
+    - object: KitchenKnife
+      probability: 0.25
+
+rationale:
+    - object: Jam_Anon
+      reason: "Jam_Anon has the highest focus count (74) and is within proximity. It has shown significant interest from the user in the recent past as indicated by its presence in the 'previous_predictions' list."
+    - object: MuffinPan
+      reason: "MuffinPan also has a high focus count (66) and is easily accessible based on the quick access time. It is likely that the user will want to use it in conjunction with Jam_Anon."
+    - object: KitchenKnife
+      reason: "KitchenKnife shows a good balance of focus (69 counts) and proximity, although it is slightly less prioritized than the first two objects. It is a common tool used during food preparation which fits with the user's likely goals."
+
+predicted_interaction_objects:
+    - Jam_Anon
+    - MuffinPan
+    - KitchenKnife
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing or serving food, potentially involving making a dish that includes jam and baked goods, as indicated by the repeated focus on the Jam_Anon and MuffinPan.
+2024-10-17 11:21:47,415 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.4
+    - object: Jam_Anon
+      probability: 0.35
+    - object: WoodenSpoon
+      probability: 0.25
+
+rationale:
+    - object: KitchenKnife
+      reason: The KitchenKnife has a high count in focus (69) and proximity (91), with a reasonable time to approach (9.81 seconds). It is positioned within a 2-meter distance threshold, making it highly probable for interaction.
+    - object: Jam_Anon
+      reason: The Jam_Anon shows a high focus count (74) and proximity count (91) as well, with a slightly higher time to approach (20.86 seconds). Despite the longer approach time, the significant focus and proximity values indicate a strong likelihood of being the next object of interaction.
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has a lower focus count (30) but meets the proximity (91) and has a short time to approach (1.66 seconds). This makes it a probable candidate for interaction based on proximity despite its lower focus count.
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - Jam_Anon
+    - WoodenSpoon
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare a dish, potentially involving the use of cooking tools such as the KitchenKnife, as well as an ingredient like Jam_Anon, suggesting they may be making something involving spreads or toppings. The presence of the WoodenSpoon further emphasizes the cooking or mixing phase of their task.
+2024-10-17 11:21:50,904 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.35
+    - object: Jam_Anon
+      probability: 0.30
+    - object: WoodenSpoon
+      probability: 0.35
+
+rationale:
+    - object: KitchenKnife
+      reason: The KitchenKnife has the highest focus counts (69) and is in close proximity (1.331 meters) with a reasonable time to approach (9.81 seconds). These attributes indicate a high likelihood of interaction due to the combined focus and proximity.
+    - object: Jam_Anon
+      reason: Jam_Anon shows strong focus consistency (74 counts) and is very close (0.814 meters), leading to a likely interaction. While the time to approach is higher (20.86 seconds), the strong focus suggests that the user is considering this object actively.
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has moderate focus (30 counts) and is quite close (0.679 meters) with a short time to approach (1.66 seconds). This makes it a probable candidate for interaction, especially given the typical use of a spoon in conjunction with other kitchen items.
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - Jam_Anon
+    - WoodenSpoon
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare or process food, as the selected objects are commonly used in food preparation tasks. The consistent focus on cooking utensils suggests the user is engaged in a culinary activity, such as making a dish that potentially involves ingredients stored with the Jam_Anon and using the KitchenKnife for slicing or cutting.
+2024-10-17 11:25:56,464 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Jam_Anon
+      probability: 0.4
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: KitchenKnife
+      probability: 0.25
+
+rationale:
+    - object: Jam_Anon
+      reason: Jam_Anon has the highest focus consistency (74 counts) and is within an appropriate distance (0.814 meters) for interaction. It also has a relatively higher proximity count (91), indicating the user has spent considerable time near it, making it highly probable for user interaction.
+    - object: WoodenSpoon
+      reason: WoodenSpoon meets the focus threshold with 30 counts, is close by (0.679 meters), and has a proximity count of 91. While the focus is just on the threshold, the combination of proximity and quick time to approach (1.656 seconds) supports its likelihood for interaction.
+    - object: KitchenKnife
+      reason: KitchenKnife has a sufficiently high focus count (69) and is within a suitable distance to approach (1.331 meters). The time to approach (9.81 seconds) is longer, but it satisfies both focus and distance thresholds, making it a predicted candidate despite the time consideration.
+
+predicted_interaction_objects:
+    - Jam_Anon
+    - WoodenSpoon
+    - KitchenKnife
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to food preparation or cooking, as indicated by the focus on kitchen items such as jam, utensils, and knives.
+2024-10-17 11:27:05,049 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Jam_Anon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.3
+    - object: MuffinPan
+      probability: 0.35
+
+rationale:
+    - object: Jam_Anon
+      reason: Jam_Anon has the highest focus count (74) and proximity count (91), indicating that the user is likely observing this object intently and is very close to it. With a time to approach of 20.86 seconds, it slightly exceeds the time threshold but remains highly probable due to strong focus and proximity scores.
+    - object: ChoppingBoard
+      reason: ChoppingBoard has significant focus (70) and proximity counts (91). Although its time to approach (9.48 seconds) also exceeds the threshold, its overall high focus and proximity metrics suggest the user is planning an interaction with this object.
+    - object: MuffinPan
+      reason: MuffinPan shows strong focus consistency (66) and high proximity counts (91). It does have a longer time to approach (18.21 seconds), which is above the threshold, yet its other metrics support its selection as a probable interaction object.
+
+predicted_interaction_objects:
+    - Jam_Anon
+    - ChoppingBoard
+    - MuffinPan
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to prepare food or bake, likely making a dish that requires the use of these objects, particularly involving jam and baked goods.

@@ -1,0 +1,88 @@
+2024-10-17 11:25:02,490 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.4
+    - object: BlackCeramicDishLarge
+      probability: 0.35
+    - object: WoodenBowl
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: The BlackCeramicBowl has the highest focus consistency count (83), is sufficiently close (1.914 meters), and requires a short approach time (2.535 seconds), satisfying all thresholds.
+    - object: BlackCeramicDishLarge
+      reason: The BlackCeramicDishLarge also has a high focus consistency (83), is close (1.921 meters), and has a reasonable approach time (2.541 seconds), indicating a high likelihood of interaction, meeting all thresholds as well.
+    - object: WoodenBowl
+      reason: While the WoodenBowl has a lower focus consistency (51), it is within the distance threshold (1.731 meters) and is the next best option given that its approach time (3.567 seconds) is slightly above the threshold.
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - BlackCeramicDishLarge
+    - WoodenBowl
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing or serving food, as indicated by the repeated focus on kitchenware and food items such as the bowls and dishes.
+2024-10-17 11:25:25,833 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.4
+    - object: BlackCeramicDishLarge
+      probability: 0.35
+    - object: WoodenBowl
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: The BlackCeramicBowl has the highest focus count (83) and meets the proximity and time thresholds, making it the most probable object for interaction. The sustained focus indicates the user has been observing it closely.
+    - object: BlackCeramicDishLarge
+      reason: The BlackCeramicDishLarge also has a high focus count (83) and meets the proximity and time thresholds closely. This suggests it is likely that the user is considering it for interaction based on previous behavior.
+    - object: WoodenBowl
+      reason: The WoodenBowl has a moderate focus count (51) but meets the distance and time thresholds. Although its focus is slightly lower, its proximity suggests it’s still a strong candidate for interaction.
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - BlackCeramicDishLarge
+    - WoodenBowl
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing or serving food, as indicated by their consistent interaction with bowls and dishes in the living room.
+2024-10-17 11:28:42,341 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.4
+    - object: BlackCeramicDishLarge
+      probability: 0.35
+    - object: BlackCeramicDishSmall
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: The BlackCeramicBowl has the highest focus consistency count of 83, meets the distance threshold at 1.914 meters, and also has a time to approach of approximately 2.54 seconds, which satisfies all thresholds. This combination indicates a high likelihood of interaction.
+    - object: BlackCeramicDishLarge
+      reason: The BlackCeramicDishLarge has a focus consistency count of 83 and is within the proximity threshold at a distance of 1.921 meters. Its time to approach is around 2.54 seconds. Although it has slightly lower focus than the BlackCeramicBowl, it still meets critical criteria for being a likely candidate for interaction.
+    - object: BlackCeramicDishSmall
+      reason: The BlackCeramicDishSmall also has a strong focus count of 83 and a distance of 1.916 meters. While it doesn’t meet the time threshold perfectly, its proximity and focus suggest a strong chance of interaction as the user is close and has been observing it consistently.
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - BlackCeramicDishLarge
+    - BlackCeramicDishSmall
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare or serve food using bowls and dishes, as they are consistently focusing on these objects. The pattern of their interactions suggests they may be involved in some culinary task or meal preparation.
+2024-10-17 11:29:18,739 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.4
+    - object: BlackCeramicDishLarge
+      probability: 0.35
+    - object: BlackCeramicDishSmall
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: The BlackCeramicBowl has the highest focus count (83) and meets the distance (1.914m) and time (2.535s) thresholds, making it the highest probability candidate for interaction.
+    - object: BlackCeramicDishLarge
+      reason: The BlackCeramicDishLarge has a strong focus count (83) and is also within a reasonable distance (1.921m). While its time to approach (2.541s) is slightly above the threshold, the combined factors of focus and distance suggest it is still likely to be interacted with.
+    - object: BlackCeramicDishSmall
+      reason: The BlackCeramicDishSmall satisfies focus (83 counts) and meets the proximity distance criteria (1.916m), but slightly exceeds the time threshold (2.532s). Thus, it remains a probable option for interaction based on these factors.
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - BlackCeramicDishLarge
+    - BlackCeramicDishSmall
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is related to preparing or serving food, as indicated by the focus on various dishes and bowls, suggesting a culinary task or meal preparation.

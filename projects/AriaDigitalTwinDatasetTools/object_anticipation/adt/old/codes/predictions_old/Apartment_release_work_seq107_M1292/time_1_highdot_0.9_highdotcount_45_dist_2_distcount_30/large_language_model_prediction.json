@@ -1,0 +1,52 @@
+{
+    "4.433": [
+        "BlackCeramicDishSmall",
+        "DvdRemote_1",
+        "BlackCeramicBowl"
+    ],
+    "9.498": [
+        "DvdRemote_1",
+        "BlackCeramicBowl",
+        "TvRemote_1"
+    ],
+    "24.129": [
+        "DvdRemote_1",
+        "TvRemote_1",
+        "BlackCeramicBowl"
+    ],
+    "32.961": [
+        "WhiteChair",
+        "BlackRoundTable",
+        "BlackKitchenChair"
+    ],
+    "42.693": [
+        "BookComic1_01",
+        "DecorativeBoxHexSmall",
+        "BlackRoundTable"
+    ],
+    "59.124": [
+        "BlackRoundTable",
+        "BookDeepLearning",
+        "DecorativeBoxHexSmall"
+    ],
+    "68.256": [
+        "CoffeeCanisterSmall",
+        "Cracker_Anon",
+        "CoffeeCanisterLarge"
+    ],
+    "76.554": [
+        "BlackCeramicMug",
+        "NIT_CoffeeCan_Anon",
+        "BambooPlate"
+    ],
+    "85.153": [
+        "BlackCeramicDishLarge",
+        "BlackRoundTable",
+        "CandleDishSmall"
+    ],
+    "91.385": [
+        "BookDeepLearning",
+        "BlackRoundTable",
+        "BlackCeramicBowl"
+    ]
+}

@@ -1,0 +1,88 @@
+2024-10-17 11:21:48,465 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WhiteFlatwareTray
+      probability: 0.4
+    - object: Jam_Anon
+      probability: 0.35
+    - object: MuffinPan
+      probability: 0.25
+
+rationale:
+    - object: WhiteFlatwareTray
+      reason: The WhiteFlatwareTray has a high focus consistency count of 85 and proximity consistency count of 91. It also has a very short approach time of 1.16 seconds, which suggests that the user is highly likely to interact with this object next.
+    - object: Jam_Anon
+      reason: The Jam_Anon shows significant focus consistency with a count of 49 and proximity count of 91, with a reasonable approach time of 7.35 seconds. This combination makes it a probable candidate for interaction, especially given its proximity.
+    - object: MuffinPan
+      reason: Although the MuffinPan has a lower focus count of 27, it maintains a strong proximity count of 91 and an approach time of 9.97 seconds. While it doesn't meet the time threshold perfectly, the combination of proximity and focus signals that it could still be a potential interaction target.
+
+predicted_interaction_objects:
+    - WhiteFlatwareTray
+    - Jam_Anon
+    - MuffinPan
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing food or serving, possibly involving the organization or assembly of items like flatware and jam for a meal or snack.
+2024-10-17 11:22:01,265 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Jam_Anon
+      probability: 0.4
+    - object: MuffinPan
+      probability: 0.35
+    - object: WhiteFlatwareTray
+      probability: 0.25
+
+rationale:
+    - object: Jam_Anon
+      reason: Jam_Anon has the highest focus count (49) and is within close proximity (0.751 meters). This indicates that the user is likely considering it for interaction, particularly in a context related to food preparation or serving.
+    - object: MuffinPan
+      reason: MuffinPan has a strong proximity count (91) and focus count (27), suggesting prolonged interest and closeness. Its relevance would align with possible baking or cooking activities.
+    - object: WhiteFlatwareTray
+      reason: WhiteFlatwareTray shows significant proximity (91) and a decent focus count (85), which indicates that while there’s a high potential for interaction, it may be slightly less prioritized than the other two objects. It may be involved in serving or arranging food.
+
+predicted_interaction_objects:
+    - Jam_Anon
+    - MuffinPan
+    - WhiteFlatwareTray
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to prepare or serve food, possibly focusing on using jams or baked goods, given the patterns of interaction with cooking and serving utensils in the living room context.
+2024-10-17 11:25:56,698 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WhiteFlatwareTray
+      probability: 0.4
+    - object: Jam_Anon
+      probability: 0.35
+    - object: BambooPlate
+      probability: 0.25
+
+rationale:
+    - object: WhiteFlatwareTray
+      reason: The WhiteFlatwareTray has a high focus count (85) and very close proximity (0.780 meters), making it highly probable that the user intends to interact with it. It also meets the distance and focus thresholds, solidifying its highest probability.
+    - object: Jam_Anon
+      reason: Jam_Anon displays strong focus (49) and proximity (0.751 meters) counts, indicating the user is highly attentive to it and is close enough to interact. It also meets the distance and focus criteria, contributing to its strong likelihood of interaction.
+    - object: BambooPlate
+      reason: While BambooPlate has slightly lower focus (49) compared to the others, it maintains good proximity (1.076 meters) and is quick to approach (approximately 2.29 seconds). This makes it a viable candidate for interaction, fulfilling the focus and distance requirements despite not meeting the time threshold.
+
+predicted_interaction_objects:
+    - WhiteFlatwareTray
+    - Jam_Anon
+    - BambooPlate
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to a cooking or food preparation task, where they may be aiming to set up or organize kitchen tools and ingredients, such as preparing a dish that involves the use of flatware and jams.
+2024-10-17 11:26:46,599 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WhiteFlatwareTray
+      probability: 0.4
+    - object: Jam_Anon
+      probability: 0.35
+    - object: BambooPlate
+      probability: 0.25
+
+rationale:
+    - object: WhiteFlatwareTray
+      reason: The WhiteFlatwareTray has consistently high focus and proximity counts. It is within close distance (2.053 meters) and has a focus count of 85. Additionally, the time to approach is very low (1.158 seconds), making it highly probable for interaction.
+    - object: Jam_Anon
+      reason: Jam_Anon has the highest focus count (49) and was also observed closely (91 in proximity counts) indicating substantial interest. Though its distance is manageable (0.751 meters), it fails the time threshold but remains a strong candidate for interaction due to its high focus.
+    - object: BambooPlate
+      reason: BambooPlate shows decent focus (49) and proximity counts (91) while also being at a reasonable distance (1.076 meters). It meets the focus and proximity criteria although it slightly falls short on the time threshold, suggesting a likelihood of interaction due to its placement in the user's environment.
+
+predicted_interaction_objects:
+    - WhiteFlatwareTray
+    - Jam_Anon
+    - BambooPlate
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare food or set up for a meal, leveraging items related to meal preparation and storage.

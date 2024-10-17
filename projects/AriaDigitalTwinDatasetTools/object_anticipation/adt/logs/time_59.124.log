@@ -1,0 +1,44 @@
+2024-09-13 10:20:10,894 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BookDeepLearning
+      probability: 0.43
+    - object: BookComic1_01
+      probability: 0.34
+    - object: DecorativeBoxHexSmall
+      probability: 0.23
+
+rationale:
+    - object: BookDeepLearning
+      reason: "The object has the highest count of 91 in the 'high_focus_objects_measured_in_counts', indicating intensive observation, which suggests a strong intention to interact with it."
+    - object: BookComic1_01
+      reason: "Though it has a lower count compared to BookDeepLearning, it has been observed significantly with a count of 36 in the 'nearby_objects_measured_in_counts', indicating the user is likely interested in this book as well."
+    - object: DecorativeBoxHexSmall
+      reason: "This object has a count of 41 in the 'nearby_objects_measured_in_counts', suggesting that the user was nearby for a considerable amount of time and may be considering interacting with it."
+
+predicted_interaction_objects:
+    - BookDeepLearning
+    - BookComic1_01
+    - DecorativeBoxHexSmall
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to explore and possibly read or utilize specific books or decorative items in the living room, likely related to learning or entertainment.
+2024-09-13 11:00:03,862 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackRoundTable
+      probability: 0.42
+    - object: BookDeepLearning
+      probability: 0.35
+    - object: DecorativeBoxHexSmall
+      probability: 0.23
+
+rationale:
+    - object: BlackRoundTable
+      reason: "The BlackRoundTable has a high count of 81 in the nearby objects list, indicating that the user has spent a significant amount of time near it. This suggests a strong potential for interaction."
+    - object: BookDeepLearning
+      reason: "BookDeepLearning has a very high focus count of 91, indicating the user has intensely observed it. Given its proximity and the user's pattern of engaging with similar items, it’s likely they want to interact with this book."
+    - object: DecorativeBoxHexSmall
+      reason: "Despite its lower count of 41 in the nearby objects list, it is also in the context of the user's previous observations, suggesting the user might be interested in this decorative box due to its potential functional or aesthetic value."
+
+predicted_interaction_objects:
+    - BlackRoundTable
+    - BookDeepLearning
+    - DecorativeBoxHexSmall
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to engage with items in the living room, likely for organization or decoration purposes, due to their focus on various book-related objects and decor elements.

@@ -1,0 +1,132 @@
+2024-09-06 01:29:35,587 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: GreySofa
+      probability: 0.39
+    - object: BirdHouseToy
+      probability: 0.34
+    - object: DvdRemote_1
+      probability: 0.27
+
+rationale:
+    - object: GreySofa
+      reason: "The GreySofa has the highest count (77) in the high_focus_objects_measured_in_counts list, indicating significant observation. It’s likely the user intends to interact with it, possibly for seating or to reach for something nearby."
+    - object: BirdHouseToy
+      reason: "The BirdHouseToy shows a high count (54) in the high_focus_objects_measured_in_counts list, suggesting it has captured the user's attention sufficiently. Its presence in nearby objects further reinforces the likelihood of interaction."
+    - object: DvdRemote_1
+      reason: "The DvdRemote_1 has a high count (91) in the nearby_objects_measured_in_counts list, reflecting a potential interaction as the user may be planning to watch something or adjust the TV settings."
+
+predicted_interaction_objects:
+    - GreySofa
+    - BirdHouseToy
+    - DvdRemote_1
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to find a comfortable spot to relax or watch something, potentially using the remote, while also considering playing with or interacting with the BirdHouseToy, possibly as a fun activity in the living room.
+2024-09-06 01:29:40,145 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: DvdRemote_1
+      probability: 0.40
+    - object: TvRemote_1
+      probability: 0.35
+    - object: GreySofa
+      probability: 0.25
+
+rationale:
+    - object: DvdRemote_1
+      reason: "DvdRemote_1 has a high focus count of 35 and is also strongly present in the nearby objects list with a count of 91, indicating prolonged attention and proximity, suggesting a likely interaction."
+    - object: TvRemote_1
+      reason: "Similarly, TvRemote_1 exhibits significant attention with a focus count of 36 and proximity count of 91, making it a strong candidate for interaction as the user may be considering watching something."
+    - object: GreySofa
+      reason: "GreySofa has the highest focus count (77) among the objects evaluated, suggesting the user may want to sit down or interact with it, although its lesser proximity count compared to the remotes indicates it's somewhat less likely for immediate interaction."
+
+predicted_interaction_objects:
+    - DvdRemote_1
+    - TvRemote_1
+    - GreySofa
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to settle in the living room, possibly to watch a DVD or TV, as indicated by the focus on the remotes and the sofa.
+2024-09-06 15:55:52,480 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: DvdRemote_1
+      probability: 0.38
+    - object: GreySofa
+      probability: 0.33
+    - object: CandlePattern02_1
+      probability: 0.29
+
+rationale:
+    - object: DvdRemote_1
+      reason: "The DvdRemote_1 has a high focus count of 35 and a high proximity count of 91, indicating the user has observed it closely and has spent significant time nearby, suggesting a likely intention to interact with it."
+    - object: GreySofa
+      reason: "GreySofa has the highest focus count of 77, indicating that the user has been paying considerable attention to it. It’s possible the user is looking to sit down or use the space around it for relaxation or other activities."
+    - object: CandlePattern02_1
+      reason: "CandlePattern02_1 shows a balance of a strong focus count of 33 along with high proximity counts, indicating an interest in potentially using or rearranging the candles for aesthetic purposes or a specific task."
+
+predicted_interaction_objects:
+    - DvdRemote_1
+    - GreySofa
+    - CandlePattern02_1
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is likely to engage in activities related to leisure, such as watching television or relaxing on the sofa, potentially enhanced by arranging or lighting candles for ambiance.
+2024-09-06 15:55:53,913 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BirdHouseToy
+      probability: 0.45
+    - object: GreySofa
+      probability: 0.35
+    - object: DvdRemote_1
+      probability: 0.20
+
+rationale:
+    - object: BirdHouseToy
+      reason: "The BirdHouseToy has the highest focus count of 54, indicating that the user spent significant time observing it, suggesting a strong likelihood of interaction."
+    - object: GreySofa
+      reason: "The GreySofa, with a focus count of 77, is another object that caught the user's attention; however, it is more likely that the user might interact with it for relaxation or to place items rather than direct manipulation."
+    - object: DvdRemote_1
+      reason: "The DvdRemote_1 has a nearby count of 91, indicating the user has spent considerable time near it. It appears to be a practical choice for interaction, especially if the user is considering watching something."
+
+predicted_interaction_objects:
+    - BirdHouseToy
+    - GreySofa
+    - DvdRemote_1
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to find an item to play with or engage in some leisure activities, possibly with attention towards the BirdHouseToy as a key interactive item and the possibility of using the DvdRemote_1 to initiate entertainment.
+2024-09-06 16:07:05,624 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: GreySofa
+      probability: 0.45
+    - object: BirdHouseToy
+      probability: 0.35
+    - object: WoodenToothbrushHolder
+      probability: 0.20
+
+rationale:
+    - object: GreySofa
+      reason: "The GreySofa has the highest focus count of 77, indicating that the user spent a significant amount of time observing it, suggesting a strong likelihood of interaction."
+    - object: BirdHouseToy
+      reason: "The BirdHouseToy also shows a significant focus count of 54, coupled with a high nearby count of 76. This indicates that the user was not only focusing on it but was also in close proximity for a substantial period."
+    - object: WoodenToothbrushHolder
+      reason: "Although the WoodenToothbrushHolder has a lower focus count of 66, its strong presence in the nearby list indicates that the user has lingered near it, increasing the probability that they might interact with it next."
+
+predicted_interaction_objects:
+    - GreySofa
+    - BirdHouseToy
+    - WoodenToothbrushHolder
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is likely to find a comfortable spot to relax or play in the Living Room, potentially involving interaction with toys or items related to comfort and leisure, given the focus on the sofa and nearby toys.
+2024-09-06 16:07:12,854 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: DvdRemote_1
+      probability: 0.35
+    - object: TvRemote_1
+      probability: 0.30
+    - object: GreySofa
+      probability: 0.35
+
+rationale:
+    - object: DvdRemote_1
+      reason: "The DvdRemote_1 has a high focus count of 35 and is also near the user with a nearby count of 91, suggesting that the user has been paying attention to it and is likely to interact with it next, possibly to control the DVD player."
+    - object: TvRemote_1
+      reason: "Similar to the DvdRemote_1, the TvRemote_1 also has a considerable focus count of 36 and a nearby count of 91, indicating significant attention and likelihood for interaction, potentially to change channels or adjust settings on the TV."
+    - object: GreySofa
+      reason: "The GreySofa has the highest focus count of 77, suggesting the user is considering it for seating or possibly for laying down. While it has a less direct functional purpose compared to the remotes, it remains a point of interest indicated by its attention count."
+
+predicted_interaction_objects:
+    - DvdRemote_1
+    - TvRemote_1
+    - GreySofa
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to engage with the entertainment system in the living room, likely involving the use of the remotes to play media or adjust the viewing experience while being comfortable on the sofa.

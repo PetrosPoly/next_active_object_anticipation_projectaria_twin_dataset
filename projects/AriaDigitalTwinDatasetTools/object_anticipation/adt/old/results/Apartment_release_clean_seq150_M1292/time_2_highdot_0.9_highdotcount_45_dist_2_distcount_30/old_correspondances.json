@@ -1,0 +1,16 @@
+[
+    [4.999, ["BlackCeramicBowl", "WoodenBowl", "Mango_A"], [[6.432, "ChoppingBoard"]]],
+    [11.898, ["MuffinPan", "BlackCeramicMug", "Jam_Anon"], "no actual interaction"],
+    [18.73, ["KitchenKnife", "WoodenSpoon", "Mango_A"], [[19.73, "KitchenKnife"], [20.33, "WoodenSpoon"]]],
+    [23.663, ["BlackCeramicMug", "MuffinPan", "WoodenBowl"], "no actual interaction"],
+    [29.029, ["Apartment_CabinetDrawerA", "MuffinPan", "BlackCeramicMug"], "no actual interaction"],
+    [33.028, ["WoodenBowl", "BlackCeramicBowl", "Mango_A"], [[34.861, "WoodenFork"]]],
+    [38.294, ["Apartment_CabinetDrawerD", "PortableCooktop", "FryingPan"], "no actual interaction"],
+    [43.36, ["RedClock", "WhiteChair", "KitchenKnife"], "no actual interaction"],
+    [48.359, ["DvdRemote_1", "TvRemote_1", "Magazine01_1"], [[48.959, "Donut_B"]]],
+    [61.657, ["Flask", "Tomato_A", "WhiteVaseSmall_2"], "no actual interaction"],
+    [69.389, ["CandlePattern01_1", "BlackCoffeeTable", "DvdRemote_1"], [[73.422, "Cracker_Anon"]]],
+    [78.154, ["ChoppingBoard", "KitchenKnife", "BlackCeramicMug"], [[82.953, "BlackCeramicMug"]]],
+    [84.12, ["KitchenKnife", "ChoppingBoard", "MuffinPan"], "no actual interaction"],
+    [87.586, ["Donut_B", "GreenApple_A", "BlackCeramicBowl"], "no actual interaction"]
+]

@@ -1,0 +1,352 @@
+2024-09-06 01:28:22,136 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: "MuffinPan has the highest count in the high_focus_objects_measured_in_counts list (55), indicating significant observation by the user, suggesting an intention to use it for food preparation or baking."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug is also prominent in the high_focus_objects_measured_in_counts list with a count of 58, suggesting frequent observation, possibly indicating the user wants to make a drink or engage in something that requires a mug."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has a strong presence in the high_focus_objects_measured_in_counts with a count of 58, showing that the user may be preparing food, thus is likely to interact with this object next."
+
+predicted_interaction_objects:
+    - MuffinPan
+    - BlackCeramicMug
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food or drinks, potentially involving baking or meal preparation. The focus on kitchenware suggests they are likely engaging in a cooking or baking task.
+2024-09-06 01:28:24,106 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.4
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: MuffinPan
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a high focus count (58), indicating significant attention from the user, suggesting a likely intention to interact with it, possibly for a beverage."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard also has a high focus count (58) and a notable presence in previous predictions, implying the user may be preparing food or utilizing it as a work surface."
+    - object: MuffinPan
+      reason: "With a focus count of 55 and relevance in prior predictions, the MuffinPan is likely connected to baking or preparing food, contributing to its predicted interaction."
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - ChoppingBoard
+    - MuffinPan
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare some food or beverages, potentially involving cooking or baking, as suggested by the high attention towards kitchenware and food-related items.
+2024-09-06 01:28:25,004 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.30
+    - object: MuffinPan
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has one of the highest counts in the high focus list, indicating prolonged observation. It is likely the user intends to interact with it, possibly for a drink."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard is also prominent in the high focus list and appears frequently in previous predictions, suggesting that it is central to the user's task, likely related to food preparation."
+    - object: MuffinPan
+      reason: "The MuffinPan has significant presence in both the high focus and previous predictions, hinting at the user's intent to bake or prepare muffins, aligning with the cooking theme."
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - ChoppingBoard
+    - MuffinPan
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare some food or drinks, potentially involving baking or cooking, as indicated by the focus on kitchenware and related items.
+2024-09-06 01:28:27,291 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: Pestel
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: "The MuffinPan has a high focus count of 55, indicating significant attention was given to it recently. As it is a common item for baking, it suggests a strong likelihood that the user is preparing to bake or interact with it."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a focus count of 58 and is likely being observed for potential use, perhaps for a beverage. It also has a proximity indication, suggesting the user may want to grab it for immediate use."
+    - object: Pestel
+      reason: "The Pestel has a count of 53, indicating it was in the user's focus. Its presence alongside other baking-related items such as the MuffinPan suggests the user may be engaged in cooking or preparation tasks."
+
+predicted_interaction_objects:
+    - MuffinPan
+    - BlackCeramicMug
+    - Pestel
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare a baking task, potentially involving making muffins or another related recipe, as indicated by the focus on baking-related items like the MuffinPan and the Pestel. The user's attention toward the BlackCeramicMug aligns with common practices of having a beverage while cooking or baking.
+2024-09-06 12:38:01,098 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.4
+    - object: MuffinPan
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a high focus count of 58, indicating that the user has observed it intensively. Additionally, it is likely needed for drinking or preparing a beverage during their activity."
+    - object: MuffinPan
+      reason: "The MuffinPan has a focus count of 55, which suggests that it has also caught a significant amount of the user's attention. It is possibly related to a cooking or baking task given the presence of the other kitchen objects around."
+    - object: ChoppingBoard
+      reason: "With a count of 58, the ChoppingBoard remains a high-interest item. It is often used for food preparation, which aligns with the user's observed attentiveness to other kitchen-related objects."
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - MuffinPan
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to engage in a cooking or baking activity, possibly preparing a meal or treats involving the use of kitchenware such as mugs, pans, and chopping boards.
+2024-09-06 12:57:56,701 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: "The MuffinPan has a high count of 55 in the high_focus_objects list, indicating significant observation and likely intention to use it for a specific task, possibly related to baking."
+    - object: BlackCeramicMug
+      reason: "With 58 counts in the high_focus_objects, the BlackCeramicMug is frequently observed, suggesting the user may want to interact with it for a beverage or ingredient while preparing a recipe."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has a count of 58, which, while lower than the previous two, still signifies notable focus. It likely indicates the user may need to chop ingredients, aligning with general cooking tasks."
+
+predicted_interaction_objects:
+    - MuffinPan
+    - BlackCeramicMug
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to prepare food, likely involving baking muffins or a related recipe, as suggested by the focus on the MuffinPan and other kitchenware.
+2024-09-06 14:04:09,020 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.4
+    - object: MuffinPan
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a high focus count (58), indicating the user has observed it intensively, suggesting a likely interaction with it, potentially to pour or sip a beverage."
+    - object: MuffinPan
+      reason: "The MuffinPan also has a significant focus count (55) and is part of the user's previous interactions. This suggests that the user may be planning to bake or prepare food, making it a likely candidate for interaction."
+    - object: ChoppingBoard
+      reason: "Despite having a slightly lower focus count (58), the ChoppingBoard shows up in prior predictions, indicating that food preparation is part of the user's task, highlighting its relevance."
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - MuffinPan
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare a meal or snack, possibly involving baking, as indicated by the focus on kitchen tools and bakeware.
+2024-09-06 15:54:51,138 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.4
+    - object: MuffinPan
+      probability: 0.35
+    - object: WoodenBowl
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a high focus count (58), indicating it was observed intensively, suggesting that the user intends to use it for drinking or mixing."
+    - object: MuffinPan
+      reason: "The MuffinPan, with a focus count of 55, also shows significant attention from the user, indicating that they might be preparing to bake or cook."
+    - object: WoodenBowl
+      reason: "Although the WoodenBowl has a lower focus count (31), it is nearby with a notable duration, hinting that the user might be considering it as part of their ongoing task."
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - MuffinPan
+    - WoodenBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely to prepare some food or drink, possibly involving baking or serving items, taking into account their focus on kitchenware.
+2024-09-06 15:54:52,099 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.4
+    - object: MuffinPan
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has the highest focus count (58) indicating it was observed intensely, suggesting the user is likely considering using it for a drink or during meal prep."
+    - object: MuffinPan
+      reason: "The MuffinPan also has a high count (55), and it is often used in cooking or baking tasks. Given the user's previous predictions which included it, there is a continuing intent to prepare baked goods."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has a notable count (58) and is a common object used in meal preparation. Its high visibility suggests it may be relevant to the current task of cooking or ingredient preparation based on the user's interactions."
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - MuffinPan
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is likely to prepare a meal or bake, as indicated by their focus on kitchen items like the muffin pan and chopping board, along with the attention to the black ceramic mug, which may be used in the cooking process.
+2024-09-06 15:54:53,120 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.30
+    - object: MuffinPan
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a high focus count of 58, indicating significant user attention, suggesting a strong likelihood of interaction for beverage preparation or consumption."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has a count of 58 as well, reflecting the user's interest in food preparation, which is corroborated by its higher counts in the nearby objects list."
+    - object: MuffinPan
+      reason: "The MuffinPan has a count of 55, indicating it's been observed frequently. Given the previous predictions, it suggests the user is engaged in a baking task where this object is critical."
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - ChoppingBoard
+    - MuffinPan
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or consume food and beverages, likely involving baking or meal preparation activities, as indicated by their attention to kitchenware and cooking tools.
+2024-09-06 15:54:54,636 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.4
+    - object: MuffinPan
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a high focus count of 58, indicating that the user observed it intensely. Additionally, it is a likely candidate for interaction if the user is preparing to consume something or make a drink, which fits typical behavior in a living room setting."
+    - object: MuffinPan
+      reason: "The MuffinPan has a strong focus count of 55, along with significant usage indicated in earlier predictions. This suggests the user might be preparing to bake, making it a highly probable object for interaction."
+    - object: ChoppingBoard
+      reason: "With a focus count of 58, the ChoppingBoard has drawn significant attention from the user. It is typically associated with food preparation, making it a plausible choice if the user is engaged in cooking activities."
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - MuffinPan
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely to prepare food or a beverage, potentially involving baking or serving, as indicated by the focus on kitchen-related objects.
+2024-09-06 16:05:42,409 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.4
+    - object: MuffinPan
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has the highest count (58) in the high_focus_objects list, indicating that the user observed it intensively, suggesting a strong likelihood of interaction."
+    - object: MuffinPan
+      reason: "The MuffinPan is the second-highest in the high_focus_objects list (55 counts), indicating the user has shown interest in it and may have a task related to preparing food, especially baked goods."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard also has a high measurement (58 counts), and given its presence in the context of food preparation, it is likely the user may utilize it alongside the other objects."
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - MuffinPan
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food or bake something, as indicated by the focus on kitchenware such as the MuffinPan and ChoppingBoard, along with the desire to drink something potentially from the BlackCeramicMug.
+2024-09-06 16:05:43,331 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: Mortar
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: "The MuffinPan has a high focus count of 55, indicating it was observed intensively, suggesting the user plans to interact with it, possibly for baking or cooking."
+    - object: Mortar
+      reason: "The Mortar has a count of 54, which is also significant. Given the context, the user may need to use it for grinding or mixing ingredients, further supporting its likelihood of interaction."
+    - object: BlackCeramicMug
+      reason: "With a focus count of 58, the BlackCeramicMug is also a strong candidate. It may be of interest to the user for enjoying a beverage, especially since they are in a kitchen or living area."
+
+predicted_interaction_objects:
+    - MuffinPan
+    - Mortar
+    - BlackCeramicMug
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or bake something, likely involving ingredients that may require mixing or grinding, followed by serving or enjoying a drink.
+2024-09-06 16:05:45,519 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.4
+    - object: MuffinPan
+      probability: 0.35
+    - object: WoodenBowl
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a high focus count of 58, indicating significant interest from the user. It's also likely used in activities like drinking, which aligns with common tasks in a living room setting."
+    - object: MuffinPan
+      reason: "The MuffinPan, with a focus count of 55, is another object that the user has paid considerable attention to. It suggests the user might be preparing or thinking about baking, a task that commonly involves such a pan."
+    - object: WoodenBowl
+      reason: "The WoodenBowl, while having a nearby count of 31, may likely be utilized for serving or preparation tasks based on past interactions. Its proximity and focus indicate it could be a key player in the current task."
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - MuffinPan
+    - WoodenBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare a meal or snack, potentially involving baking, and they are considering using utensils and containers related to food preparation and serving.
+2024-09-06 16:05:46,312 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: MuffinPan
+      probability: 0.30
+    - object: Pestel
+      probability: 0.35
+
+rationale:
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a high focus count of 58, indicating it has received significant attention from the user, suggesting an intention to interact with it, possibly for drinks or preparing ingredients."
+    - object: MuffinPan
+      reason: "The MuffinPan also has a considerable focus count of 55 and was mentioned in previous predictions, which suggests it is likely being considered for baking or food preparation."
+    - object: Pestel
+      reason: "The Pestel has a focus count of 53 and while a bit lower than the others, it has been consistently noted in previous predictions, indicating relevance in the user's current task, perhaps related to food preparation or mixing."
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - MuffinPan
+    - Pestel
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, likely involving baking or cooking, as indicated by the repeated focus on kitchen-related items such as the MuffinPan and Pestel, combined with the presence of drinkware like the BlackCeramicMug.
+2024-10-17 11:26:11,865 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: RedClock
+      probability: 0.4
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: BlackBarStool_B
+      probability: 0.25
+
+rationale:
+    - object: RedClock
+      reason: The RedClock has the highest focus consistency count (60) and is within the acceptable distance (1.603 meters), making it the most probable object for interaction as it satisfies both focus and distance thresholds thoroughly.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard also demonstrates a solid focus consistency (58) while being within an adequate proximity (1.787 meters) and has a time to approach that is under 2 seconds (2.0607 seconds), making it a strong candidate for interaction, even though it slightly exceeds the time threshold.
+    - object: BlackBarStool_B
+      reason: The BlackBarStool_B has fairly high focus counts (57) and is close enough (1.908 meters), but its time to approach is marginally under 2 seconds (1.346 seconds), giving it a favorable position even as it does not exceed the time threshold.
+
+predicted_interaction_objects:
+    - RedClock
+    - ChoppingBoard
+    - BlackBarStool_B
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to organize or check the items in the living room, possibly related to time management or setting a timer, as evidenced by the focus on the RedClock, which is time-related, and the ChoppingBoard, indicating potential food preparation activities.

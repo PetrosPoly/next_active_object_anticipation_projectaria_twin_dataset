@@ -1,0 +1,66 @@
+2024-10-17 11:28:10,971 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Tomato_A
+      probability: 0.45
+    - object: Flask
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.2
+
+rationale:
+    - object: Tomato_A
+      reason: Tomato_A has the highest focus count (60) and is within an appropriate proximity (1.044 meters) with a low time to approach (2.232 seconds). It satisfies all threshold criteria, making it the most probable object for interaction.
+    - object: Flask
+      reason: The Flask exhibits strong focus (58 counts) and is close (1.122 meters) while requiring a moderate approach time (7.033 seconds). Although it exceeds the time threshold, the strong focus and proximity make it a likely candidate for interaction.
+    - object: BlackCeramicBowl
+      reason: BlackCeramicBowl has equal counts for focus (15) and proximity (91), but it fails the time threshold with 2.532 seconds. Nonetheless, its likelihood remains due to significant proximity and some focus.
+
+predicted_interaction_objects:
+    - Tomato_A
+    - Flask
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare or serve food, as evidenced by the emphasis on food items like tomatoes and containers such as the flask and bowl.
+2024-10-17 11:28:12,288 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Tomato_A
+      probability: 0.4
+    - object: Flask
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.25
+
+rationale:
+    - object: Tomato_A
+      reason: Tomato_A has a high focus count of 60, time to approach of 2.232 seconds, and is within reasonable proximity at 1.044 meters. This indicates the user is highly likely to interact with it soon.
+    - object: Flask
+      reason: The Flask has a focus count of 58 and a time to approach of 7.034 seconds, which exceeds the threshold, but it has a strong proximity count of 91. This suggests that while its time to approach is a concern, the user is still likely to engage with it due to sustained focus and proximity.
+    - object: BlackCeramicBowl
+      reason: BlackCeramicBowl has the same focus count as the Flask at 15 and meets both distance and proximity thresholds with a focus count that is slightly lower than the threshold. However, it remains a probable interaction due to consistent attention.
+
+predicted_interaction_objects:
+    - Tomato_A
+    - Flask
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing or cooking food, as indicated by the consistent interaction with kitchen-related objects like fruits (Tomato_A) and containers (Flask, BlackCeramicBowl).
+2024-10-17 11:28:19,222 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Tomato_A
+      probability: 0.4
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: Flask
+      probability: 0.25
+
+rationale:
+    - object: Tomato_A
+      reason: Tomato_A has 60 focus counts and is within a distance of 1.044 meters, with an approach time of 2.23 seconds, satisfying all thresholds for focus, distance, and time.
+    - object: BlackCeramicBowl
+      reason: The BlackCeramicBowl has 15 focus counts and is very close at 0.863 meters, along with a short approach time of 2.53 seconds. It meets the distance and time thresholds while partially meeting the focus criteria.
+    - object: Flask
+      reason: The Flask shows significant proximity with high focus counts (58) but slightly higher distance (1.122 meters) and an approach time of 7.03 seconds. It meets the focus and distance criteria with partial time satisfaction.
+
+predicted_interaction_objects:
+    - Tomato_A
+    - BlackCeramicBowl
+    - Flask
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing or assembling a dish, as indicated by the focus on food items like Tomato_A and the use of bowls and flasks, which suggest tasks such as mixing, serving, or cooking.

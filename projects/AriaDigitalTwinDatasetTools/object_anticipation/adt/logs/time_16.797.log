@@ -1,0 +1,44 @@
+2024-10-17 11:21:08,171 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CakeMocha_A
+      probability: 0.4
+    - object: BlackCeramicDishLarge
+      probability: 0.35
+    - object: WoodenFork
+      probability: 0.25
+
+rationale:
+    - object: CakeMocha_A
+      reason: This object has the highest focus count (38) and is in close proximity (1.451 meters) with a quick approach time (2.39 seconds). It meets the thresholds for focus, distance, and time effectively, making it the most likely object for interaction.
+    - object: BlackCeramicDishLarge
+      reason: The Black Ceramic Dish Large has a strong focus count (38) and strong proximity counts (56). Although its approach time of 5.57 seconds is longer, it meets the focus and distance criteria well, positioning it as a strong candidate for interaction.
+    - object: WoodenFork
+      reason: The Wooden Fork is close (1.187 meters) and has a high focus count (37), with a very short approach time (1.91 seconds). While it does not have the highest focus counts, its proximity and low time to approach make it a probable choice.
+
+predicted_interaction_objects:
+    - CakeMocha_A
+    - BlackCeramicDishLarge
+    - WoodenFork
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to prepare or serve food, possibly for a meal or gathering, indicated by the focus on dining-related items like the Cake Mocha, dishes, and utensils.
+2024-10-17 11:21:09,698 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CakeMocha_A
+      probability: 0.4
+    - object: BlackCeramicBowl
+      probability: 0.35
+    - object: WoodenFork
+      probability: 0.25
+
+rationale:
+    - object: CakeMocha_A
+      reason: CakeMocha_A has the highest proximity consistency (60 counts) and a low time to approach (2.39 seconds), suggesting the user is likely to interact with it soon. This object also has a strong focus consistency with 38 counts.
+    - object: BlackCeramicBowl
+      reason: The BlackCeramicBowl shows significant focus consistency (38 counts) and proximity consistency (56 counts). Although it's not at the very top, it closely follows in potential interaction likelihood due to satisfying two out of three thresholds.
+    - object: WoodenFork
+      reason: While the WoodenFork has a decent focus consistency (37 counts) and a short time to approach (1.91 seconds), it has lower proximity counts (57 counts) compared to the top two objects. However, it still fits the criteria of partial focus and acceptable distance measures.
+
+predicted_interaction_objects:
+    - CakeMocha_A
+    - BlackCeramicBowl
+    - WoodenFork
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to prepare or serve food, potentially involving a dessert (CakeMocha_A) and utilizing utensils (WoodenFork) along with a serving bowl (BlackCeramicBowl). The focus on food-related items indicates the user is likely engaged in meal preparation or serving activities within the living room.

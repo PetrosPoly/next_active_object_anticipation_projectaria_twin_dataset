@@ -1,0 +1,198 @@
+2024-10-15 11:33:52,556 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: BambooPlate
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: "The MuffinPan has the highest focus consistency count (78), proximity count (62), and a favorable time to approach (2.1 seconds), indicating a strong likelihood of interaction."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug meets the focus count threshold (73) and is relatively close (1.17 meters) with a reasonable time to approach (4.06 seconds), suggesting potential interaction."
+    - object: BambooPlate
+      reason: "The BambooPlate maintains strong focus consistency (76) and is within a reachable distance (1.27 meters), even though its time to approach is slightly longer (3.81 seconds), making it a probable candidate."
+
+predicted_interaction_objects:
+    - MuffinPan
+    - BlackCeramicMug
+    - BambooPlate
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to prepare or serve food, as indicated by the consistent focus on kitchenware and food preparation items like the MuffinPan and BambooPlate.
+2024-10-15 11:33:52,933 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: Mortar
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: "The MuffinPan has a high focus count of 78, a proximity count of 62, and a short time to approach of 2.1 seconds. It meets all thresholds, making it the top candidate for interaction."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a strong focus count of 73 and proximity count of 51, but it does not meet the time threshold as it takes 4.1 seconds to approach. This places it next in line for probable interaction."
+    - object: Mortar
+      reason: "The Mortar has a focus count of 47 and a proximity count of 53, and it also has an approach time of 2.4 seconds, making it a viable option despite falling short of the time threshold."
+
+predicted_interaction_objects:
+    - MuffinPan
+    - BlackCeramicMug
+    - Mortar
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely centered around preparing or consuming food, which suggests that they may be engaging in cooking or snack preparation activities involving these kitchen tools.
+2024-10-15 11:33:53,536 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: Mortar
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: "The MuffinPan has the highest focus count (78) and a low distance (0.978 meters), combined with a short approach time (2.099 seconds). This makes it a highly probable object for interaction."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has strong focus consistency (73 counts) and proximity (51 counts). Although its approach time (4.059 seconds) is slightly over the threshold, it meets the focus and proximity criteria, indicating a likelihood of interaction."
+    - object: Mortar
+      reason: "The Mortar has significant focus consistency (47 counts) and proximity (53 counts), along with an approach time (2.373 seconds) under the threshold. This combination suggests that it is still a probable candidate for interaction."
+
+predicted_interaction_objects:
+    - MuffinPan
+    - BlackCeramicMug
+    - Mortar
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to prepare or serve food, possibly involving baking or cooking tasks that require the use of baking tools and containers.
+2024-10-15 11:43:15,028 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: BambooPlate
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: "The MuffinPan has the highest focus (78 counts) and is within close proximity (0.978 meters) but does not exceed the time threshold. It shows sustained observation, indicating that the user is likely considering interaction with it."
+    - object: BambooPlate
+      reason: "The BambooPlate has a strong focus count (76 counts) and acceptable proximity (1.273 meters), and while it also does not meet the time threshold, the user's consistent observation suggests a high probability of interaction."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug shows good focus (73 counts) and proximity (1.170 meters) but fails the time threshold. However, being within closer range and having significant focus could lead the user to interact with it."
+
+predicted_interaction_objects:
+    - MuffinPan
+    - BambooPlate
+    - BlackCeramicMug
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing or serving food, possibly involving baking or eating based on the focus on kitchenware and food containers.
+2024-10-15 11:43:27,031 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: Mortar
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: "The MuffinPan has the highest focus count (78) and proximity count (62), both exceeding the specified thresholds. Its estimated time to approach (2.1 seconds) also meets the time requirement, making it the most probable object for interaction."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug displays a strong focus count (73) and a proximity count (51), which indicates that the user is likely considering it. Although its time to approach (4.0 seconds) is slightly below the threshold, the combination of high focus and proximity makes it a strong candidate."
+    - object: Mortar
+      reason: "The Mortar shows consistent focus (47) and proximity (53) counts. While its time to approach (2.4 seconds) is within range, it does not exceed the threshold. However, the balance of focus and proximity puts it in the running for potential interaction."
+
+predicted_interaction_objects:
+    - MuffinPan
+    - BlackCeramicMug
+    - Mortar
+
+goal_of_the_user: Based on the current predictions and past ones from the "past_predictions_with_timestamps," it is inferred that the user's goal is to prepare or serve food or beverages, as indicated by their focus on kitchen-related objects such as the MuffinPan, coffee-related items, and tools for food preparation.
+2024-10-15 11:43:28,865 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: BambooPlate
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: "MuffinPan has the highest focus and proximity counts, indicating that the user is consistently observing and is in close proximity to it. It also has a low time to approach, making it highly probable that interaction will occur soon."
+    - object: BlackCeramicMug
+      reason: "BlackCeramicMug demonstrates strong focus consistency and reasonable proximity counts. Although it doesn't have the highest proximity, its solid attention indicates that the user is interested in this object and it has a reasonable distance to approach."
+    - object: BambooPlate
+      reason: "BambooPlate meets the focus and proximity criteria adequately but shows a longer time to approach. Its lesser focus makes it slightly less probable than the other two, but it remains a contender for interaction."
+
+predicted_interaction_objects:
+    - MuffinPan
+    - BlackCeramicMug
+    - BambooPlate
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing food or beverages, possibly involving baking or serving as indicated by the focus on kitchen items such as the MuffinPan and serving items like the BlackCeramicMug and BambooPlate.
+2024-10-15 12:07:09,429 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: WhiteFlatwareTray
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: "The MuffinPan has the highest focus counts (78) and is within an acceptable distance (0.978 meters), along with a quick approach time (2.099 seconds), making it a strong candidate for interaction."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug also has a high focus count (73) and good proximity (1.170 meters) with a reasonable approach time (4.059 seconds), indicating that the user is likely to interact with it next."
+    - object: WhiteFlatwareTray
+      reason: "The WhiteFlatwareTray has a high focus count (78) as well and maintains a proximity consistency (1.399 meters), although it has a slightly longer approach time (3.579 seconds), keeping it probable for interaction."
+
+predicted_interaction_objects:
+    - MuffinPan
+    - BlackCeramicMug
+    - WhiteFlatwareTray
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to prepare or serve food, possibly involving baked goods or snacks, as indicated by the focus on kitchen-related items.
+2024-10-15 12:07:10,260 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: BambooPlate
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: "MuffinPan has the highest focus (78 counts) and proximity (62 counts) consistency, suggesting it's a primary focus of the user's attention. Additionally, it has a low time to approach (approximately 2.1 seconds), indicating quick access."
+    - object: BlackCeramicMug
+      reason: "BlackCeramicMug shows significant focus (73 counts) and reasonable proximity (51 counts). While it has a slightly higher time to approach (4.1 seconds), its consistency in focus makes it likely that the user will interact with it next."
+    - object: BambooPlate
+      reason: "BambooPlate also has good focus (76 counts) and proximity (43 counts), but its time to approach is slightly higher (approximately 3.8 seconds). Nonetheless, its presence in both focus and proximity thresholds indicates a secondary option for interaction."
+
+predicted_interaction_objects:
+    - MuffinPan
+    - BlackCeramicMug
+    - BambooPlate
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to prepare or serve food, given the emphasis on kitchenware objects like MuffinPan and the presence of tableware such as BambooPlate and BlackCeramicMug.
+2024-10-15 12:07:10,470 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: MuffinPan
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: Jam_Anon
+      probability: 0.25
+
+rationale:
+    - object: MuffinPan
+      reason: "The MuffinPan has the highest focus count (78) and a low distance (0.978 meters), alongside a time to approach of 2.1 seconds, making it the most likely object for interaction."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a strong focus count (73) and a reasonable distance (1.170 meters), plus the time to approach (4.1 seconds) is just above the threshold, indicating a high probability of interaction despite the slight time limitation."
+    - object: Jam_Anon
+      reason: "The Jam_Anon has a solid focus count (56), is moderately distant (1.275 meters), and has an acceptable approach time (3.0 seconds), suggesting it is likely to be interacted with."
+
+predicted_interaction_objects:
+    - MuffinPan
+    - BlackCeramicMug
+    - Jam_Anon
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing or consuming food or beverages, as indicated by the focus on kitchenware and food-related items.

@@ -1,0 +1,330 @@
+2024-10-15 11:15:26,547 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon has a high focus count of 71 and proximity count of 89, indicating it is frequently observed and the user stays close to it. It also has a time to approach value of 4.1 seconds which, while higher than the threshold, still suggests a likelihood of interaction due to the high focus."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has good focus counts of 50 and high proximity counts of 91. The distance is only 0.961 meters away, easily within the proximity limit. It has a time to approach of about 1.99 seconds, making it a strong candidate for likely interaction."
+    - object: ChoppingBoard
+      reason: "ChoppingBoard has a focus count of 41 and a high proximity count of 91, though it falls just under the focus threshold. It also has a close distance of 1.187 meters. The time to approach is 2.93 seconds, indicating it remains a probable object for interaction despite not surpassing all thresholds."
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - BlackCeramicMug
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to cooking or preparing food items, suggesting they may be engaging in a task such as meal preparation or baking, as indicated by their focus on kitchen-related objects.
+2024-10-15 11:38:36,225 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon has the highest focus count (71), is within proximity (1.412 meters), and has a reasonable time to approach (4.1 seconds). It meets the focus threshold and is close enough, suggesting a high likelihood of interaction."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a good balance with a focus count of 50, is very close (0.961 meters), and has the shortest time to approach (1.99 seconds). It meets both focus and proximity thresholds, indicating its probability for interaction."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has decent focus counts (41) and proximity counts (91) and is also close (1.187 meters) with a moderate time to approach (2.93 seconds). It satisfies the proximity threshold and has some focus, making it a probable object for interaction."
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - BlackCeramicMug
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing food or engaging in a cooking activity, as indicated by the focus on kitchen utensils and related objects observed previously.
+2024-10-15 11:47:22,309 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.4
+    - object: BambooPlate
+      probability: 0.35
+    - object: WoodenFork
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicMug
+      reason: "It has the highest focus count of 50, combined with a proximity consistency of 91. The time to approach is also low at approximately 2 seconds, making it a strong candidate for interaction."
+    - object: BambooPlate
+      reason: "This object shows solid focus (66 counts) and proximity (91 counts) alongside a moderate approach time of about 2.28 seconds, which aligns it as a likely object for interaction."
+    - object: WoodenFork
+      reason: "Though the focus count is a bit lower at 70, it still has high proximity (91 counts) and an approach time of approximately 3.45 seconds, placing it in the realm of probable interaction."
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - BambooPlate
+    - WoodenFork
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely to prepare food or drink in the living room, as they show consistent interest in kitchen-related items like mugs, plates, and utensils.
+2024-10-15 12:10:35,767 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: WhiteFlatwareTray
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: "The WoodenSpoon has a high focus count of 71 and a proximity count of 89, making it highly probable for interaction. It also has a reasonable approach time of approximately 4.1 seconds."
+    - object: WhiteFlatwareTray
+      reason: "With a focus count of 70 and proximity count of 91, the WhiteFlatwareTray is another strong candidate. Its proximity suggests the user is likely to interact with it soon, and the approach time of around 3.6 seconds is manageable."
+    - object: BlackCeramicMug
+      reason: "Despite being slightly lower in focus counts (50), the BlackCeramicMug has a high proximity count of 91 and a short approach time of nearly 2 seconds, which keeps it in the realm of possible interaction."
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - WhiteFlatwareTray
+    - BlackCeramicMug
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to food preparation, possibly involving cooking or serving food, given the focus on kitchen-related objects such as utensils and trays.
+2024-10-17 11:13:21,302 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: KitchenKnife
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has the highest focus count (71) and also meets the distance threshold (1.412 meters), making it highly probable for interaction. Its consistent proximity suggests that the user is likely to use it soon.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard also has a strong focus count (41) along with satisfying the distance threshold (1.187 meters). Additionally, it has a relatively short approach time (2.93 seconds), indicating that the user is likely preparing for a task that requires its use.
+    - object: KitchenKnife
+      reason: Despite having substantial proximity and focus counts, the KitchenKnife has an approach time close to the threshold (2.968 seconds). It also has high both focus (41) and proximity (91) counts, placing it as a possible interaction object due to its importance in food preparation.
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - ChoppingBoard
+    - KitchenKnife
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing food, as the selected objects are commonly used in cooking tasks. The user may be engaged in a cooking activity, possibly making a dish that requires mixing, chopping, and cutting.
+2024-10-17 11:24:26,239 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: MuffinPan
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has high focus consistency (71 counts) and proximity consistency (89 counts), well above the thresholds, making it a highly probable choice for interaction. Additionally, its distance (1.412 meters) and time to approach (4.105 seconds) are reasonable, considering its favorable focus measures.
+    - object: MuffinPan
+      reason: The MuffinPan has strong proximity consistency (91 counts) and a significant focus count (49 counts). Although it takes about 3.416 seconds to approach, which exceeds the threshold, its high proximity suggests the user is likely intending to interact with it.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has a good focus count (41 counts) and proximity count (91 counts). Its distance is also close (1.187 meters). While the time to approach (2.928 seconds) slightly exceeds the threshold, the focus and proximity measures make it a still viable option for interaction.
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - MuffinPan
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to food preparation or cooking, specifically involving baking or mixing ingredients, as indicated by the focus on kitchen utensils and bakeware.
+2024-10-17 11:24:29,867 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: KitchenKnife
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has the highest focus counts at 71 and strong proximity consistency at 89. Its distance is within the acceptable range, and it requires 4.1 seconds to approach, which is just above the time threshold. The combination of high focus and proximity suggests that the user is likely to interact with it soon.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard also has high focus counts (41) and proximity (91), with a distance very close to the user (1.187m) and a time of 2.9 seconds to approach, making it a strong candidate for interaction. It satisfies the distance and proximity criteria, suggesting the user is likely considering it.
+    - object: KitchenKnife
+      reason: The KitchenKnife has a lower focus count (41) but a very strong proximity count (91) and is only slightly beyond the time threshold with 2.96 seconds to approach. The user’s frequent focus and the close distance indicate that they are likely to reach for the knife soon.
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - ChoppingBoard
+    - KitchenKnife
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to food preparation or cooking, indicated by their focus on kitchen tools such as the WoodenSpoon, ChoppingBoard, and KitchenKnife.
+2024-10-17 11:24:45,217 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: KitchenKnife
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has a high focus count (71), is within a close distance (1.412 meters), and has an acceptable time to approach (4.10 seconds), making it a strong candidate for interaction given the user's likely intent to cook or prepare food.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard also has strong focus (41 counts) and proximity consistency (91 counts), as well as a manageable time to approach (2.93 seconds). This indicates that the user may be preparing ingredients, reinforcing its likelihood of interaction.
+    - object: KitchenKnife
+      reason: The KitchenKnife has a high proximity consistency (91 counts) and is reasonably close (1.177 meters), with a fair time to approach (about 2.97 seconds). Although its focus count is slightly lower (41), its proximity suggests the user is preparing to use it for cutting or preparing food.
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - ChoppingBoard
+    - KitchenKnife
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare food, as indicated by the high focus on cooking-related items such as spoons, a chopping board, and a knife, consistent with past interactions involving food preparation and kitchen activities.
+2024-10-17 11:25:02,487 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: KitchenKnife
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has the highest focus consistency with a count of 71 and strong proximity measures (89 counts). It is also relatively close, with a distance of 1.412 meters and a quick approach time of approximately 4.1 seconds, indicating high likelihood for interaction.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard shows a substantial focus consistency of 41 counts and excellent proximity with 91 counts. Its proximity is also paired with a low distance of 1.187 meters and an approach time of about 2.9 seconds, making it a strong candidate for upcoming interaction.
+    - object: KitchenKnife
+      reason: The KitchenKnife has a solid focus count of 41 and high proximity (91 counts). The approach time is about 2.97 seconds with a distance of 1.177 meters, categorizing it as probable for interaction, but slightly less so compared to the WoodenSpoon and ChoppingBoard.
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - ChoppingBoard
+    - KitchenKnife
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to food preparation or cooking, as indicated by the focus on utensils and kitchen accessories such as the WoodenSpoon, ChoppingBoard, and KitchenKnife, which are essential for such tasks.
+2024-10-17 11:28:28,627 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: KitchenKnife
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: This object has high focus counts (71) and proximity counts (89), indicating that the user is likely paying close attention to it while also being in close range. Its time to approach is reasonable (4.1 seconds), allowing for a strong probability of interaction.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard also shows significant focus counts (41) and proximity counts (91). It has a relatively short distance from the user (1.187 meters) with a time to approach of approximately 2.9 seconds, making it a likely candidate for interaction.
+    - object: KitchenKnife
+      reason: The KitchenKnife doesn’t meet the time threshold for interaction (2.97 seconds), but it has high proximity counts (91) and focus counts (41), suggesting that the user may approach the knife despite the longer approach time.
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - ChoppingBoard
+    - KitchenKnife
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to food preparation or cooking, as the user is consistently focusing on kitchen utensils and tools essential for these tasks.
+2024-10-17 11:29:02,119 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has high focus counts (71) and proximity counts (89), suggesting the user has been consistently observing and is close to it. The time to approach is also quite reasonable at 4.11 seconds, which aligns with the user's typical behavior of engaging with cooking-related utensils.
+    - object: BlackCeramicMug
+      reason: The BlackCeramicMug has a focus count of 50, along with high proximity counts (91), indicating strong interest. Additionally, it has the shortest time to approach at approximately 1.99 seconds, making it likely the user will interact with it soon, potentially for a drink or a culinary task.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard shows substantial focus counts (41) and proximity counts (91). The time to approach is reasonable at about 2.93 seconds. Given that it is often used in food preparation, it complements the other cooking-related items.
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - BlackCeramicMug
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing food or making a meal, given the focus on kitchen utensils and cookware. The selections suggest interaction with both food preparation and serving items, indicating the user may be engaged in cooking or baking activities.
+2024-10-17 11:29:02,119 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has high focus counts (71) and proximity counts (89), suggesting the user has been consistently observing and is close to it. The time to approach is also quite reasonable at 4.11 seconds, which aligns with the user's typical behavior of engaging with cooking-related utensils.
+    - object: BlackCeramicMug
+      reason: The BlackCeramicMug has a focus count of 50, along with high proximity counts (91), indicating strong interest. Additionally, it has the shortest time to approach at approximately 1.99 seconds, making it likely the user will interact with it soon, potentially for a drink or a culinary task.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard shows substantial focus counts (41) and proximity counts (91). The time to approach is reasonable at about 2.93 seconds. Given that it is often used in food preparation, it complements the other cooking-related items.
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - BlackCeramicMug
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing food or making a meal, given the focus on kitchen utensils and cookware. The selections suggest interaction with both food preparation and serving items, indicating the user may be engaged in cooking or baking activities.
+2024-10-17 11:29:04,799 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.4
+    - object: WoodenSpoon
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicMug
+      reason: The BlackCeramicMug has high focus (50 counts) and proximity (91 counts), indicating the user frequently observes it and stays close to it. Its approach time is also low (approximately 2 seconds), making it a highly probable candidate for immediate interaction.
+    - object: WoodenSpoon
+      reason: The WoodenSpoon meets the proximity requirement (89 counts) and has a strong focus (71 counts) but shows a slightly longer approach time (over 4 seconds). It indicates that the user may be considering it for interaction soon, making it a secondary option.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has a good mix of high focus (41 counts) and proximity (91 counts), alongside a reasonable approach time (around 3 seconds). Although it is less focused than the first two objects, its consistent interaction potential keeps it in the running for interaction.
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - WoodenSpoon
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare or serve food or beverages, as evidenced by the consistent focus on kitchen items and utensils related to food preparation.
+2024-10-17 11:29:05,646 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has a high focus count of 71 and is within a proximity of 1.412 meters, which indicates the user has been consistently observing and is close to it. The estimated time to approach is also reasonable at 4.1 seconds, putting it high on the interaction list.
+    - object: BlackCeramicMug
+      reason: The BlackCeramicMug has a focus count of 50, indicating moderate attention, and an excellent proximity count of 91. It's closer at 0.961 meters, suggesting it could easily be interacted with soon, despite the time to approach of just under 2 seconds.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has a strong focus count of 41 and is also nearby (1.187 meters), with a similar time to approach of about 2.9 seconds. Although it has lower counts than the other two, its position suggests that it's likely to be involved in the user's current activity.
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - BlackCeramicMug
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to engage in food preparation or cooking activities, as indicated by the focus on kitchen-related objects like utensils, mugs, and cutting boards. This suggests the user may be in the process of preparing a meal or a recipe involving mixing or serving.
+2024-10-17 11:29:05,646 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenSpoon
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: WoodenSpoon
+      reason: The WoodenSpoon has a high focus count of 71 and is within a proximity of 1.412 meters, which indicates the user has been consistently observing and is close to it. The estimated time to approach is also reasonable at 4.1 seconds, putting it high on the interaction list.
+    - object: BlackCeramicMug
+      reason: The BlackCeramicMug has a focus count of 50, indicating moderate attention, and an excellent proximity count of 91. It's closer at 0.961 meters, suggesting it could easily be interacted with soon, despite the time to approach of just under 2 seconds.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has a strong focus count of 41 and is also nearby (1.187 meters), with a similar time to approach of about 2.9 seconds. Although it has lower counts than the other two, its position suggests that it's likely to be involved in the user's current activity.
+
+predicted_interaction_objects:
+    - WoodenSpoon
+    - BlackCeramicMug
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to engage in food preparation or cooking activities, as indicated by the focus on kitchen-related objects like utensils, mugs, and cutting boards. This suggests the user may be in the process of preparing a meal or a recipe involving mixing or serving.

@@ -1,0 +1,198 @@
+2024-09-06 01:30:40,869 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: KitchenKnife
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: "With the highest focus count of 84, the ChoppingBoard is likely to be the primary object the user intends to interact with, potentially for food preparation."
+    - object: BlackCeramicMug
+      reason: "Having a significant focus count of 83, the BlackCeramicMug is also a strong candidate for interaction, possibly indicating the user might want to drink something or use it in a cooking process."
+    - object: KitchenKnife
+      reason: "The KitchenKnife has a high focus count of 84 and is an essential tool for food preparation, making it a likely object for interaction based on its importance in performing tasks related to the ChoppingBoard."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - BlackCeramicMug
+    - KitchenKnife
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to prepare food or engage in a cooking task, likely involving the use of the ChoppingBoard, KitchenKnife, and possibly preparing a drink using the BlackCeramicMug.
+2024-09-06 01:30:41,445 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: KitchenKnife
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has the highest focus count of 84, indicating that the user has been observing it intently. This suggests a strong likelihood of interaction, especially if they are preparing food."
+    - object: BlackCeramicMug
+      reason: "With a high focus count of 83 and presence in previous predictions, it is likely that the user intends to use the mug for drinking, further supported by the nearby counts showing consistent attention."
+    - object: KitchenKnife
+      reason: "The KitchenKnife has a focus count of 84, matching that of the ChoppingBoard. However, it was not as frequently observed in the most recent timeframe compared to the first two objects, making it slightly less likely for immediate interaction but still relevant for food preparation tasks."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - BlackCeramicMug
+    - KitchenKnife
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food or drinks in the living room area, likely involving the use of the chopping board for cutting, the mug for serving beverages, and the knife for preparation tasks.
+2024-09-06 12:39:23,444 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: BlackCeramicMug
+      probability: 0.35
+    - object: KitchenKnife
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has the highest count (84) in the 'high_focus_objects_measured_in_counts' list, indicating significant attention from the user, suggesting an intention to interact with it for food preparation or similar tasks."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a high count (83) as well and has also been frequently noted in previous predictions, indicating the user may consider it for beverage preparation or consumption."
+    - object: KitchenKnife
+      reason: "With a count of 84 in the 'high_focus_objects_measured_in_counts' list, the KitchenKnife is likely to be involved in conjunction with the ChoppingBoard, making it relevant for any cooking or food preparation tasks."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - BlackCeramicMug
+    - KitchenKnife
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food or drink, indicating they may be looking to interact with objects related to cooking or serving.
+2024-09-06 12:59:03,818 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.36
+    - object: KitchenKnife
+      probability: 0.34
+    - object: BlackCeramicMug
+      probability: 0.30
+
+rationale:
+    - object: ChoppingBoard
+      reason: "With a high focus count of 84, the ChoppingBoard has drawn considerable attention, indicating a strong probability of immediate interaction, likely for food preparation."
+    - object: KitchenKnife
+      reason: "The KitchenKnife also has a high focus count of 84 and is essential for cutting and preparing ingredients, reinforcing its likelihood of being used alongside the ChoppingBoard."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug shows a significant focus count of 83 and is often used in tasks related to beverages, making it a probable candidate for interaction, especially in a kitchen or living area setting."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - KitchenKnife
+    - BlackCeramicMug
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food or beverages, likely starting the process of cooking or making a drink, as indicated by the focus on preparation-related objects.
+2024-09-06 14:05:36,391 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: KitchenKnife
+      probability: 0.30
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has a high focus count (84), indicating that the user observed it intensively, suggesting a strong intent to interact, likely for food preparation."
+    - object: KitchenKnife
+      reason: "The KitchenKnife also has a high focus count (84) similar to the ChoppingBoard, indicating it may be needed for cutting or preparing food, making it a likely object for interaction."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a significant focus count (83) and is a quick access object. The user may be considering getting a drink, increasing its likelihood of interaction."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - KitchenKnife
+    - BlackCeramicMug
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely to engage in food preparation or cooking activities, as evidenced by the focus on kitchen tools like the ChoppingBoard and KitchenKnife, as well as the attention on the BlackCeramicMug which could suggest a desire for a beverage during the process.
+2024-09-06 15:56:52,601 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: KitchenKnife
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.30
+    - object: BlackCeramicMug
+      probability: 0.20
+
+rationale:
+    - object: KitchenKnife
+      reason: "The KitchenKnife has the highest count (84) in the high_focus_objects_measured_in_counts, indicating a strong likelihood that the user intends to interact with it, possibly for food preparation."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard also has a high count (84) similar to the KitchenKnife. Since both objects are typically used together for meal preparation, the user is likely to interact with both."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a significant count (83) indicating that the user may be interested in it too, potentially for a beverage while engaging in other activities in the living room."
+
+predicted_interaction_objects:
+    - KitchenKnife
+    - ChoppingBoard
+    - BlackCeramicMug
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to prepare something to eat or drink, likely involving the use of the KitchenKnife and ChoppingBoard while possibly enjoying a beverage from the BlackCeramicMug.
+2024-09-06 15:57:03,008 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: KitchenKnife
+      probability: 0.33
+    - object: BlackCeramicMug
+      probability: 0.32
+
+rationale:
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has the highest focus count (84) and is also frequently involved in previous interactions, suggesting a strong intention to use it in the current task."
+    - object: KitchenKnife
+      reason: "The KitchenKnife is another high-focus object with a count of 84, indicating significant attention and likely interaction, especially if food preparation is involved."
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has a high focus count of 83 and appears in multiple previous predictions, implying that it is likely to be used, possibly for a drink during the user's task."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - KitchenKnife
+    - BlackCeramicMug
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare food or a meal, as indicated by the focus on kitchen tools and related objects.
+2024-09-06 16:08:22,662 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicMug
+      probability: 0.4
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: KitchenKnife
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicMug
+      reason: "The BlackCeramicMug has the highest focus count (83), indicating significant user attention. It is also a common object for interaction, especially in a living room setting."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard shares the same focus count of 84 as the KitchenKnife, but its proximity counts suggest that the user has been near it for an extended period, making it likely they intend to interact with it."
+    - object: KitchenKnife
+      reason: "While the KitchenKnife has a high focus count (84), its utility in food preparation suggests that if the user is near a ChoppingBoard, they might also seek to use the KitchenKnife for cutting."
+
+predicted_interaction_objects:
+    - BlackCeramicMug
+    - ChoppingBoard
+    - KitchenKnife
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, as indicated by their focus on kitchen-related items like the ChoppingBoard and KitchenKnife, alongside casual items like the BlackCeramicMug, which suggests they might also be looking to make a drink or snack.
+2024-09-06 16:08:26,126 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.35
+    - object: KitchenKnife
+      probability: 0.30
+    - object: BlackCeramicMug
+      probability: 0.20
+
+rationale:
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has one of the highest focus counts (84), indicating that the user has been observing it attentively, suggesting a likely interaction associated with food preparation."
+    - object: KitchenKnife
+      reason: "The KitchenKnife has a high focus count (84) as well, making it likely that the user sees it as a necessary tool for utilizing the ChoppingBoard and preparing food."
+    - object: BlackCeramicMug
+      reason: "Although the BlackCeramicMug has a lower focus count (83), it has high intensity in proximity and might be considered for interaction after using the chopped ingredients for a drink or meal."
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - KitchenKnife
+    - BlackCeramicMug
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to prepare food, likely involving chopping ingredients and using kitchen tools, along with possibly serving or enjoying a beverage afterward.

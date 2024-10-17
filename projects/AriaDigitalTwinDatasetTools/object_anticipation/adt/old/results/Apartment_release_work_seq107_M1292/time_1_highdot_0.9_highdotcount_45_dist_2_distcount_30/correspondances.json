@@ -1,0 +1,12 @@
+[
+    [4.433, ["BlackCeramicDishSmall", "DvdRemote_1", "BlackCeramicBowl"], "no actual interaction"],
+    [9.498, ["DvdRemote_1", "BlackCeramicBowl", "TvRemote_1"], [[14.798, "BlackRoundTable"]]],
+    [24.129, ["DvdRemote_1", "TvRemote_1", "BlackCeramicBowl"], [[27.262, "BookDeepLearning"]]],
+    [32.961, ["DvdRemote_1", "TvRemote_1", "BlackCeramicBowl"], "no actual interaction"],
+    [42.693, ["BookComic1_01", "DecorativeBoxRecSmall", "BookCooking1_01"], "no actual interaction"],
+    [59.124, ["BookDeepLearning", "BookComic1_01", "DecorativeBoxHexSmall"], [[64.056, "Flask"]]],
+    [68.256, ["CoffeeCanisterSmall", "Cracker_Anon", "WhiteUtensilTray"], "no actual interaction"],
+    [76.554, ["BlackCeramicMug", "NIT_CoffeeCan_Anon", "GreenApple_A"], [[77.521, "BlackCeramicMug"]]],
+    [85.153, ["BlackCeramicDishLarge", "BlackRoundTable", "BlackKitchenChair"], "no actual interaction"],
+    [91.385, ["BookDeepLearning", "BlackRoundTable", "BlackCeramicBowl"], "no actual interaction"]
+]

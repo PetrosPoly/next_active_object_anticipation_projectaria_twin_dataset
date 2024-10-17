@@ -1,0 +1,16 @@
+[
+    [4.399, ["BlackCeramicDishSmall", "DinoToy", "DvdRemote_1"], "no actual interaction"],
+    [9.465, ["DvdRemote_1", "TvRemote_1", "BlackCeramicBowl"], [[14.798, "BlackRoundTable"]]],
+    [14.898, ["DvdRemote_1", "TvRemote_1", "BlackCeramicDishSmall"], "no actual interaction"],
+    [19.33, ["WhiteChair", "BlackTablet", "ExtendableTable"], "no actual interaction"],
+    [23.996, ["DvdRemote_1", "TvRemote_1", "BlackCeramicBowl"], [[27.262, "BookDeepLearning"]]],
+    [29.062, ["Magazine04_1", "DinoToy", "BlackCeramicDishSmall"], "no actual interaction"],
+    [34.961, ["WhiteChair", "BlackTablet", "ExtendableTable"], "no actual interaction"],
+    [42.726, ["BookBoxSmall_2", "Bookcase", "WhiteLiddedTrashBin"], "no actual interaction"],
+    [58.824, ["BookComic1_01", "BookDeepLearning", "BookFiction9_01"], "no actual interaction"],
+    [63.89, ["GreenApple_A", "CakeMocha_A", "BlackCeramicMug"], [[64.056, "Flask"]]],
+    [68.456, ["Cracker_Anon", "WoodenSpoon", "WhiteUtensilTray"], "no actual interaction"],
+    [74.355, ["BlackKitchenChair_B", "CakeMocha_A", "BlackCeramicMug"], [[77.521, "BlackCeramicMug"]]],
+    [80.554, ["BlackArmChair", "BookDeepLearning", "BlackRoundTable"], "no actual interaction"],
+    [86.786, ["BlackTablet", "NIT_CoffeeCan_Anon", "DvdRemote_1"], "no actual interaction"]
+]

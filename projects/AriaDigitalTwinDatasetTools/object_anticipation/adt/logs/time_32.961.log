@@ -1,0 +1,44 @@
+2024-09-13 10:19:23,852 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: DvdRemote_1
+      probability: 0.45
+    - object: TvRemote_1
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.20
+
+rationale:
+    - object: DvdRemote_1
+      reason: "The DvdRemote_1 has appeared multiple times in the previous predictions, indicating it is likely of high interest. Additionally, it was consistently observed when the user was in proximity to objects like the BlackCeramicBowl, suggesting a potential task related to media consumption."
+    - object: TvRemote_1
+      reason: "Similar to the DvdRemote_1, the TvRemote_1 has been a recurring object in previous predictions, implying that the user may intend to engage with it, particularly in the context of operating the television."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl, while having less focus than the remotes, still has been observed in conjunction with previous potential interactions, hinting that the user may want to use it, possibly for serving or holding snacks while watching media."
+
+predicted_interaction_objects:
+    - DvdRemote_1
+    - TvRemote_1
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare for a media viewing experience, likely wanting to set up the DVD or television while possibly having snacks or drinks at hand, which would involve the use of the remotes and the bowl.
+2024-09-13 10:59:20,352 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WhiteChair
+      probability: 0.4
+    - object: BlackRoundTable
+      probability: 0.35
+    - object: BlackKitchenChair
+      probability: 0.25
+
+rationale:
+    - object: WhiteChair
+      reason: "The WhiteChair has the highest focus count (91), indicating a significant amount of attention from the user over the last few seconds. This suggests a likely intention to interact with it."
+    - object: BlackRoundTable
+      reason: "The BlackRoundTable has a focus count of 73, which is substantial. Combined with its proximity (39 counts), it stands out as a strong candidate for interaction, as the user may be considering activities that involve this table."
+    - object: BlackKitchenChair
+      reason: "The BlackKitchenChair has a focus count of 71 and is one of the nearby objects (30 counts), implying that while it may not be the primary focus, there remains a good chance of interaction due to its proximity and observed duration."
+
+predicted_interaction_objects:
+    - WhiteChair
+    - BlackRoundTable
+    - BlackKitchenChair
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to engage in an activity that likely involves sitting down or preparing for something at either the WhiteChair or the BlackRoundTable, possibly while using nearby kitchen items or managing remote controls. The past interactions suggest the user may also be organizing or searching for specific items like dishes or remotes.

@@ -1,0 +1,352 @@
+2024-10-15 11:11:48,421 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: RedClock
+      probability: 0.35
+    - object: WhiteUtensilTray
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "This object has the highest proximity counts and is the closest to the user at a distance of 0.978 meters. It also has a significant number of focus counts (36), making it a strong candidate for interaction."
+    - object: RedClock
+      reason: "The RedClock shows high focus counts (47) and a very close approach time (2.705 seconds), while proximity counts can indicate the user has spent time near it, making it a likely object for interaction next."
+    - object: WhiteUtensilTray
+      reason: "Although it has lower focus counts (17), it is close and likely in the user's path based on proximity counts (91). This suggests that while it might not have been a primary focus, its immediate usability may lead to interaction, particularly if the user’s activities necessitate reaching for utensils."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - WhiteUtensilTray
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely centered around preparing something in the kitchen, potentially involving measuring or managing time, as suggested by focusing on the CoffeeCanisterLarge and RedClock, which may relate to cooking or preparing food and timing tasks efficiently.
+2024-10-15 11:36:13,421 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: RedClock
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "This object has a high proximity consistency count of 91 and a focus count of 36, indicating both high attention and close nearness. Additionally, its time to approach is very low (approximately 0.94 seconds), making it highly probable for interaction."
+    - object: RedClock
+      reason: "The RedClock also shows high focus and proximity counts (47 and 91, respectively), suggesting consistent attention and frequent pass-by. However, it lacks a specific interaction time metric, putting it slightly lower in probability than the CoffeeCanisterLarge."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has moderate focus (30 counts), high proximity (91 counts), and a reasonable approach time of around 21.67 seconds. While it does meet the focus and distance criteria, its longer approach time makes it less likely than the first two."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing food or making a beverage, as indicated by the frequent focus on food preparation items like the CoffeeCanisterLarge and ChoppingBoard, along with their proactive engagement in the living space.
+2024-10-15 11:36:14,193 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: RedClock
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "The CoffeeCanisterLarge has a high proximity count (91) and a very low time to approach (0.94 seconds), making it the most likely candidate. It also meets the focus threshold with a count of 36."
+    - object: RedClock
+      reason: "The RedClock has a focus count of 47, a high proximity count (91), and a low time to approach (2.71 seconds). These factors place it as the second likely object of interaction."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has a focus count of 30 and a short distance (1.12 meters) with reasonable proximity (91 counts). While it is slightly less likely than the top two, it remains a probable choice due to the strong focus and proximity."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing food or beverages, possibly making coffee or arranging items for cooking, as indicated by the interactions with related kitchen objects.
+2024-10-15 11:36:17,519 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: RedClock
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "The CoffeeCanisterLarge has high focus (36 counts) and the shortest distance (0.978 meters), making it the most likely object for interaction. The low time to approach (0.94 seconds) suggests the user is positioned to engage with it soon."
+    - object: RedClock
+      reason: "The RedClock has significant focus (47 counts) and is also very close (1.034 meters). It meets both the proximity and focus thresholds, thus indicating a higher probability for future interaction, despite not being the closest object."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard, while slightly behind in focus counts (30) and distance (1.123 meters), still meets the proximity requirements. Its consistent involvement in past interactions suggests it remains relevant to the current user goal."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing something in the kitchen or providing for a gathering, as evidenced by the consistent focus on kitchenware and dining objects, particularly items relevant to coffee or meal preparation.
+2024-10-15 11:36:21,892 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: RedClock
+      probability: 0.35
+    - object: WhiteUtensilTray
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "This object has high focus consistency (36 counts) and is very close to the user (0.978 meters), making it highly likely for interaction. It also has a quick time to approach (0.94 seconds), confirming its probability."
+    - object: RedClock
+      reason: "The RedClock has a strong focus consistency (47 counts) and is also close (1.034 meters) to the user. Its proximity counts are high (91), which suggests the user might engage with it, though it might be less likely than the CoffeeCanisterLarge."
+    - object: WhiteUtensilTray
+      reason: "While the WhiteUtensilTray has lower focus consistency (17 counts), it is within the proximity threshold (0.940 meters) and has a reasonable approach time (0.57 seconds). Therefore, it remains a probable target for interaction."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - WhiteUtensilTray
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing food or organizing items in the living room, possibly involving ingredients or utensils, as indicated by the focus on the CoffeeCanisterLarge and utensils like the WhiteUtensilTray.
+2024-10-15 11:45:32,206 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.45
+    - object: RedClock
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.2
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "The CoffeeCanisterLarge has the highest counts for focus (36) and proximity (91), indicating that the user has been observing it closely and is also physically close to it. It has a low time to approach (0.94 seconds), making it highly probable that the user will interact with it soon."
+    - object: RedClock
+      reason: "The RedClock has a high focus count (47) and a very low time to approach (2.70 seconds). Despite being slightly less at proximity (91), the user has shown consistent interest in it, suggesting that it could be the next likely interaction."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has a respectable focus count (30) and is one of the closest objects (1.123 meters). While its time to approach is somewhat higher (21.67 seconds), the user’s previous focus may lead them to interact with it eventually."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely centered around preparing or consuming food or beverages, as evidenced by the focus on kitchen-related items like the CoffeeCanisterLarge and ChoppingBoard, along with other kitchen tools frequently observed in prior interactions.
+2024-10-15 11:45:39,444 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: WhiteUtensilTray
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "The CoffeeCanisterLarge has the highest focus count of 36, is within close proximity at 0.978 meters, and has a low approach time of approximately 0.94 seconds, making it a highly probable candidate for interaction."
+    - object: WhiteUtensilTray
+      reason: "The WhiteUtensilTray has a focus count of 17, indicates strong proximity consistency of 91 counts, and a very short approach time of about 0.57 seconds. It satisfies the distance and time thresholds while having a marginally lower focus count."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has a focus count of 30, and while it has a slightly longer approach time of 21.67 seconds, it remains within close proximity at 1.123 meters. It meets the focus and distance thresholds, making it a likely candidate for interaction."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - WhiteUtensilTray
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing food or a beverage, as indicated by their focus on kitchen-related items such as the CoffeeCanisterLarge and ChoppingBoard, along with interactions with utensils.
+2024-10-15 11:45:42,142 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: WhiteUtensilTray
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "The CoffeeCanisterLarge has the highest focus (36 counts) and is the closest object (0.978 meters) with a very short time to approach (0.941 seconds), making it the most likely candidate for interaction."
+    - object: WhiteUtensilTray
+      reason: "The WhiteUtensilTray has a significant focus count (17 counts) and is in close proximity (0.940 meters), with a minimal time needed to approach it (0.574 seconds), placing it as the second most likely object for interaction."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard shows a decent focus consistency (30 counts) and is also very near (1.123 meters), with a reasonable time to approach (21.667 seconds). Although it is not as close to the user as the first two, its focus consistency still makes it a probable object for interaction."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - WhiteUtensilTray
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing or consuming food or beverages, particularly involving coffee preparation, given the focus on the CoffeeCanisterLarge and the presence of utensils and a chopping board.
+2024-10-15 11:45:42,269 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: RedClock
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "This object has high focus counts (36) and a close proximity (0.978 meters), with a very low time to approach (0.94 seconds), making it highly probable for interaction."
+    - object: RedClock
+      reason: "The RedClock shows high focus counts (47) and proximity counts (91), combined with a moderate time to approach (2.7 seconds), indicating strong chance of user interaction."
+    - object: ChoppingBoard
+      reason: "ChoppingBoard has significant focus counts (30) and high proximity counts (91), although its approach time is longer (21.67 seconds), it still meets both focus and proximity criteria making it a likely candidate for interaction."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing food or a beverage, as evidenced by the focus on kitchen-related objects such as the CoffeeCanisterLarge and ChoppingBoard, indicating preparation activities.
+2024-10-15 12:08:47,281 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: RedClock
+      probability: 0.35
+    - object: WhiteUtensilTray
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "This object has the highest focus count (36) and is within close proximity (0.978 meters), alongside a short approach time (0.941 seconds). This combination makes it the most likely candidate for interaction."
+    - object: RedClock
+      reason: "The RedClock has a strong focus count (47) and is also very close (1.034 meters) with a reasonable approach time (2.706 seconds). Its high focus indicates active interest, aligning with interaction potential."
+    - object: WhiteUtensilTray
+      reason: "Although the WhiteUtensilTray has a lower focus count (17), it is within the proximity threshold (0.94 meters), indicating reasonable likelihood of interaction as proximity suggests it could be important for the user's current task."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - WhiteUtensilTray
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is to prepare or consume food and beverages, likely involving measuring or retrieving items from the CoffeeCanisterLarge and coordinating timing by checking the RedClock. The presence of the WhiteUtensilTray suggests they may also be organizing utensils for a meal or snack preparation.
+2024-10-15 12:08:59,569 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: WhiteUtensilTray
+      probability: 0.35
+    - object: RedClock
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "This object meets the focus threshold with 36 counts, is within proximity at less than 1 meter, and has the shortest time to approach at approximately 0.94 seconds, indicating a high likelihood of interaction."
+    - object: WhiteUtensilTray
+      reason: "Although only slightly below the focus threshold with 17 counts, it is very close to the user (under 1 meter) and has a time to approach of about 0.57 seconds, making it a probable candidate for interaction."
+    - object: RedClock
+      reason: "The RedClock meets both proximity and focus thresholds with high counts (47 and 91 respectively), although its time to approach (about 2.7 seconds) is slightly over the threshold. However, its close proximity suggests a likelihood of being interacted with."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - WhiteUtensilTray
+    - RedClock
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing a food or beverage item, where they may need to retrieve ingredients or utensils from nearby objects to complete a task in the living room.
+2024-10-15 12:08:59,569 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: RedClock
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "The CoffeeCanisterLarge exhibits strong focus consistency (36 counts) and is the closest object, which indicates that the user is likely considering interacting with it, possibly for preparing or consuming coffee. It also fulfills the time threshold for proximity."
+    - object: RedClock
+      reason: "The RedClock has substantial focus consistency (47 counts) and is also within very close proximity (1.034 meters). Despite not being a traditional object of interaction in a cooking context, the user's attention implies it may serve a timing function or role in their current task."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has a focus count (30 counts) and significant proximity measures (1.123 meters). Although it does not meet the time threshold, the user’s focus and closeness to this object indicate they may be preparing food, which involves using the chopping board."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing or consuming food and drinks, with a specific focus on coffee-related tasks, as indicated by the interest in the CoffeeCanisterLarge and the reference to timing elements with the RedClock.
+2024-10-15 12:09:06,831 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.45
+    - object: RedClock
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.2
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: "This object has the highest focus count (36) and is the closest to the user (0.978 meters), as well as a short time to approach (0.941 seconds). It meets both focus and distance thresholds, making it the most probable object for interaction."
+    - object: RedClock
+      reason: "The RedClock has a significant focus count (47) and is also in close proximity (1.034 meters). Although its time to approach is longer compared to CoffeeCanisterLarge, it still meets the focus threshold and indicates a high likelihood of interaction."
+    - object: ChoppingBoard
+      reason: "The ChoppingBoard has a decent focus count (30) and proximity (1.123 meters). Although it does not meet the proximity threshold, its focus and relatively short approach time suggest that it's a probable object for interaction."
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - RedClock
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the "previous_predictions" list, it is inferred that the user's goal is likely related to preparing food or drink, as indicated by the consistent focus on kitchen-related objects and tools in the living area context, particularly the CoffeeCanisterLarge and ChoppingBoard.
+2024-10-17 11:22:43,557 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: WhiteUtensilTray
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: This object has the highest focus count (36) and proximity count (91), indicating that the user has been consistently observing and is close to interacting with it. Additionally, it has the shortest time to approach (0.94 seconds), making it a prime candidate for interaction.
+    - object: WhiteUtensilTray
+      reason: The WhiteUtensilTray has a focus count of 17 and a proximity count of 91, meeting the distance and proximity thresholds, while also being relatively close with a low time to approach (0.57 seconds). This suggests that the user is likely to interact with it soon.
+    - object: ChoppingBoard
+      reason: The ChoppingBoard shows good focus (30) and proximity counts (91), indicating consistent observation and closeness. Although its time to approach is longer (21.67 seconds), the high focus and proximity allow it to remain a probable object of interaction.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - WhiteUtensilTray
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing food or cooking, as the focus is on kitchen-related items like the CoffeeCanisterLarge, WhiteUtensilTray, and ChoppingBoard.
+2024-10-17 11:22:43,844 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: WhiteUtensilTray
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: This object meets the distance and time thresholds, indicating it's close and quickly approachable. Additionally, it has a significant focus count, reinforcing its likelihood of being interacted with.
+    - object: WhiteUtensilTray
+      reason: While it does not meet the time threshold, it satisfies the focus and distance criteria, making it another probable candidate. Its proximity and the attention the user has given it suggest that it may be relevant to their task.
+    - object: ChoppingBoard
+      reason: This object has strong focus counts and is within proximity, although it does not fully meet the time threshold. The user's observation of it implies it may be significant for their ongoing activity.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - WhiteUtensilTray
+    - ChoppingBoard
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare food or set up for a cooking task, given the focus on kitchen-related items like the coffee canister and chopping board.
+2024-10-17 11:27:05,006 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: CoffeeCanisterLarge
+      probability: 0.4
+    - object: WhiteUtensilTray
+      probability: 0.35
+    - object: UtilityCart
+      probability: 0.25
+
+rationale:
+    - object: CoffeeCanisterLarge
+      reason: This object has the highest focus and proximity counts, indicating a strong likelihood of interaction. It is also the closest object, requiring only 0.98 seconds to approach, which makes it a prime candidate for immediate interaction.
+    - object: WhiteUtensilTray
+      reason: While it does not meet the focus count threshold, it is in close proximity and has a reasonable time to approach (0.57 seconds). The user has shown consistent observation of this object, suggesting it may be important for their current task.
+    - object: UtilityCart
+      reason: This object has some focus consistency and is within proximity, but its time to approach is slightly longer (0.64 seconds). While it falls into the less likely category, the user has spent some time near it, making it a potential target.
+
+predicted_interaction_objects:
+    - CoffeeCanisterLarge
+    - WhiteUtensilTray
+    - UtilityCart
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare or organize items in the living space, possibly for a cooking task, as indicated by the focus on kitchen-related objects.

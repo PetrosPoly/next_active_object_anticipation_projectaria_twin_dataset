@@ -1,0 +1,16 @@
+{
+    "sequence": "Apartment_release_clean_seq150_M1292",
+    "parameters": "time_2_highdot_0.9_highdotcount_45_dist_2_distcount_30",
+    "total_ground_truth": 7,
+    "total_llm_predictions": 19,
+    "total_llm_activations": 18,
+    "total_actual_correspondences": 7,
+    "Tp": 5,
+    "Fp": 14,
+    "Fn": 0,
+    "model_overall_accuracy": 0.263,
+    "precision": 0.263,
+    "recall": 0.714,
+    "llm_activation_sensitivity": 0.368,
+    "llm_interaction_accuracy": 0.714
+}

@@ -1,0 +1,88 @@
+2024-09-06 16:27:16,229 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackRoundTable
+      probability: 0.4
+    - object: BlackKitchenChair
+      probability: 0.35
+    - object: BookDeepLearning
+      probability: 0.25
+
+rationale:
+    - object: BlackRoundTable
+      reason: "It has the highest count in the high_focus_objects_measured_in_counts list, indicating it has received significant attention from the user, which suggests a strong likelihood of interaction."
+    - object: BlackKitchenChair
+      reason: "This object is also prominent in the high_focus_objects_measured_in_counts list and its nearby presence indicates that the user may be considering using it or interacting with it in conjunction with the BlackRoundTable."
+    - object: BookDeepLearning
+      reason: "While its count is lower than the first two, it still ranks highly in the focus measurements and is likely to be of interest to the user, possibly for reading or reference."
+
+predicted_interaction_objects:
+    - BlackRoundTable
+    - BlackKitchenChair
+    - BookDeepLearning
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to engage in an activity that may involve the BlackRoundTable, possibly for a discussion or workspace setup, while using the BlackKitchenChair for seating comfort, and referring to the BookDeepLearning for information or study purposes.
+2024-09-06 16:27:17,137 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BookDeepLearning
+      probability: 0.45
+    - object: BlackRoundTable
+      probability: 0.35
+    - object: DvdRemote_1
+      probability: 0.20
+
+rationale:
+    - object: BookDeepLearning
+      reason: "The BookDeepLearning has a high count of 52 in the nearby objects, indicating that the user has spent significant time near it. This suggests a strong likelihood they may want to interact with it, possibly to read or reference it."
+    - object: BlackRoundTable
+      reason: "The BlackRoundTable has a count of 41 nearby, indicating it has caught the user's attention and they may want to use it for a specific activity, such as placing items or utilizing the table's surface."
+    - object: DvdRemote_1
+      reason: "Although the DvdRemote_1 has been previously observed multiple times, it has a lower focus count than the top two objects. However, its historical presence in past interactions and its association with the user’s activities may make it a candidate for interaction, especially if the user is planning to watch something."
+
+predicted_interaction_objects:
+    - BookDeepLearning
+    - BlackRoundTable
+    - DvdRemote_1
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to engage with items relevant to a learning activity or leisure, possibly focused on studying or starting a media session in the living room.
+2024-09-06 16:27:27,919 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BookDeepLearning
+      probability: 0.45
+    - object: BlackRoundTable
+      probability: 0.35
+    - object: BlackArmChair
+      probability: 0.20
+
+rationale:
+    - object: BookDeepLearning
+      reason: "This object has the highest focus count (52), indicating that the user has been observing it intently, suggesting a strong desire to interact with it, potentially to read or reference the content."
+    - object: BlackRoundTable
+      reason: "With a nearby count of 41, the user has spent considerable time near this table, indicating a likelihood of interaction, possibly for placing items or using it for workspace."
+    - object: BlackArmChair
+      reason: "Although this chair has the highest focus count (46), its purpose as a seating option may make it less likely to be interacted with at this moment compared to actively sought objects like the book or the table."
+
+predicted_interaction_objects:
+    - BookDeepLearning
+    - BlackRoundTable
+    - BlackArmChair
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to read or engage with the BookDeepLearning, potentially conducting research or studying. The nearby interaction with the BlackRoundTable suggests they may want to utilize it as a workspace, while the interest in the BlackArmChair indicates a need for comfort during this task.
+2024-09-06 16:34:05,397 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackArmChair
+      probability: 0.4
+    - object: BookDeepLearning
+      probability: 0.35
+    - object: BlackRoundTable
+      probability: 0.25
+
+rationale:
+    - object: BlackArmChair
+      reason: "With 46 counts in the high_focus_objects_measured_in_counts list, the BlackArmChair has attracted significant attention from the user, indicating a high likelihood of interaction, possibly for sitting or resting."
+    - object: BookDeepLearning
+      reason: "The BookDeepLearning has 39 counts, suggesting that the user has been intensely focused on it, likely indicating an interest in reading or referencing it."
+    - object: BlackRoundTable
+      reason: "Despite having a lower focus count of 37, the BlackRoundTable also has a presence in the nearby_objects list, which combined with its proximity suggests the user may interact with it, perhaps for placing items or using it for a task."
+
+predicted_interaction_objects:
+    - BlackArmChair
+    - BookDeepLearning
+    - BlackRoundTable
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to find a comfortable place to sit, potentially to read or study using the BookDeepLearning, while possibly utilizing the BlackRoundTable for support or workspace.

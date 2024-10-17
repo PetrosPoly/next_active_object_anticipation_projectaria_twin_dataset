@@ -1,0 +1,44 @@
+2024-09-06 16:27:18,915 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackKitchenChair_B
+      probability: 0.45
+    - object: CakeMocha_A
+      probability: 0.35
+    - object: BirdHouseToy
+      probability: 0.20
+
+rationale:
+    - object: BlackKitchenChair_B
+      reason: "It has the highest count in the 'high_focus_objects_measured_in_counts' list, indicating the user has observed it with intense focus, suggesting a strong intention to interact."
+    - object: CakeMocha_A
+      reason: "This item is also among the top in focus counts and is likely relevant to the user's activities, possibly related to a meal or snack preparation."
+    - object: BirdHouseToy
+      reason: "Although lower in focus counts, it has a significant presence in the 'nearby_objects_measured_in_counts' list, indicating that the user has spent time near it, which may lead to interaction."
+
+predicted_interaction_objects:
+    - BlackKitchenChair_B
+    - CakeMocha_A
+    - BirdHouseToy
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to either prepare or serve food (implied by the presence of the CakeMocha_A) and to possibly utilize the BlackKitchenChair_B for sitting or placing items nearby, while the BirdHouseToy might be a playful or emotional interaction as part of a broader context in the living space.
+2024-09-06 16:33:56,832 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackKitchenChair_B
+      probability: 0.4
+    - object: CakeMocha_A
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: BlackKitchenChair_B
+      reason: "This object has the highest count in the high focus list (75), indicating that the user has observed it intensively and might want to interact with it, possibly to sit down."
+    - object: CakeMocha_A
+      reason: "This object is also highly focused on with a count of 69, suggesting that the user might be interested in consuming or interacting with it, likely in relation to having a snack or drink."
+    - object: BlackCeramicMug
+      reason: "With a considerable count of 30, this object has caught the user's attention enough to be a potential interaction, likely for getting a drink."
+
+predicted_interaction_objects:
+    - BlackKitchenChair_B
+    - CakeMocha_A
+    - BlackCeramicMug
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to sit down and enjoy a drink, possibly while snacking, indicating a need for comfort and relaxation in the living room space.

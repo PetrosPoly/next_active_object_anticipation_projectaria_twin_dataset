@@ -1,0 +1,44 @@
+2024-10-17 11:22:19,817 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.4
+    - object: NIT_CoffeeCan_Anon
+      probability: 0.35
+    - object: HeatTrivet
+      probability: 0.25
+
+rationale:
+    - object: WoodenBowl
+      reason: The WoodenBowl has the highest focus count (37), is within the proximity threshold (1.733m), and has a time to approach of 1.897 seconds, meeting all required thresholds for interaction.
+    - object: NIT_CoffeeCan_Anon
+      reason: The NIT_CoffeeCan_Anon also meets the proximity threshold (1.715m) and has a focus count (32) that indicates attention. The time to approach (1.996 seconds) is slightly above the required threshold, making it the next most probable object for interaction.
+    - object: HeatTrivet
+      reason: HeatTrivet shows a solid focus count (32) and is close enough (1.727m) to consider a potential interaction, although it barely exceeds the threshold for time to approach (2.012 seconds). Thus, it is less likely than the first two but still probable.
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - NIT_CoffeeCan_Anon
+    - HeatTrivet
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare or serve food or drinks, given the focus on kitchen-related objects like bowls and coffee canisters, which suggests an intention to interact with these items for culinary activities.
+2024-10-17 11:22:21,728 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.4
+    - object: NIT_CoffeeCan_Anon
+      probability: 0.35
+    - object: HeatTrivet
+      probability: 0.25
+
+rationale:
+    - object: WoodenBowl
+      reason: The WoodenBowl has the highest focus count (37), is within proximity (1.733 meters), and has an estimated time to approach of 1.897 seconds, which satisfies all thresholds. This suggests that the user is highly likely to interact with it.
+    - object: NIT_CoffeeCan_Anon
+      reason: The NIT_CoffeeCan_Anon also has a strong focus count (32) and is close enough (1.715 meters) with a quick approach time (1.996 seconds). It meets the distance and time thresholds, making it the second most likely object for interaction.
+    - object: HeatTrivet
+      reason: The HeatTrivet has a focus count of 32 and is close (1.727 meters), although its time to approach is on the border at 2.012 seconds. Although it dips slightly into that threshold, it remains a probable candidate for interaction.
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - NIT_CoffeeCan_Anon
+    - HeatTrivet
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing or organizing items in the living room, as they display significant focus and proximity on objects typically involved in food or beverage presentation.

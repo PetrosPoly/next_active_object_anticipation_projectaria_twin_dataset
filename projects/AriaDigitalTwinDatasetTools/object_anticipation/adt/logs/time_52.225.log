@@ -1,0 +1,44 @@
+2024-10-17 11:12:12,259 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Magazine01_1
+      probability: 0.4
+    - object: BirdHouseToy
+      probability: 0.35
+    - object: CandlePattern01_1
+      probability: 0.25
+
+rationale:
+    - object: Magazine01_1
+      reason: It has the highest focus consistency count (78) and proximity consistency count (91), both of which suggest that the user is paying significant attention to this object and is also very close to it.
+    - object: BirdHouseToy
+      reason: With a focus consistency count of 80 and a proximity count of 91, this object shows strong indications of user interest and nearness, making it likely that the user will interact with it.
+    - object: CandlePattern01_1
+      reason: It has a focus count of 49 (sufficiently notable) and an excellent proximity count of 91, which indicates that while it does not have the highest focus count, the consistent proximity suggests potential interaction.
+
+predicted_interaction_objects:
+    - Magazine01_1
+    - BirdHouseToy
+    - CandlePattern01_1
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to engage with decorative or informational items in the living room, potentially for relaxation or leisure activities, such as reading a magazine or playing with a toy.
+2024-10-17 11:23:23,385 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Magazine01_1
+      probability: 0.4
+    - object: CandlePattern01_1
+      probability: 0.35
+    - object: DinoToy
+      probability: 0.25
+
+rationale:
+    - object: Magazine01_1
+      reason: This object has the highest focus consistency and proximity counts, indicating that the user has observed and remained close to it frequently. Additionally, the approach time is minimal, making it highly probable that this is the next object the user will interact with.
+    - object: CandlePattern01_1
+      reason: CandlePattern01_1 also has significant focus and proximity counts, and the user is close to it as well. Although its focus counts are lower than Magazine01_1, it still meets the distance and time criteria, placing it as the second most likely object for interaction.
+    - object: DinoToy
+      reason: While it has lower focus counts compared to the other two objects, DinoToy remains within proximity. The amount of time needed to approach is also reasonable, making it a potential candidate for interaction, albeit less likely than the top two.
+
+predicted_interaction_objects:
+    - Magazine01_1
+    - CandlePattern01_1
+    - DinoToy
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to engage with objects in their living room, particularly focusing on items for leisure or decorative purposes, potentially aiming to read or enjoy an aesthetic environment.

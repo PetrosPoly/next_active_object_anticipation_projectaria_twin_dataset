@@ -1,0 +1,44 @@
+2024-09-13 10:21:00,311 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BookDeepLearning
+      probability: 0.45
+    - object: BlackRoundTable
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.2
+
+rationale:
+    - object: BookDeepLearning
+      reason: "This object has the highest count in the 'high_focus_objects_measured_in_counts' list, indicating the user has observed it intensively, suggesting a high likelihood of interaction."
+    - object: BlackRoundTable
+      reason: "Although it is not the highest in focus counts, it appears in the 'nearby_objects_measured_in_counts' list with a significant count, indicating that the user has spent a considerable amount of time close to it, suggesting potential interaction."
+    - object: BlackCeramicBowl
+      reason: "This object has been consistently observed in previous predictions and is also present in the nearby objects list, which increases its chances of being interacted with next."
+
+predicted_interaction_objects:
+    - BookDeepLearning
+    - BlackRoundTable
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to explore or reference content related to deep learning, possibly looking to make notes or comparisons, while also considering the use of nearby objects such as the table and bowl for practical support (e.g., setting down the book or other items).
+2024-09-13 11:00:46,935 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BookDeepLearning
+      probability: 0.5
+    - object: BlackRoundTable
+      probability: 0.3
+    - object: BlackCeramicBowl
+      probability: 0.2
+
+rationale:
+    - object: BookDeepLearning
+      reason: "The user has intensely focused on the BookDeepLearning with a count of 45, indicating a strong likelihood of wanting to interact with it. It is also the highest focus object, suggesting it might be related to the user's current task."
+    - object: BlackRoundTable
+      reason: "The BlackRoundTable has a significant presence in both the high focus (91 counts) and nearby object counts. Its prominence in previous interactions indicates it could serve as a surface for interactions, making it a likely choice."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl appears in previous predictions and has a consistent count presence. Its lesser focus compared to the others suggests a supportive role during the combined interaction, making it a candidate for interaction."
+
+predicted_interaction_objects:
+    - BookDeepLearning
+    - BlackRoundTable
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to engage with the BookDeepLearning, potentially to read or reference it, while utilizing the BlackRoundTable as a workspace and considering other nearby objects, like the BlackCeramicBowl, for additional tasks or organization.

@@ -1,0 +1,286 @@
+2024-09-12 23:21:09,329 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.45
+    - object: BlackRoundTable
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.20
+
+rationale:
+    - object: Donut_B
+      reason: "The Donut_B had the highest count of 45 in the high_focus_objects_measured_in_counts, indicating that the user observed it intensely for a significant amount of time, showing strong interest in interacting with it."
+    - object: BlackRoundTable
+      reason: "The BlackRoundTable had a count of 46, which is slightly higher than the Donut_B's count. This indicates that the user might have been focusing on or considering how to use it in conjunction with other nearby objects."
+    - object: BlackCeramicBowl
+      reason: "The BlackCeramicBowl was listed in the previous predictions and appears to have relevance to the user's potential activities. Its presence in past interactions combined with a reasonable count suggests it is likely to be important to the user's task."
+
+predicted_interaction_objects:
+    - Donut_B
+    - BlackRoundTable
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to engage in meal preparation or food presentation, potentially involving baking or serving, as indicated by the focus on food-related items like the Donut_B and the BlackCeramicBowl.
+2024-09-12 23:55:35,096 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.5
+    - object: BlackRoundTable
+      probability: 0.3
+    - object: ChoppingBoard
+      probability: 0.2
+
+rationale:
+    - object: Donut_B
+      reason: "This object has the highest count (45) in the 'high_focus_objects_measured_in_counts' list, indicating that the user has observed it intensively and may want to interact with it."
+    - object: BlackRoundTable
+      reason: "With a count of 46 in the 'high_focus_objects_measured_in_counts' list, this object shows significant attention, and as it is a central piece in the living room, it could be a focal point for further interactions."
+    - object: ChoppingBoard
+      reason: "This object appears in a previous prediction and is likely to be relevant for preparation or serving tasks that the user might be planning, which aligns with the contextual setup."
+
+predicted_interaction_objects:
+    - Donut_B
+    - BlackRoundTable
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare, serve, or enjoy food, potentially involving the use of the donut and the chopping board, possibly on or near the black round table.
+2024-09-13 01:04:51,849 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.45
+    - object: BlackRoundTable
+      probability: 0.35
+    - object: WoodenFork
+      probability: 0.20
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest count in both high focus (45) and nearby (42). This suggests that the user is very attentive to this object, indicating a high likelihood of interaction."
+    - object: BlackRoundTable
+      reason: "BlackRoundTable is also high in focus (46) and nearby (likely related to its function in the room). While not as high as Donut_B, its significant focus count suggests the user may want to interact with it, perhaps for placing items or preparing food."
+    - object: WoodenFork
+      reason: "WoodenFork appears in previous predictions and is associated with food preparation. Although it has lower counts compared to the first two, its consistent presence in previous predictions indicates it is still a relevant object in the user's current task."
+
+predicted_interaction_objects:
+    - Donut_B
+    - BlackRoundTable
+    - WoodenFork
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely centered around food preparation or serving, potentially involving items such as donuts or similar baked goods, and the interaction with related utensils or surfaces for preparing or presenting food.
+2024-09-13 10:04:19,276 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.45
+    - object: BlackRoundTable
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.20
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest count (45) in the high_focus_objects_measured_in_counts, indicating a strong intention to interact with it."
+    - object: BlackRoundTable
+      reason: "With a count of 46 in the high_focus_objects_measured_in_counts, the BlackRoundTable indicates that it is being observed alongside Donut_B and thus likely to be interacted with."
+    - object: BlackCeramicBowl
+      reason: "Although it has been previously noted in the predictions and has some relevance, its current high_focus count was less than the top two. However, it is still a strong contender due to prior observations."
+
+predicted_interaction_objects:
+    - Donut_B
+    - BlackRoundTable
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, potentially involving items from the kitchen, such as the BlackCeramicBowl in conjunction with the Donut_B, which could indicate a baking or serving activity in the living room context.
+2024-09-13 16:55:12,126 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.45
+    - object: BlackRoundTable
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.20
+
+rationale:
+    - object: Donut_B
+      reason: "With the highest focus count of 45, it indicates significant user attention. The fact that it has also been observed frequently nearby implies a strong likelihood of interaction."
+    - object: BlackRoundTable
+      reason: "This object has a high focus count of 46 as well. Its presence in the near vicinity indicates that the user is considering it for potential interaction, likely as a surface for placing or preparing items."
+    - object: ChoppingBoard
+      reason: "Although it appeared in previous predictions, its current proximity and lesser focus indicate it might be secondary in the user's mind. However, it still ranks higher due to its functional relevance in food preparation tasks."
+
+predicted_interaction_objects:
+    - Donut_B
+    - BlackRoundTable
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is preparing or serving food, possibly involving the consumption of donuts and the use of a table for organization and preparation.
+2024-09-13 17:26:08,532 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.4
+    - object: BlackRoundTable
+      probability: 0.35
+    - object: Tomato_A
+      probability: 0.25
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest count (45) in the high_focus_objects_measured_in_counts list, indicating that the user has spent a significant amount of time focusing on it. This suggests a strong likelihood of interaction."
+    - object: BlackRoundTable
+      reason: "BlackRoundTable follows closely with a high count of 46, and as it is a central piece of furniture in the living room, it is likely that the user may want to place items on it or interact with it for some reason."
+    - object: Tomato_A
+      reason: "Tomato_A appears in the previous predictions list multiple times, indicating an ongoing relevance to the user's tasks. Although it has a lower focused count now (compared to Donut_B), its history implies it may still be essential for the user's goal."
+
+predicted_interaction_objects:
+    - Donut_B
+    - BlackRoundTable
+    - Tomato_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, potentially involving the use of the Donut_B and Tomato_A, while also utilizing the BlackRoundTable as a workspace or serving area.
+2024-09-13 17:53:58,449 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.45
+    - object: BlackRoundTable
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.2
+
+rationale:
+    - object: Donut_B
+      reason: "This object has the highest count (45) in the 'high_focus_objects_measured_in_counts' list, indicating that the user has observed it intensely for a longer duration than any other object."
+    - object: BlackRoundTable
+      reason: "With a count of 46 in the nearby objects list and significant observation time, it's likely that the user is planning to use the table as a surface for some further interaction or setup."
+    - object: BlackCeramicBowl
+      reason: "Although it ranks lower in high focus counts than the first two, it has been consistently predicted in previous interactions and has a count of 45 near the current location, suggesting a likelihood of interaction based on past behavior."
+
+predicted_interaction_objects:
+    - Donut_B
+    - BlackRoundTable
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, possibly involving the Donut_B as a primary item, while utilizing the BlackRoundTable as a setting for preparation or arrangement, and the BlackCeramicBowl for mixing or serving.
+2024-09-13 23:41:00,143 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.45
+    - object: BlackRoundTable
+      probability: 0.35
+    - object: WoodenBowl
+      probability: 0.20
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest focus count (45), indicating it was observed intensely, suggesting a strong intention to interact with this object."
+    - object: BlackRoundTable
+      reason: "BlackRoundTable has a significant focus count (46) and is also in the nearby objects list, indicating that the user might be considering using it for placing or interacting with other items."
+    - object: WoodenBowl
+      reason: "WoodenBowl has appeared in the previous predictions and has a notable presence in the recent high-focus list, indicating a consistent interest, likely for food preparation or serving."
+
+predicted_interaction_objects:
+    - Donut_B
+    - BlackRoundTable
+    - WoodenBowl
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, perhaps involving the Donut_B as a main item of interest while utilizing tools or containers like the WoodenBowl and possibly placing them on the BlackRoundTable.
+2024-09-14 13:11:31,720 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.45
+    - object: BlackRoundTable
+      probability: 0.35
+    - object: WoodenSpoon
+      probability: 0.20
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest focus count (45) and is also listed among the nearby objects, indicating the user is highly likely to interact with it."
+    - object: BlackRoundTable
+      reason: "BlackRoundTable follows closely with a high focus count of 46, suggesting significant attention despite being a table, where potential actions (e.g., placing or examining items) might occur."
+    - object: WoodenSpoon
+      reason: "WoodenSpoon appeared in previous predictions multiple times and has interacted with food preparation tasks. Its mention in previous predictions suggests the user might need it for an ongoing culinary task."
+
+predicted_interaction_objects:
+    - Donut_B
+    - BlackRoundTable
+    - WoodenSpoon
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food, likely involving the use of ingredients (like the donut) and kitchen tools (like the wooden spoon) within the context of the living room or a nearby kitchen setup.
+2024-09-26 10:27:26,772 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.45
+    - object: BlackRoundTable
+      probability: 0.35
+    - object: ChoppingBoard
+      probability: 0.2
+
+rationale:
+    - object: Donut_B
+      reason: "The user has observed Donut_B with the highest intensity (45 counts) compared to other objects, indicating a strong intention to interact with it."
+    - object: BlackRoundTable
+      reason: "The BlackRoundTable has the second highest count (46 counts) among high focus objects, and its presence suggests that the user may be considering setting down or arranging items related to their task."
+    - object: ChoppingBoard
+      reason: "ChoppingBoard appears frequently in previous predictions and has been observed in connection with cooking-related tasks, suggesting it might be relevant for the user's goal."
+
+predicted_interaction_objects:
+    - Donut_B
+    - BlackRoundTable
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely related to preparing or serving food, possibly involving placing items on the BlackRoundTable or using the ChoppingBoard for food preparation, with the Donut_B indicating a specific focus on that item.
+2024-09-27 21:13:05,329 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.55
+    - object: BlackRoundTable
+      probability: 0.30
+    - object: WoodenSpoon
+      probability: 0.15
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest count of 45 in the high_focus_objects_measured_in_counts list, indicating the user observed it intensely for a significant duration, suggesting a strong intention to interact with it."
+    - object: BlackRoundTable
+      reason: "BlackRoundTable also has a high count of 46, which indicates that while it is a nearby object, the user has paid attention to it as well, suggesting it may be relevant for their task."
+    - object: WoodenSpoon
+      reason: "WoodenSpoon appears frequently in previous predictions and has been observed closely, indicating an ongoing consideration for its use in the current activity."
+
+predicted_interaction_objects:
+    - Donut_B
+    - BlackRoundTable
+    - WoodenSpoon
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely to prepare or serve something involving the Donut_B, potentially using the BlackRoundTable as a surface and the WoodenSpoon for serving or mixing, suggesting a culinary task or a food-serving scenario.
+2024-10-01 00:35:05,388 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.5
+    - object: BlackRoundTable
+      probability: 0.3
+    - object: ChoppingBoard
+      probability: 0.2
+
+rationale:
+    - object: Donut_B
+      reason: "It has the highest count in the high_focus_objects_measured_in_counts list, indicating significant observation time. The user is likely interested in interacting with this object."
+    - object: BlackRoundTable
+      reason: "This object also has a high focus count, suggesting the user has paid attention to it frequently, and could mean they wish to use it for placing items or as a workspace."
+    - object: ChoppingBoard
+      reason: "Although it was observed in previous predictions, it has a relevant count in both focus and nearby measurements, indicating a potential for interaction, especially if the user is preparing food."
+
+predicted_interaction_objects:
+    - Donut_B
+    - BlackRoundTable
+    - ChoppingBoard
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions) I assume that the goal of the user is to find and interact with food items, possibly to prepare or serve them, while also utilizing surfaces like the BlackRoundTable and ChoppingBoard for their tasks.
+2024-10-01 21:57:41,645 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: Donut_B
+      probability: 0.45
+    - object: BlackRoundTable
+      probability: 0.35
+    - object: WhiteFlatwareTray
+      probability: 0.2
+
+rationale:
+    - object: Donut_B
+      reason: "Donut_B has the highest focus count (45) and a significant nearby count (42), indicating a strong likelihood of interaction."
+    - object: BlackRoundTable
+      reason: "BlackRoundTable has the second highest focus count (46) and also aligns with the environment where users often interact with food or items for serving."
+    - object: WhiteFlatwareTray
+      reason: "WhiteFlatwareTray was previously focused on frequently (29.195 and 38.294 counts) and remains relevant due to its potential use alongside the food items."
+
+predicted_interaction_objects:
+    - Donut_B
+    - BlackRoundTable
+    - WhiteFlatwareTray
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to serve or prepare food items, potentially involving sweets or snacks, as indicated by the focus on food-related objects like the Donut_B and items related to serving or collecting these foods.

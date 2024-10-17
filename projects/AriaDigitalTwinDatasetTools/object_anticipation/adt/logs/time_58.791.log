@@ -1,0 +1,66 @@
+2024-09-06 01:29:56,538 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: NIT_CoffeeCan_Anon
+      probability: 0.4
+    - object: HeatTrivet
+      probability: 0.35
+    - object: CakeMocha_A
+      probability: 0.25
+
+rationale:
+    - object: NIT_CoffeeCan_Anon
+      reason: "The NIT_CoffeeCan_Anon has the highest count in the high focus objects list (41), indicating it has received significant attention from the user. Additionally, it is also included in the nearby objects, suggesting a strong likelihood of interaction."
+    - object: HeatTrivet
+      reason: "The HeatTrivet follows closely with a high count of 44 in the high focus list, which shows considerable interest from the user. Its location near other referenced objects indicates it could be used in conjunction with them, possibly for serving or preparing food."
+    - object: CakeMocha_A
+      reason: "CakeMocha_A has a count of 31 in the high focus list, indicating it has been observed multiple times. Its proximity in the nearby objects list reinforces the probability of interaction, particularly if the user is preparing or serving items related to it."
+
+predicted_interaction_objects:
+    - NIT_CoffeeCan_Anon
+    - HeatTrivet
+    - CakeMocha_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is likely to prepare or serve items related to coffee or snacks, possibly involving heating or presenting something using the trivet while having coffee.
+2024-09-06 15:56:05,074 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: NIT_CoffeeCan_Anon
+      probability: 0.40
+    - object: HeatTrivet
+      probability: 0.30
+    - object: CakeMocha_A
+      probability: 0.30
+
+rationale:
+    - object: NIT_CoffeeCan_Anon
+      reason: "The coffee can has the highest count in the high focus objects list, indicating significant attention from the user, which suggests a strong likelihood of interaction, possibly to make coffee."
+    - object: HeatTrivet
+      reason: "The Heat Trivet is also highly observed, with a focus count that suggests it is essential for handling hot items, indicating that the user may intend to place something hot on it."
+    - object: CakeMocha_A
+      reason: "CakeMocha_A has a considerable amount of attention and is likely involved in the user's task, such as serving or enjoying a dessert, hence the likelihood of interaction remains high."
+
+predicted_interaction_objects:
+    - NIT_CoffeeCan_Anon
+    - HeatTrivet
+    - CakeMocha_A
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare a beverage or food item, likely involving making coffee and potentially using the trivet for hot items while interacting with the mocha cake, indicative of some sort of enjoyable meal or refreshment preparation.
+2024-09-06 16:07:30,657 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: NIT_CoffeeCan_Anon
+      probability: 0.45
+    - object: CakeMocha_A
+      probability: 0.35
+    - object: HeatTrivet
+      probability: 0.20
+
+rationale:
+    - object: NIT_CoffeeCan_Anon
+      reason: "This object has the highest count in the high_focus_objects_measured_in_counts list, indicating the user has observed it intensely for a significant amount of time."
+    - object: CakeMocha_A
+      reason: "With a substantial count as well, this item also reflects where the user's attention has been focused, showing a strong likelihood of interaction."
+    - object: HeatTrivet
+      reason: "Despite a lower count than the previous two, the object remains in the high_focus list and could be involved in the task, especially if it relates to serving or preparing food."
+
+predicted_interaction_objects:
+    - NIT_CoffeeCan_Anon
+    - CakeMocha_A
+    - HeatTrivet
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to prepare or serve food or drinks, possibly involving coffee and a cake, as indicated by the focus on the coffee can and cake.

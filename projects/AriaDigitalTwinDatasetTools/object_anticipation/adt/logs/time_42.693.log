@@ -1,0 +1,88 @@
+2024-09-13 10:19:39,629 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BookComic1_01
+      probability: 0.45
+    - object: DecorativeBoxRecSmall
+      probability: 0.35
+    - object: BookCooking1_01
+      probability: 0.20
+
+rationale:
+    - object: BookComic1_01
+      reason: "This object has the highest focus count (91) and is also a nearby object (91), indicating a strong likelihood of interaction due to the user's consistent attention."
+    - object: DecorativeBoxRecSmall
+      reason: "With a focus count of 91 and a nearby count of 87, this object is likely to be interacted with as it has attracted substantial attention from the user."
+    - object: BookCooking1_01
+      reason: "Although this object has lower focus counts (91) compared to the first two, it still shows a good amount of attention and proximity, increasing its chance of interaction."
+
+predicted_interaction_objects:
+    - BookComic1_01
+    - DecorativeBoxRecSmall
+    - BookCooking1_01
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to explore and possibly select a book or decorative item for further use, possibly related to accessing reading material or organizing items in the living room.
+2024-09-13 10:59:35,723 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BookComic1_01
+      probability: 0.38
+    - object: DecorativeBoxHexSmall
+      probability: 0.33
+    - object: BlackRoundTable
+      probability: 0.29
+
+rationale:
+    - object: BookComic1_01
+      reason: "This object has the highest count in the 'high_focus_objects_measured_in_counts' list, indicating that the user focused on it extensively, suggesting a strong intention to interact with it."
+    - object: DecorativeBoxHexSmall
+      reason: "Although it has fewer focus counts than BookComic1_01, it has a significant count in both the 'high_focus_objects_measured_in_counts' and 'nearby_objects_measured_in_counts' lists, showing that the user likely spent considerable time either focusing on or being near this object."
+    - object: BlackRoundTable
+      reason: "Despite being mostly a passing object as indicated in 'nearby_objects_measured_in_counts', it retains a high count, indicating the user was nearby for a prominent amount of time, and the user's past behavior indicates possible interactions with surfaces like tables."
+
+predicted_interaction_objects:
+    - BookComic1_01
+    - DecorativeBoxHexSmall
+    - BlackRoundTable
+
+goal_of_the_user: Based on current predictions and the past ones from the list (previous_predictions), I assume that the goal of the user is to find and select reading materials or decorative items within the living room space, possibly preparing to organize or engage in an activity that involves these objects.
+2024-10-17 11:23:00,471 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: KitchenKnife
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has a high focus count (45), is close (1.021 meters), and the time to approach is low (around 1.97 seconds). It meets all thresholds and is likely the primary object the user focuses on for any food preparation tasks.
+    - object: KitchenKnife
+      reason: The KitchenKnife has a significant focus count (46) and is also within close proximity (1.007 meters). The time to approach is slightly longer (about 1.99 seconds), but it still meets the distance and focus thresholds, indicating that the user is likely preparing to interact with it, especially in conjunction with the ChoppingBoard.
+    - object: BlackCeramicMug
+      reason: The BlackCeramicMug shows a moderate focus (26) and is nearby (0.811 meters), with a low time to approach (0.85 seconds). While it does not meet the higher focus or time thresholds, its proximity and partial focus suggest that the user may be considering a beverage, making it a probable interaction candidate.
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - KitchenKnife
+    - BlackCeramicMug
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely centered around food preparation or cooking, possibly preparing ingredients or making a meal where they would need both the chopping board and knife, along with potentially preparing a beverage.
+2024-10-17 11:23:01,384 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ChoppingBoard
+      probability: 0.4
+    - object: KitchenKnife
+      probability: 0.35
+    - object: BlackCeramicMug
+      probability: 0.25
+
+rationale:
+    - object: ChoppingBoard
+      reason: The ChoppingBoard has high focus consistency (45 counts) and is in close proximity (1.021 meters) with a low time to approach (approximately 2 seconds). This suggests the user is likely preparing food or engaging in chopping tasks, making it a primary object of intended interaction.
+    - object: KitchenKnife
+      reason: The KitchenKnife also has a strong focus consistency (46 counts) and very short distance (1.007 meters) with a similarly quick estimated approach time (around 2 seconds). Its relevance in food preparation tasks aligns with the user's likely interaction goal.
+    - object: BlackCeramicMug
+      reason: The BlackCeramicMug has a moderate focus count (26 counts) and is within a close distance (0.811 meters). While it doesn't have the same level of priority as the first two objects, its proximity and some level of focus suggest it may be used for a beverage, particularly if the user is making a meal or snack.
+
+predicted_interaction_objects:
+    - ChoppingBoard
+    - KitchenKnife
+    - BlackCeramicMug
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely centered around food preparation or cooking activities. The frequent observation of kitchen-related objects and the direct focus on essential tools such as the ChoppingBoard and KitchenKnife indicate the user is engaged in meal preparation.

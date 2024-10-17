@@ -1,0 +1,88 @@
+2024-10-17 11:22:51,128 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ExtendableTable
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.30
+    - object: Mango_A
+      probability: 0.25
+
+rationale:
+    - object: ExtendableTable
+      reason: The ExtendableTable has the highest focus consistency count, showing that the user has frequently observed it. It is also within a proximity range that facilitates easy access (time to approach is low).
+    - object: BlackCeramicBowl
+      reason: The BlackCeramicBowl exhibits significant focus consistency and is also relatively close to the user, making the interaction likely even if it ranks slightly lower in focus counts compared to the ExtendableTable.
+    - object: Mango_A
+      reason: The Mango_A has enough proximity to approach quickly and meets the distance threshold, while still having a notable focus count. Although it is slightly less likely than the top two, it still presents a probable interaction based on the observed behavior.
+
+predicted_interaction_objects:
+    - ExtendableTable
+    - BlackCeramicBowl
+    - Mango_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to food preparation or arranging items on the table, as indicated by repetitive interactions with food-related objects and the ExtendableTable being a central location for such tasks.
+2024-10-17 11:23:06,797 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ExtendableTable
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.30
+    - object: Mango_A
+      probability: 0.35
+
+rationale:
+    - object: ExtendableTable
+      reason: This object has the highest focus consistency count (91) and is within an appropriate distance (1.862 meters), but its time to approach indicates slightly lower engagement. It is central to the living room setup, likely indicating the user needs to place or arrange items.
+    - object: BlackCeramicBowl
+      reason: The BlackCeramicBowl has a high focus count (91) and is close (1.130 meters), which suggests it is crucial for the user's current task. Although the time to approach is acceptable, it has less predicted urgency than the ExtendableTable, suggesting it could be involved after the table.
+    - object: Mango_A
+      reason: The Mango_A has a substantial focus count (72) and is at a reasonable distance (1.195 meters) and reasonable time to approach (1.746 seconds). While the focus is lower than the previous two objects, its proximity suggests it may be part of a food-related task, aligning with the user's focus trends.
+
+predicted_interaction_objects:
+    - ExtendableTable
+    - BlackCeramicBowl
+    - Mango_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to arrange or prepare items on the table possibly for a meal or gathering, as indicated by the focus on food-related objects like the Mango_A and BlackCeramicBowl.
+2024-10-17 11:27:21,355 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: ExtendableTable
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.30
+    - object: CakeMocha_A
+      probability: 0.35
+
+rationale:
+    - object: ExtendableTable
+      reason: The ExtendableTable has the highest focus count (91) and strong proximity consistency (43), suggesting that the user is likely paying attention to it and is close enough for interaction. Its time to approach is below the threshold, making it highly probable for interaction.
+    - object: BlackCeramicBowl
+      reason: The BlackCeramicBowl also meets the required focus count (91) and has good proximity consistency (43). Although the time to approach is slightly above the threshold, the strong focus suggests a high likelihood of interaction despite the distance.
+    - object: CakeMocha_A
+      reason: CakeMocha_A has a strong focus count (91) as well, coupled with a reasonably good proximity (32). Its time to approach is below the threshold as well, supporting the idea that the user may interact with it, making it a probable choice.
+
+predicted_interaction_objects:
+    - ExtendableTable
+    - BlackCeramicBowl
+    - CakeMocha_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare or serve food, possibly involving setting the table with items such as the ExtendableTable and serving from dishes like the BlackCeramicBowl or CakeMocha_A.
+2024-10-17 11:28:04,578 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: BlackCeramicBowl
+      probability: 0.4
+    - object: ExtendableTable
+      probability: 0.35
+    - object: CakeMocha_A
+      probability: 0.25
+
+rationale:
+    - object: BlackCeramicBowl
+      reason: The BlackCeramicBowl meets all thresholds with high focus counts (91), a proximity count of 43, and an approach time of 1.53 seconds, indicating that the user is very likely to engage with this object.
+    - object: ExtendableTable
+      reason: The ExtendableTable also meets the thresholds with high focus counts (91), a proximity count of 13, and an approach time of 1.91 seconds. It is significant that despite the lower proximity count, the combination of focus and a reasonable approach time makes it probable for interaction.
+    - object: CakeMocha_A
+      reason: The CakeMocha_A has high focus counts (91) and proximity counts (32); however, it has a longer approach time of 2.04 seconds. While it does not meet the time threshold, the focus and proximity suggest that it is still likely to be interacted with due to its desirable attributes.
+
+predicted_interaction_objects:
+    - BlackCeramicBowl
+    - ExtendableTable
+    - CakeMocha_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is to prepare or serve a meal or a snack, potentially involving using the table for service and the bowl for ingredients or food items.

@@ -1,0 +1,88 @@
+2024-10-17 11:22:03,094 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.4
+    - object: Mango_A
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.25
+
+rationale:
+    - object: WoodenBowl
+      reason: The WoodenBowl has the highest focus consistency count (67) and a proximity consistency count (44), along with a time to approach of about 1.0 seconds, making it highly likely the user will interact with it based on their attention and proximity.
+    - object: Mango_A
+      reason: The Mango_A also shows high focus consistency (66) and is relatively close to the user (1.266 meters) with a short time to approach (1.41 seconds), indicating it is likely to be one of the next objects the user interacts with.
+    - object: BlackCeramicBowl
+      reason: The BlackCeramicBowl has similar focus consistency (67) as WoodenBowl but slightly lower proximity and a time to approach of about 1.96 seconds. While still a good candidate, it ranks lower compared to the other two due to its distance and approach time.
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - Mango_A
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare or serve food, given the interaction with kitchenware and food items like the WoodenBowl and Mango_A, which are commonly used in food preparation or serving contexts.
+2024-10-17 11:22:15,320 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.4
+    - object: Mango_A
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.25
+
+rationale:
+    - object: WoodenBowl
+      reason: The WoodenBowl has a strong focus count (67) along with a close proximity (1.104 meters), and the estimated time to approach (1.004 seconds) is within threshold limits. This indicates that the user is likely to interact with it soon.
+    - object: Mango_A
+      reason: The Mango_A also has a high focus count (66) and is very close (1.266 meters) to the user. It has a reasonable time to approach (1.413 seconds), suggesting that the user is considering this object for interaction.
+    - object: BlackCeramicBowl
+      reason: The BlackCeramicBowl meets the focus threshold with a count of 67 and is within the proximity threshold (1.593 meters), but the time to approach (1.961 seconds) is slightly exceeding the ideal range, making it less likely than the top two choices.
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - Mango_A
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely related to preparing food or arranging items, given the focus on bowls and a fruit, which are commonly used in food preparation or presentation tasks.
+2024-10-17 11:26:13,548 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.4
+    - object: Mango_A
+      probability: 0.35
+    - object: CakeMocha_A
+      probability: 0.25
+
+rationale:
+    - object: WoodenBowl
+      reason: The WoodenBowl has the highest focus count (67) and is within an acceptable distance (1.104 meters) with a quick approach time (1.005 seconds). It satisfies both the focus and proximity criteria, making it a strong candidate for interaction.
+    - object: Mango_A
+      reason: Mango_A has a significant focus count (66) and is also very close (1.266 meters) with a reasonable approach time (1.413 seconds). It meets the criteria of high focus and proximity, indicating a likely interaction in the near future.
+    - object: CakeMocha_A
+      reason: CakeMocha_A shows a high focus count (64) and is at a moderate distance (1.353 meters) with an acceptable approach time (1.881 seconds). While it doesn't have the same level of proximity as the first two candidates, the focus and reasonable approach time suggest it is still a strong possibility for interaction.
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - Mango_A
+    - CakeMocha_A
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to be preparing or enjoying a meal or snack, as indicated by the interest in food-related objects like the WoodenBowl, Mango_A, and CakeMocha_A.
+2024-10-17 11:27:02,939 - INFO - LLM Response: most_likely_objects_to_interact_with:
+    - object: WoodenBowl
+      probability: 0.4
+    - object: Mango_A
+      probability: 0.35
+    - object: BlackCeramicBowl
+      probability: 0.25
+
+rationale:
+    - object: WoodenBowl
+      reason: The WoodenBowl has a high focus count of 67, is within an acceptable distance (1.104 meters), and requires the least time to approach (approximately 1.004 seconds). It satisfies all thresholds, making it the most probable object for interaction.
+    - object: Mango_A
+      reason: The Mango_A has a solid focus count of 66 and is also quite close (1.266 meters) while requiring a reasonable time to approach (1.413 seconds). Although it doesn't surpass the focus threshold when compared to the WoodenBowl, its strong focus and proximity metrics still rank it highly for interaction.
+    - object: BlackCeramicBowl
+      reason: The BlackCeramicBowl displays a strong focus count of 67 and is close (1.593 meters) with an approach time of about 1.961 seconds. While it meets the focus and distance thresholds, it slightly exceeds the time threshold, which affects its overall ranking but still keeps it as a viable interaction candidate.
+
+predicted_interaction_objects:
+    - WoodenBowl
+    - Mango_A
+    - BlackCeramicBowl
+
+goal_of_the_user: Based on the current predictions and past ones from the previous_predictions list, it is inferred that the user's goal is likely to prepare or serve food, as identified by the consistent focus on food-related objects such as the WoodenBowl and Mango_A, indicating preparation or presentation tasks in the Living Room.
