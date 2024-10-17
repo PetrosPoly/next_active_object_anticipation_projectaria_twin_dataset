@@ -915,21 +915,6 @@ for parameters in param_combinations: # TODO parallel 4 loop
 
         print(f"Saved predictions for parameters to {prediction_file}")
         
-        # ==============================================
-        # Prints
-        # ==============================================  
-        
-        # Print basic sequence characteristics
-        print(f"Loaded scene: {dataset_folder}")
-        print("Scene characteristics:")
-        print(f"\t Aria RGB frames count: {len(img_timestamps_ns)}")
-        print(f"\t Skeleton count: {len(gt_provider.get_skeleton_ids())}")
-        
-        # Print objects info
-        # print(f"\t Static object count: {len(static_obj_ids)}")
-        # print(f"\t Dynamic object count (tracked): {len(dynamic_obj_pose_cache)}")
-        # print(f"\t Dynamic object count (tracked and moved - estimated): {len(dynamic_obj_moved)}")
-
 # ==============================================
 # Run for different parameter combinations in parallel
 # ==============================================

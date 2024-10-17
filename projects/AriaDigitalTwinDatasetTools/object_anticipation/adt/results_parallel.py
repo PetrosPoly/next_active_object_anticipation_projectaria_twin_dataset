@@ -11,15 +11,15 @@ project_path = "Documents/projectaria_sandbox/projectaria_tools/projects/AriaDig
 sequences = ['Apartment_release_clean_seq150_M1292'] #, 'Apartment_release_work_seq107_M1292']
 
 # Parameters for the language model module (unchanged)
-time_thresholds = [2] # [1, 2, 3, 4, 5]
+time_thresholds = [1,2] # [1, 2, 3, 4, 5]
 avg_dot_threshold_highs = [0.7]
 avg_dot_threshold_lows = [0.2]
 avg_distance_threshold_highs = [3]
 avg_distance_threshold_lows = [1]
 high_dot_thresholds = [0.9]
 distance_thresholds = [2]
-high_dot_counters_threshold = [15, 30, 45, 60]
-distance_counters_threshold = [15, 30, 45, 60]
+high_dot_counters_threshold = [70, 80, 90], #[15, 30, 45, 60]
+distance_counters_threshold = [70, 80, 90]
 variables_window_times = [3.0]
 
 # Parameters for the LLM reactivation module (unchanged)
