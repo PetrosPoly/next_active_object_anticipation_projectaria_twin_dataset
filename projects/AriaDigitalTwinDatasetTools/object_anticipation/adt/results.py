@@ -46,26 +46,23 @@ sequences = ['Apartment_release_clean_seq150_M1292'] # , 'Apartment_release_work
 # Parameters Settting
 # ==============================================
 
-# Parameters for the language model module
-time_thresholds = [1]                            # Time (in seconds) before interaction to activate the LLM
+# Parameters for the language model module (unchanged)
+time_thresholds = [2] # [1, 2, 3, 4, 5]
+avg_dot_threshold_highs = [0.7]
+avg_dot_threshold_lows = [0.2]
+avg_distance_threshold_highs = [3]
+avg_distance_threshold_lows = [1]
+high_dot_thresholds = [0.9]
+distance_thresholds = [2]
+high_dot_counters_threshold =  [90]  # [15, 30, 45, 60]
+distance_counters_threshold =  [90]  # [15, 30, 45, 60] 
+variables_window_times = [3.0]
 
-avg_dot_threshold_highs = [0.7]                  # Filter objects: keep only those with an average dot product above this value
-avg_dot_threshold_lows = [0.2]                   # Filter objects: keep only those with an average dot product above this minimum value
-avg_distance_threshold_highs = [3]               # Filter objects: keep only those with an average distance below this value
-avg_distance_threshold_lows = [1]                # Filter objects: keep only those with an average distance above this minimum value
-
-high_dot_thresholds = [0.9]                      # Count objects with dot product values exceeding this threshold
-distance_thresholds = [2]                        # Count objects with distance values below this threshold
-high_dot_counters_threshold = [45]               # Keep objects that exceed this count for dot product values above the threshold
-low_distance_counters_threshold = [30]           # Keep objects that exceed this count for distance values below the threshold
-
-variables_window_times = [3.0]                   # Sliding time window (in seconds) for tracking these parameters
-
-# Parameters for the LLM reactivation module
-minimum_time_deactivated = [2.0]                 # Minimum time (in seconds) the LLM remains deactivated after querying
-maximum_time_deactivated = [5.0]                 # Maximum time (in seconds) before the LLM is activated again after querying
-user_relative_movement = [1.5]                   # Threshold for user's relative movement (distance) after LLM is queried
-object_percentage_overlap = [0.7]                # Percentage of overlap required for objects near the user to trigger reactivation
+# Parameters for the LLM reactivation module (unchanged)
+minimum_time_deactivated = [2.0]
+maximum_time_deactivated = [5.0]
+user_relative_movement = [1.5]
+object_percentage_overlap = [0.7]
 
 # Generate all combinations of the parameters
 param_combinations = [
@@ -78,21 +75,22 @@ param_combinations = [
         "high_dot_threshold": hdt,
         "distance_threshold": dt,
         "high_dot_counters_threshold": hdct,
-        "low_distance_counters_threshold": ldct,
+        "distance_counters_threshold": dct,
         "window_time": w, 
         "minimum_time_deactivated": mintd,                
         "maximum_time_deactivated": maxtd,             
         "user_relative_movement": urm,                 
-        "object_percentage_overlap" : obo,   
+        "object_percentage_overlap" : obo
     }
-    for t, adh, adl, adhg, adlg, hdt, dt, hdct, ldct, w, mintd, maxtd, urm, obo in product(
+    for t, adh, adl, adhg, adlg, hdt, dt, hdct, dct, w, mintd, maxtd, urm, obo in product(
         time_thresholds, avg_dot_threshold_highs, avg_dot_threshold_lows, 
         avg_distance_threshold_highs, avg_distance_threshold_lows,
         high_dot_thresholds, distance_thresholds,
-        high_dot_counters_threshold, low_distance_counters_threshold, variables_window_times, 
-        minimum_time_deactivated, maximum_time_deactivated, user_relative_movement,object_percentage_overlap   
+        high_dot_counters_threshold, distance_counters_threshold, variables_window_times, 
+        minimum_time_deactivated, maximum_time_deactivated, user_relative_movement, object_percentage_overlap   
     )
 ]
+
         
 def main():
     
@@ -116,9 +114,9 @@ def main():
         # Load --> Parameters / Ground Truth 
         # ==============================================
 
-        # Load the Parameters
-        with open(parameters_comb, 'r') as file:
-            loaded_param_combinations = json.load(file)
+        # # Load the Parameters
+        # with open(parameters_comb, 'r') as file:
+        #     loaded_param_combinations = json.load(file)
 
         # Load the Ground Truth
         with open(os.path.join(project_path, 'data', 'gt', sequence, 'objects_that_moved.json'), 'r') as json_file:
@@ -140,7 +138,7 @@ def main():
         # ==============================================
         
         # Predictions
-        for parameters in loaded_param_combinations:
+        for parameters in param_combinations:
             
             # Parameters folder name
             parameter_folder_name = (
@@ -148,7 +146,7 @@ def main():
                 f"highdot_{parameters['high_dot_threshold']}_"
                 f"highdotcount_{parameters['high_dot_counters_threshold']}_"
                 f"dist_{parameters['distance_threshold']}_"
-                f"distcount_{parameters['low_distance_counters_threshold']}"
+                f"distcount_{parameters['distance_counters_threshold']}"
             )
                 
             # ==============================================
@@ -168,44 +166,36 @@ def main():
             
             # Initialize the LLMEvaluation class
             evaluation = LLMEvaluation(LLM_predictions, ground_truth)
-
-            # Adjust the predictions with ground truth items and calculate FP and FN
-            evaluation.calculate_FP_FN_GT_correspondances()
+            evaluation.calculate_FP_FN_GT_correspondances()  # Adjust the predictions with ground truth items and calculate FP and FN
+            evaluation.calculate_final_TP_FP()               # after getting the correspondances calculate the final FP, TP 
+            metrics = evaluation.calculate_metrics()
             
-            # after getting the correspondances calculate the final FP, TP 
-            evaluation.calculate_final_TP_FP()
-            
-            # Calculate accuracy, precision, recall
-            (model_overall_accuracy, 
-            precision, 
-            recall, 
-            llm_activation_sensitivity, 
-            llm_interaction_accuracy, 
-            Tp, Fp, Fn,
-            total_ground_truth, total_llm_predictions, total_llm_activations, total_actual_correspondences, 
-            correspondances) = evaluation.calculate_metrics()
-            
-            # result
+            # Store results
             result = {
                 'sequence': sequence,
-                'parameters': parameter_folder_name,
-                'total_ground_truth':  total_ground_truth, 
-                'total_llm_predictions': total_llm_predictions,
-                'total_llm_activations': total_llm_activations,
-                'total_actual_correspondences': total_actual_correspondences, 
-                'Tp': Tp,
-                'Fp': Fp,
-                'Fn': Fn,
-                'model_overall_accuracy': model_overall_accuracy,
-                'precision': precision,
-                'recall': recall,
-                'llm_activation_sensitivity': llm_activation_sensitivity,
-                'llm_interaction_accuracy': llm_interaction_accuracy
+                'time':parameters['time_threshold'],
+                'dot_value': parameters['high_dot_counters_threshold'],
+                'distance_value': parameters['high_dot_counters_threshold'],
+                'dot_counts': parameters['high_dot_counters_threshold'], 
+                'distance_counts': parameters['distance_counters_threshold'],
+                'model_overall_accuracy': metrics[0],
+                'precision': metrics[1],
+                'recall': metrics[2],
+                'llm_activation_sensitivity': metrics[3],
+                'llm_interaction_accuracy': metrics[4],
+                'Tp': metrics[5],
+                'Fp': metrics[6],
+                'Fp_out': metrics[7],
+                'Fp_in': metrics[8],
+                'Fn': metrics[9],
+                'Total_ground_truths': metrics[10],
+                'Total_llm_predictions': metrics[11], 
+                'Total_llm_activations': metrics[12],
+                'Total_correspondances': metrics[13]
             }
 
             results.append(result)
-
-            print(correspondances)
+            
             print(result)   
 
             # Define the folders that we will write the results       
@@ -213,7 +203,7 @@ def main():
             os.makedirs(result_folder, exist_ok=True)  
 
             # Write the correspondances
-            write_custom_json(correspondances, os.path.join(result_folder, 'correspondances.json'))
+            write_custom_json(metrics[14], os.path.join(result_folder, 'correspondances.json'))
             
             # Write the results
             with open(os.path.join(result_folder,'results.json'), 'w') as file:

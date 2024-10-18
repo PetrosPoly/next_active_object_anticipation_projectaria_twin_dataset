@@ -11,15 +11,15 @@ project_path = "Documents/projectaria_sandbox/projectaria_tools/projects/AriaDig
 sequences = ['Apartment_release_clean_seq150_M1292'] #, 'Apartment_release_work_seq107_M1292']
 
 # Parameters for the language model module (unchanged)
-time_thresholds = [1,2] # [1, 2, 3, 4, 5]
+time_thresholds = [2] # [1, 2, 3, 4, 5]
 avg_dot_threshold_highs = [0.7]
 avg_dot_threshold_lows = [0.2]
 avg_distance_threshold_highs = [3]
 avg_distance_threshold_lows = [1]
 high_dot_thresholds = [0.9]
 distance_thresholds = [2]
-high_dot_counters_threshold = [70, 80, 90], #[15, 30, 45, 60]
-distance_counters_threshold = [70, 80, 90]
+high_dot_counters_threshold =  [15, 30, 45, 60] # [70, 80, 90]  # [15, 30, 45, 60]
+distance_counters_threshold =  [15, 30, 45, 60] # [70, 80, 90]  # [15, 30, 45, 60] 
 variables_window_times = [3.0]
 
 # Parameters for the LLM reactivation module (unchanged)
@@ -54,6 +54,28 @@ param_combinations = [
         minimum_time_deactivated, maximum_time_deactivated, user_relative_movement, object_percentage_overlap   
     )
 ]
+
+# Custom writing function to match the desired output format
+def write_custom_json(data, file_path):
+    
+    with open(file_path, 'w') as f:
+        
+        # Start the JSON array
+        f.write('[\n')
+        
+        for i, item in enumerate(data):
+            
+            # Dump each item and remove the surrounding list brackets
+            json_item = json.dumps(item)
+            
+            # Write each item followed by a comma, except the last item
+            if i < len(data) - 1:
+                f.write(f'    {json_item},\n')
+            else:
+                f.write(f'    {json_item}\n')
+        
+        # End the JSON array
+        f.write(']\n')
 
 # Function to filter ground truth data
 def filter_ground_truth(sequence):
@@ -103,7 +125,11 @@ def run_simulation(parameters, ground_truth, sequence):
     # Store results
     result = {
         'sequence': sequence,
-        'parameters': parameter_folder_name,
+        'time':parameters['time_threshold'],
+        'dot_value': parameters['high_dot_counters_threshold'],
+        'distance_value': parameters['high_dot_counters_threshold'],
+        'dot_counts': parameters['high_dot_counters_threshold'], 
+        'distance_counts': parameters['distance_counters_threshold'],
         'model_overall_accuracy': metrics[0],
         'precision': metrics[1],
         'recall': metrics[2],
@@ -111,35 +137,24 @@ def run_simulation(parameters, ground_truth, sequence):
         'llm_interaction_accuracy': metrics[4],
         'Tp': metrics[5],
         'Fp': metrics[6],
-        'Fn': metrics[7]
+        'Fp_out': metrics[7],
+        'Fp_in': metrics[8],
+        'Fn': metrics[9],
+        'Total_ground_truths': metrics[10],
+        'Total_llm_predictions': metrics[11], 
+        'Total_llm_activations': metrics[12],
+        'Total_correspondances': metrics[13]
     }
     results.append(result)
+    
+    # Define the folders that we will write the results       
+    result_folder = os.path.join(project_path, 'data', 'results', sequence, parameter_folder_name)
+    os.makedirs(result_folder, exist_ok=True)  
 
+    # Write the correspondances
+    write_custom_json(metrics[14], os.path.join(result_folder, 'correspondances.json'))
+    
     return results
-
-if __name__ == "__main__":
-    # Filter ground truth once per sequence
-    filtered_ground_truths = {sequence: filter_ground_truth(sequence) for sequence in sequences}
-
-    # Run simulations in parallel and pass the filtered ground truth to each process
-    with mp.Pool(mp.cpu_count()) as pool:
-        all_results = []
-        for sequence in sequences:
-            sequence_results = pool.starmap(run_simulation, [(params, filtered_ground_truths[sequence], sequence) for params in param_combinations])
-            all_results.extend(sequence_results)
-
-    # Flatten the list of lists
-    flattened_results = [item for sublist in all_results for item in sublist]
-
-    # Save final results to JSON and CSV
-    results_folder = os.path.join(project_path, 'data', 'results')
-    os.makedirs(results_folder, exist_ok=True)
-
-    with open(os.path.join(results_folder, 'final_results.json'), 'w') as file:
-        json.dump(flattened_results, file, indent=4)
-
-    df = pd.DataFrame(flattened_results)
-    df.to_csv(os.path.join(results_folder, 'llm_predictions_results.csv'), index=False)
 
 if __name__ == "__main__":
     

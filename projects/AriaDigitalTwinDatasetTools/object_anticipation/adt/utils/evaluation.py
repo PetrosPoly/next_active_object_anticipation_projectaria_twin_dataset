@@ -11,9 +11,11 @@ class LLMEvaluation:
         self.total_actual_correspondences = 0
 
         # true & false positves amd false negatives
-        self.Tp = 0    # True Positives
-        self.Fp = 0    # False Positives
-        self.Fn = 0    # False Negatives
+        self.Tp = 0     # True Positives
+        self.Fp = 0     # False Positives
+        self.Fn = 0     # False Negatives
+        self.Fp_out = 0
+        self.Fp_in = 0
 
     def calculate_FP_FN_GT_correspondances(self):
             
@@ -48,24 +50,32 @@ class LLMEvaluation:
 
         # Iterate through the LLM predictions
         for i, current_llm_time in enumerate(llm_times):
-
-            if current_gt_time is None: 
-                self.Fp +=1
-                self.total_llm_predictions +=1
-                continue
-
+            
             # Get the next LLM time
             next_llm_time = llm_times[i + 1] if i + 1 < len(llm_times) else None
-            # Check if the ground truth time is before the first LLM prediction
 
-            while current_gt_time is not None and current_gt_time < current_llm_time:
+            # In the case that we have more LLM predictions but no gt values --> means we don't have  
+            if current_gt_time is None: 
+                self.Fp_out +=1
+                self.total_llm_predictions +=1
+                continue
+            
+            # In the case current gt is less than current llm and next gt is None --> means that current LLM falsely activated
+            if current_gt_time is not None and next_gt_time is None and current_gt_time < current_llm_time:
+                self.Fp_out += 1
+                current_gt_time = next_gt_time
+                next_gt_time = next(gt_iter, None)
+                continue
+
+            # Check if the ground truth time is before the first LLM prediction
+            while current_gt_time is not None and next_gt_time is not None and current_gt_time < current_llm_time:
                 self.Fn += 1  # No LLM activation before the ground truth
                 current_gt_time = next_gt_time
                 next_gt_time = next(gt_iter, None)
-            
+
             # Check if two consecutive LLM times occur before the current ground truth time
             if current_gt_time is not None and next_llm_time is not None and next_llm_time < current_gt_time:
-                self.Fp += 1  # False positive: as current LLM prediction does not correspond to any ground truth
+                self.Fp_out += 1  # False positive: as current LLM prediction does not correspond to any ground truth
                 self.total_llm_predictions +=1
                 continue
             
@@ -152,7 +162,7 @@ class LLMEvaluation:
                     
                     # If no match was found, this is a false positive
                     elif not match_found:   
-                        self.Fp +=1
+                        self.Fp_in +=1
             
     def calculate_metrics(self):
             
@@ -201,6 +211,7 @@ class LLMEvaluation:
             # Initialize counters
             self.total_ground_truth = len(self.ground_truth)            # Total number number of objects the user interacted with
             self.total_llm_activations = len(self.llm_predictions)      # Total number of LLM activated to make a predictions
+            self.Fp = self.Fp_in + self.Fp_out
 
             # Calculate Accuracy
             self.model_overall_accuracy = round((self.Tp / (self.total_llm_predictions + self.Fn)),3) if (self.total_llm_predictions + self.Fn) else 0
@@ -218,7 +229,7 @@ class LLMEvaluation:
             self.llm_interaction_accuracy = round((self.Tp / self.total_actual_correspondences),3) if self.total_actual_correspondences else 0
             
             return (self.model_overall_accuracy, self.precision, self.recall, self.llm_activation_sensitivity, self.llm_interaction_accuracy, 
-                   self.Tp, self.Fp, self.Fn, 
+                   self.Tp, self.Fp, self.Fp_out, self.Fp_in, self.Fn, 
                    self.total_ground_truth, self.total_llm_predictions, self.total_llm_activations, self.total_actual_correspondences, 
                    self.correspondences)
     

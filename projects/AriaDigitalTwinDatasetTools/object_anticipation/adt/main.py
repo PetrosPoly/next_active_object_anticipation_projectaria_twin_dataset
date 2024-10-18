@@ -102,7 +102,7 @@ def parse_args():
     parser.add_argument("--device_number", type=int, default=0, help="Device_number you want to visualize, default is 0")
     parser.add_argument("--down_sampling_factor", type=int, default=4, help=argparse.SUPPRESS)
     parser.add_argument("--jpeg_quality", type=int, default=75, help=argparse.SUPPRESS)
-    parser.add_argument("--rrd_output_path", type=str, default="", help=argparse.SUPPRESS  )                                  # Me: If this path is set, we will save the rerun (.rrd) file to the given path
+    parser.add_argument("--rrd_output_path", type=str, default="", help=argparse.SUPPRESS)                                                # Me: If this path is set, we will save the rerun (.rrd) file to the given path
     parser.add_argument("--use_llm", action='store_true',help="If you include it in arguments becomes True")                              # Me: added by Petros, if there is a value that 
     parser.add_argument("--runrr", action='store_true',help="Run the the visualization part..same as above")   
     parser.add_argument("--visualize_objects", action='store_true',help="Visualize the objects in the rerun.io")   
@@ -116,8 +116,8 @@ main_logger = logging.getLogger(__name__)
 # Parameters Settting
 # ==============================================
 
-# Parameters for the language model modulçe
-time_thresholds = [2] #[1, 2, 3, 4, 5]           # Time (in seconds) before interaction to activate the LLM
+# Parameters for the language model module       
+time_thresholds = [2]                            # Time (in seconds) before interaction to activate the LLM
 avg_dot_threshold_highs = [0.7]                  # Filter objects: keep only those with an average dot product above this value
 avg_dot_threshold_lows = [0.2]                   # Filter objects: keep only those with an average dot product above this minimum value
 avg_distance_threshold_highs = [3]               # Filter objects: keep only those with an average distance below this value
@@ -125,8 +125,8 @@ avg_distance_threshold_lows = [1]                # Filter objects: keep only tho
 
 high_dot_thresholds = [0.9]                      # Count objects with dot product values exceeding this threshold
 distance_thresholds = [2]                        # Count objects with distance values below this threshold
-high_dot_counters_threshold = [10]               # Keep objects that exceed this count for dot product values above the threshold
-distance_counters_threshold = [10]               # Keep objects that exceed this count for distance values below the threshold
+high_dot_counters_threshold = [70]               # Keep objects that exceed this count for dot product values above the threshold
+distance_counters_threshold = [70]               # Keep objects that exceed this count for distance values below the threshold
 
 variables_window_times = [3.0]                   # Sliding time window (in seconds) for tracking these parameters
 
@@ -301,7 +301,7 @@ for parameters in param_combinations: # TODO parallel 4 loop
                                 parameters["distance_threshold"], 
                                 parameters["distance_threshold"], 
                                 parameters["time_threshold"]
-                                )      # Me: Initialize the ObjectStatistics instance
+                                )      # Me: Initialize the Object Statistics instance
         
         # ==============================================
         # Load the Ground truth data 
@@ -754,7 +754,7 @@ for parameters in param_combinations: # TODO parallel 4 loop
             In summary the conditions to activate the LLM are the following: 
             
             Object with high dot counts  > threshold but also has distance counts --> visibility is certain as high dot counts over theshold
-            Object with distance counts  > threshold but also has high dot counts --> visibility is certain as distance counts over the threshold
+            Object with distance counts  > threshold but also has high dot counts --> visibility is certain as distance counts over threshold
             Object with time to approach < threshold but has some high dot and distance counts and visibility duration --> visibility duration over 1 second
             
             ===== 
@@ -914,7 +914,7 @@ for parameters in param_combinations: # TODO parallel 4 loop
             json.dump(goals_dict, json_file, indent=4)
 
         print(f"Saved predictions for parameters to {prediction_file}")
-        
+
 # ==============================================
 # Run for different parameter combinations in parallel
 # ==============================================

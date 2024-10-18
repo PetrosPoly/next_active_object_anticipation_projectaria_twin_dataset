@@ -39,3 +39,6 @@ projects/AriaDigitalTwinDatasetTools/object_anticipation/adt/logs/
 # Ignore all files in the predictions data directory
 projects/AriaDigitalTwinDatasetTools/object_anticipation/adt/data/predictions/
 
+# Ignore all files in the results data directory
+projects/AriaDigitalTwinDatasetTools/object_anticipation/adt/data/results/
+
