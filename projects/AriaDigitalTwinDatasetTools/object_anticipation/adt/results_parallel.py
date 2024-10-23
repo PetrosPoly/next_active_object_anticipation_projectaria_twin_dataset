@@ -11,15 +11,15 @@ project_path = "Documents/projectaria_sandbox/projectaria_tools/projects/AriaDig
 sequences = ['Apartment_release_clean_seq150_M1292'] #, 'Apartment_release_work_seq107_M1292']
 
 # Parameters for the language model module (unchanged)
-time_thresholds = [2] # [1, 2, 3, 4, 5]
+time_thresholds = [2] 
 avg_dot_threshold_highs = [0.7]
 avg_dot_threshold_lows = [0.2]
 avg_distance_threshold_highs = [3]
 avg_distance_threshold_lows = [1]
 high_dot_thresholds = [0.9]
 distance_thresholds = [2]
-high_dot_counters_threshold =  [15, 30, 45, 60] # [70, 80, 90]  # [15, 30, 45, 60]
-distance_counters_threshold =  [15, 30, 45, 60] # [70, 80, 90]  # [15, 30, 45, 60] 
+high_dot_counters_threshold = [70, 80, 90] # [15, 30, 45, 60]
+distance_counters_threshold = [70, 80, 90] # [15, 30, 45, 60] 
 variables_window_times = [3.0]
 
 # Parameters for the LLM reactivation module (unchanged)
@@ -126,8 +126,8 @@ def run_simulation(parameters, ground_truth, sequence):
     result = {
         'sequence': sequence,
         'time':parameters['time_threshold'],
-        'dot_value': parameters['high_dot_counters_threshold'],
-        'distance_value': parameters['high_dot_counters_threshold'],
+        'dot_value': parameters['high_dot_threshold'],
+        'distance_value': parameters['distance_threshold'],
         'dot_counts': parameters['high_dot_counters_threshold'], 
         'distance_counts': parameters['distance_counters_threshold'],
         'model_overall_accuracy': metrics[0],
@@ -196,5 +196,14 @@ if __name__ == "__main__":
     with open(os.path.join(results_folder, 'final_results.json'), 'w') as file:
         json.dump(flattened_results, file, indent=4)
 
+    # write results to a csv file
     df = pd.DataFrame(flattened_results)
-    df.to_csv(os.path.join(results_folder, 'llm_predictions_results.csv'), index=False)
+    csv_path = os.path.join(results_folder, 'llm_predictions_results.csv')
+
+    # Check if the file already exists
+    if os.path.exists(csv_path):
+        # Append without writing the header
+        df.to_csv(csv_path, mode='a', header=False, index=False)
+    else:
+        # Write the data with the header
+        df.to_csv(csv_path, index=False)

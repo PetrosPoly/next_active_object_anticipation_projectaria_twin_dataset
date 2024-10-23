@@ -6,7 +6,7 @@ from utils.evaluation import LLMEvaluation
 from itertools import product               # added by Petros ()
 import pandas as pd
 
-from plots import (
+from old.plots import (
     plot_results,
     plot_bar_metrics,
     plot_precision_vs_recall,
@@ -90,8 +90,7 @@ param_combinations = [
         minimum_time_deactivated, maximum_time_deactivated, user_relative_movement, object_percentage_overlap   
     )
 ]
-
-        
+    
 def main():
     
     # Initialize storage for metrics

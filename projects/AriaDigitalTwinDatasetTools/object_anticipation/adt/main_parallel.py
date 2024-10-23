@@ -119,16 +119,16 @@ main_logger = logging.getLogger(__name__)
 # ==============================================
 
 # Parameters for the language model module
-time_thresholds = [2] #[1, 2, 3, 4, 5]           # Time (in seconds) before interaction to activate the LLM
-avg_dot_threshold_highs = [0.7]                  # Filter objects: keep only those with an average dot product above this value
-avg_dot_threshold_lows = [0.2]                   # Filter objects: keep only those with an average dot product above this minimum value
-avg_distance_threshold_highs = [3]               # Filter objects: keep only those with an average distance below this value
-avg_distance_threshold_lows = [1]                # Filter objects: keep only those with an average distance above this minimum value
+time_thresholds = [1, 2, 3, 4, 5]           # Time (in seconds) before interaction to activate the LLM
+avg_dot_threshold_highs = [0.7]             # Filter objects: keep only those with an average dot product above this value
+avg_dot_threshold_lows = [0.2]              # Filter objects: keep only those with an average dot product above this minimum value
+avg_distance_threshold_highs = [3]          # Filter objects: keep only those with an average distance below this value
+avg_distance_threshold_lows = [1]           # Filter objects: keep only those with an average distance above this minimum value
 
-high_dot_thresholds = [0.9]                      # Count objects with dot product values exceeding this threshold
-distance_thresholds = [2]                        # Count objects with distance values below this threshold
-high_dot_counters_threshold = [90] #[15, 30, 45, 60]   # Keep objects that exceed this count for dot product values above the threshold
-distance_counters_threshold = [90] #[15, 30, 45, 60]   # Keep objects that exceed this count for distance values below the threshold
+high_dot_thresholds = [0.7, 0.8, 0.9]                      # Count objects with dot product values exceeding this threshold
+distance_thresholds = [1, 1.5, 2]                        # Count objects with distance values below this threshold
+high_dot_counters_threshold = [15, 30, 45, 60, 75, 90]   # Keep objects that exceed this count for dot product values above the threshold
+distance_counters_threshold = [15, 30, 45, 60, 75, 90]   # Keep objects that exceed this count for distance values below the threshold
 
 variables_window_times = [3.0]                   # Sliding time window (in seconds) for tracking these parameters
 
